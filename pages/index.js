@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Head from 'next/head'
 import React from 'react'
 import Layout from '../components/Layout'
+import Home from '../components/Home'
 
 const index = () => {
   return (
@@ -30,6 +31,8 @@ const index = () => {
 			</div>
 		</section>
 		{/* <!-- End banner Area --> */}
+
+		<Home/>
 
 		{/* <!-- Start About Us Area --> */}
 		<section className="about-area section-gap">
