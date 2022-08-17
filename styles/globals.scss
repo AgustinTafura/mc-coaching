@@ -18,41 +18,41 @@ $theme-colors: (
 
 
 /*============ NAVBAR Styles  =============*/
-.nav {
-  --bs-navbar-padding-y: unset;
+// .nav {
+//   --bs-navbar-padding-y: unset;
 
-  .nav-link, .dropdown-item {
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 14px;
-    text-decoration: none;
-    color: var(--bs-secondary);
+//   .nav-link, .dropdown-item {
+//     padding-right: 20px;
+//     padding-left: 20px;
+//     font-size: 14px;
+//     text-decoration: none;
+//     color: var(--bs-secondary);
 
-    &:hover{
-      background-color: rgb(93 49 81 / 17%);
-    }
-  }
+//     &:hover{
+//       background-color: rgb(93 49 81 / 17%);
+//     }
+//   }
 
-  .dropdown-item {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
+//   .dropdown-item {
+//     padding-left: 40px;
+//     padding-right: 40px;
+//   }
 
-  .dropdown-menu {
-    border: unset;
-  }
+//   .dropdown-menu {
+//     border: unset;
+//   }
 
-  .navbar-toggler{
-    border: none;
+//   .navbar-toggler{
+//     border: none;
 
-    &:hover, &:focus {
-      box-shadow: none;
-    }
+//     &:hover, &:focus {
+//       box-shadow: none;
+//     }
 
 
-  }
+//   }
 
-}
+// }
 
 .navbar-toggler {
   border: none;
@@ -86,7 +86,7 @@ $theme-colors: (
 
 body {
   color: #777777;
-  font-family: "Montserrat", "Roboto", sans-serif;
+  font-family: "Be Vietnam", "Montserrat", "Roboto", sans-serif;
   font-style:normal;
   font-size: 14px;
   font-weight: 400;
@@ -99,11 +99,11 @@ ul {
   padding: 0;
   list-style: none; }
 
-select {
-  display: block; }
+// select {
+//   display: block; }
 
-figure {
-  margin: 0; }
+// figure {
+//   margin: 0; }
 
 a {
   -webkit-transition: all 0.3s ease 0s;
@@ -111,8 +111,8 @@ a {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
 
-iframe {
-  border: 0; }
+// iframe {
+//   border: 0; }
 
 a,
 a:focus,
@@ -128,76 +128,3 @@ a:hover {
 .btn:focus {
   text-decoration: none;
   outline: 0; }
-
-.card-panel {
-  margin: 0;
-  padding: 60px; }
-
-/**
- *  Typography
- *
- **/
-.btn i,
-.btn-large i,
-.btn-floating i,
-.btn-large i,
-.btn-flat i {
-  font-size: 1em;
-  line-height: inherit; }
-
-.gray-bg {
-  background: #f9f9ff; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Roboto", sans-serif;
-  color: #222222;
-  line-height: 1.2em !important;
-  margin-bottom: 0;
-  margin-top: 0;
-  font-weight: 600; }
-
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  margin-bottom: 0;
-  margin-top: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  color: #222222; }
-
-h1,
-.h1 {
-  font-size: 36px; }
-
-h2,
-.h2 {
-  font-size: 30px; }
-
-h3,
-.h3 {
-  font-size: 24px; }
-
-h4,
-.h4 {
-  font-size: 18px; }
-
-h5,
-.h5 {
-  font-size: 16px; }
-
-h6,
-.h6 {
-  font-size: 14px;
-  color: #222222; }
-
-td,
-th {
-  border-radius: 0px; }
