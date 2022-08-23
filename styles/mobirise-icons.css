@@ -51,6 +51,8 @@
 }
 .mbri-arrow-down:before {
   content: "\e908";
+  font-weight: bolder;
+  color: var(--bs-secondary)
 }
 .mbri-arrow-next:before {
   content: "\e909";
