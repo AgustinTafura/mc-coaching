@@ -70,6 +70,153 @@ const HomeServices = () => {
                 </div>
             </section>
 
+            <section className="accordion1 cid-rT0gfc1y8M" id="accordion1-47">
+
+
+
+
+                <div className="container">
+                    <div className="wrapper">
+                        <div className="row">
+
+                            <div className="mbr-black col-md-12 md-pb col-lg-6">
+                                <h4 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style display-44">
+                                    COACHING</h4>
+                                <h3
+                                    className="mbr-section-title align-left mbr-bold mbr-white pb-2 mbr-fonts-style display-22">
+                                    Cómo lo hacemos</h3>
+                                <p className="mbr-text pb-4 mbr-white align-left mbr-regular mbr-fonts-style display-77">
+                                    Ofrecemos servicios de Coaching de Vida (Life Coaching), Coaching Vocacional, 
+                                    Coaching Educativo, Coaching y Liderazgo efectivo , que facilitan el abordaje de
+                                    los cambios de paradigma del contexto actual. 
+                                    {/* centrando la importancia de la 
+                                    Educación Neuroemocional como área transversal para aprender a gestionar y regular emociones,
+                                    potenciar la comunicación y mejorar los vínculos intra e interpersonales en todos los ámbitos
+                                    de desempeño de las personas. */}
+                                </p>
+                                <div className="mbr-section-btn"><a className="btn btn-md btn-primary display-44"
+                                        href="#servicios">VER MÁS</a></div>
+                            </div>
+
+                            <div className="col-12 col-md-12 col-lg-6">
+                                <div id="service-accordion_" className="panel-group accordionStyles accordion"
+                                    role="tablist" aria-multiselectable="true">
+                                    <div className="accordion-item card bg-transparent ">
+                                        <div className="card-header" role="tab" id="headingOne">
+                                            <a type='button' className="panel-title collapsed" data-bs-toggle="collapse"
+                                                data-core="" href="#collapse1_80" aria-expanded="false"
+                                                aria-controls="collapse1">
+                                                <h5 className="mbr-fonts-style display-55">
+                                                    <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>Estudiantes
+                                                </h5>
+                                            </a>
+                                        </div>
+                                        <div id="collapse1_80" className="panel-collapse noScroll collapse " role="tabpanel"
+                                            aria-labelledby="headingOne" data-parent="#service-accordion_">
+                                            <div className="panel-body">
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    Acompañamos a estudiantes universitarios a terminar su carrera, 
+                                                    a insertarse en el mundo laboral y profesional con los nuevos 
+                                                    paradigmas del entorno organizacional, poniendo a su alcance 
+                                                    herramientas para potenciar sus fortalezas y el desarrollo de los talentos.
+                                                </p>
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    Ayudamos a adultos a redescubrir sus áreas de competencia y reinventarse en
+                                                    su desempeño laboral, ofreciendo herramientas para emprender con éxito.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="accordion-item card bg-transparent">
+                                        <div className="card-header" role="tab" id="headingTwo">
+                                            <a type='button' className="collapsed panel-title" data-bs-toggle="collapse"
+                                                data-core="" href="#collapse2_80" aria-expanded="false"
+                                                aria-controls="collapse2">
+                                                <h5 className="mbr-fonts-style display-55">
+                                                    <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>
+                                                    Lideres
+                                                </h5>
+                                            </a>
+                                        </div>
+                                        <div id="collapse2_80" className="panel-collapse noScroll collapse" role="tabpanel"
+                                            aria-labelledby="headingTwo" data-parent="#service-accordion_">
+                                            <div className="panel-body">
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    Impulsamos a equipos docentes y a estudiantes de profesorados 
+                                                    a desarrollar habilidades de liderazgo efectivo para el aula 
+                                                    y para los equipos de conducción escolar, brindamos herramientas 
+                                                    de educación emocional para la mejora del clima escolar.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="accordion-item card bg-transparent">
+                                        <div className="card-header" role="tab" id="headingThree">
+                                            <a type='button' className="collapsed panel-title" data-bs-toggle="collapse"
+                                                data-core="" href="#collapse3_80" aria-expanded="false"
+                                                aria-controls="collapse3">
+                                                <h5 className="mbr-fonts-style display-55">
+                                                    <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>
+                                                        Vínculos Familiares
+                                                </h5>
+                                            </a>
+                                        </div>
+                                        <div id="collapse3_80" className="panel-collapse noScroll collapse" role="tabpanel"
+                                            aria-labelledby="headingThree" data-parent="#service-accordion_">
+                                            <div className="panel-body">
+                                                <p className="mbr-fonts-style panel-text display-77">Lorem ipsum dolor sit
+                                                    amet, consectetur
+                                                    adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus
+                                                    in ipsum
+                                                    consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur
+                                                    sit amet
+                                                    massa quam. In ut ex auctor.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="accordion-item card bg-transparent">
+                                        <div className="card-header" role="tab" id="headingFour">
+                                            <a type='button' className="collapsed panel-title" data-bs-toggle="collapse"
+                                                data-core="" href="#collapse4_80" aria-expanded="false"
+                                                aria-controls="collapse4">
+                                                <h5 className="mbr-fonts-style display-55">
+                                                    <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>
+                                                    Equipos de Trabajo
+                                                </h5>
+                                            </a>
+                                        </div>
+                                        <div id="collapse4_80" className="panel-collapse noScroll collapse" role="tabpanel"
+                                            aria-labelledby="headingFour" data-parent="#service-accordion_">
+                                            <div className="panel-body">
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    Acompañamos a líderes de instituciones y organizaciones 
+                                                    públicas y privadas a realizar procesos de transformación 
+                                                    hacia un liderazgo efectivo, potenciando sus talentos para 
+                                                    el logro de objetivos personales y organizacionales.
+                                                </p>
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    Guiamos procesos de consolidación y fortalecimiento de equipos 
+                                                    de trabajo para mejorar el clima laboral y enfrentar los desafíos 
+                                                    que se presentan.
+                                                </p>
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    Impulsamos la mejora de las relaciones entre los distintos componentes 
+                                                    de un sistema organizacional y  ayudamos a trabajar los desafíos colectivos, 
+                                                    los procesos de transformación cultural, la definición de la misión, visión y 
+                                                    valores de la organización o institución y el desarrollo de una  planificación estratégica.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="features12 cid-rT0fyK9jWQ" id="features12-3y">
                 <div className="container">
 

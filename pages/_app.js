@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.css'; // Add this line
 // import '../styles/personalBrand.scss'
 // import '../styles/therapym4.scss'
 import '../styles/mobirise-icons.css'
-// import '../styles/mobirise2.css'
+import '../styles/socicon.css'
 import '../styles/style.css'
 import '../styles/style1.css'
 import '../styles/mbr-additional.css'

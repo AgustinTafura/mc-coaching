@@ -9,7 +9,6 @@ import Frase from '../components/Frase'
 
 const index = () => {
 
-
     return (
         <>
             <Head>
@@ -20,8 +19,8 @@ const index = () => {
             <Layout>
                 <HomeParallax/>
                 <HomeServices/>
-                <HomeAboutMe/>
                 <Frase/>
+                <HomeAboutMe/>
             </Layout>
         </>
     )
