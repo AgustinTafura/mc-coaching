@@ -18,8 +18,8 @@ const index = () => {
 
             <Layout>
                 <HomeParallax/>
-                <HomeServices/>
                 <Frase/>
+                <HomeServices/>
                 <HomeAboutMe/>
             </Layout>
         </>

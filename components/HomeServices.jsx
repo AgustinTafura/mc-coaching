@@ -5,68 +5,10 @@ const HomeServices = () => {
 
     return (
         <>
-            <section className="features3 cid-rSVQ0cgT0R pt-5" id="features3-25">
-                <div className=" pt-5">
-                    <div className="row justify-content-center">
-                        <div className="item card1 p-3 col-12 col-md-7 col-lg-4">
-                            <div className="card-wrapper">
-                                <span className="mbr-iconfont mobi-mbri-user mobi-mbri">
-                                    <FontAwesomeIcon icon={faGraduationCap} size="1x" color='white'/>
-                                </span>
-                                <div className="card-box">
-                                    <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Estudiantes</h4>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Guiamos a adolescentes y jóvenes
-                                        a descubrir sus áreas de competencia y a conectarse con ese oficio o carrera que lo acerque a su 
-                                        propósito de vida.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="item card2 p-3 col-12 col-md-7 col-lg-4">
-                            <div className="card-wrapper">
-                                <span className="mbr-iconfont mobi-mbri-sad-face mobi-mbri">
-                                    <FontAwesomeIcon icon={faBriefcase} size="1x" color='white'/>
-                                </span>
-                                <div className="card-box">
-                                    <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Profesionales</h4>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
-                                    Acompañamos a líderes de instituciones y organizaciones públicas y privadas
-                                    a realizar procesos de transformación hacia un liderazgo efectivo, 
-                                    potenciando sus talentos para el logro de objetivos personales y organizacionales.
-                                    </p>
-                                </div>
 
-                            </div>
-                        </div>
-                        <div className="item card3 p-3 col-12 col-md-7 col-lg-4">
-                            <div className="card-wrapper">
-                                <span className="mbr-iconfont mobi-mbri-users mobi-mbri">
-                                    
-                                    <FontAwesomeIcon icon={faHandsHoldingChild} size="1x" color='white'/>
-                                    {/* <FontAwesomeIcon icon={faFemale} size="1x" color='white'/>
-                                    <FontAwesomeIcon icon={faChild} size="xs" color='white'/>
-                                    <FontAwesomeIcon icon={faMale} size="1x" color='white'/> */}
-                                </span>
-                                <div className="card-box">
-                                    <h4 className="card-title  mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Familia
-                                    </h4>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
-                                        Ayudamos a  madres y padres  interesados  en comprender mejor a sus hijos 
-                                        y acompañarlos en el desarrollo de su inteligencia emocional, fortaleciendo 
-                                        los vínculos familiares.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </section>
 
             <section className="accordion1 cid-rT0gfc1y8M" id="accordion1-47">
-                <div className="container">
+                <div className="">
                     <div className="wrapper">
                         <div className="row">
 
@@ -208,6 +150,8 @@ const HomeServices = () => {
                 </div>
             </section>
 
+
+
             <section className="features12 cid-rT0fyK9jWQ" id="features12-3y">
                 <div className="row justify-content-center">
                     <div className="mbr-black col-md-12 col-lg-6 align-center">                       
@@ -322,6 +266,64 @@ const HomeServices = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section className="features3 cid-rSVQ0cgT0R" id="features3-25">
+                    <div className="row justify-content-center">
+                        <div className="item card1 p-3 col-12 col-md-7 col-lg-4">
+                            <div className="card-wrapper">
+                                <span className="mbr-iconfont mobi-mbri-user mobi-mbri">
+                                    <FontAwesomeIcon icon={faGraduationCap} size="1x" color='white'/>
+                                </span>
+                                <div className="card-box">
+                                    <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Estudiantes</h4>
+                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Guiamos a adolescentes y jóvenes
+                                        a descubrir sus áreas de competencia y a conectarse con ese oficio o carrera que lo acerque a su 
+                                        propósito de vida.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="item card2 p-3 col-12 col-md-7 col-lg-4">
+                            <div className="card-wrapper">
+                                <span className="mbr-iconfont mobi-mbri-sad-face mobi-mbri">
+                                    <FontAwesomeIcon icon={faBriefcase} size="1x" color='white'/>
+                                </span>
+                                <div className="card-box">
+                                    <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Profesionales</h4>
+                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
+                                    Acompañamos a líderes de instituciones y organizaciones públicas y privadas
+                                    a realizar procesos de transformación hacia un liderazgo efectivo, 
+                                    potenciando sus talentos para el logro de objetivos personales y organizacionales.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="item card3 p-3 col-12 col-md-7 col-lg-4">
+                            <div className="card-wrapper">
+                                <span className="mbr-iconfont mobi-mbri-users mobi-mbri">
+                                    
+                                    <FontAwesomeIcon icon={faHandsHoldingChild} size="1x" color='white'/>
+                                    {/* <FontAwesomeIcon icon={faFemale} size="1x" color='white'/>
+                                    <FontAwesomeIcon icon={faChild} size="xs" color='white'/>
+                                    <FontAwesomeIcon icon={faMale} size="1x" color='white'/> */}
+                                </span>
+                                <div className="card-box">
+                                    <h4 className="card-title  mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Familia
+                                    </h4>
+                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
+                                        Ayudamos a  madres y padres  interesados  en comprender mejor a sus hijos 
+                                        y acompañarlos en el desarrollo de su inteligencia emocional, fortaleciendo 
+                                        los vínculos familiares.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
             </section>
         </>
     )
