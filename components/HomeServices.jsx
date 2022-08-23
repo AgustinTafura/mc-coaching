@@ -8,11 +8,6 @@ const HomeServices = () => {
             <section className="features3 cid-rSVQ0cgT0R pt-5" id="features3-25">
                 <div className=" pt-5">
                     <div className="row justify-content-center">
-                        <div className="mbr-black col-md-12 col-lg-6 align-center">                       
-                            <h3 className="mbr-section-title mbr-bold mbr-black pb-5 mbr-fonts-style display-22">NUESTROS SERVICIOS</h3>
-                        </div>
-                    </div>
-                    <div className="row justify-content-center">
                         <div className="item card1 p-3 col-12 col-md-7 col-lg-4">
                             <div className="card-wrapper">
                                 <span className="mbr-iconfont mobi-mbri-user mobi-mbri">
@@ -71,10 +66,6 @@ const HomeServices = () => {
             </section>
 
             <section className="accordion1 cid-rT0gfc1y8M" id="accordion1-47">
-
-
-
-
                 <div className="container">
                     <div className="wrapper">
                         <div className="row">
@@ -218,8 +209,12 @@ const HomeServices = () => {
             </section>
 
             <section className="features12 cid-rT0fyK9jWQ" id="features12-3y">
+                <div className="row justify-content-center">
+                    <div className="mbr-black col-md-12 col-lg-6 align-center">                       
+                        <h3 className="mbr-section-title mbr-bold mbr-black pb-5 mbr-fonts-style display-22">NUESTROS SERVICIOS</h3>
+                    </div>
+                </div>
                 <div className="container">
-
                     <div className="row justify-content-center">
                         <div className="col-md-12 col-big col-lg-6">
                             <div className="card p-3 col-12 col-md-12 col-lg-12">
