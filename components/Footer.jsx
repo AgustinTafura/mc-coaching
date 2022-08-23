@@ -1,4 +1,8 @@
+import Image from "next/image"
+import Link from "next/link"
+
 const Footer = () => {
+
 
   return (
   <footer className="footer2 cid-rT5TRS4qUz" once="footers" id="footer2-5l">
@@ -6,17 +10,20 @@ const Footer = () => {
       <div className="row">
         <div className="col-md-6 col-lg-3">
           <div className="pb-4">
-            <h3 className="title pb-2 align-left mbr-bold mbr-fonts-style display-55">TherapyM4</h3>
-            <p className="mbr-text align-left  mbr-white mbr-regular mbr-fonts-style display-44">Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Vestibulum in fermentum tellus. Etiam turpis, mattis ullamcorper
-              sed, convallis eget tellus.</p>
+            <h3 className="title pb-2 align-left mbr-bold mbr-fonts-style display-55">
+              <Link href="/">
+                <a className="navbar-brand ">
+                  <Image src="/logo_w.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={65} height={50} />
+                </a>
+              </Link>
+              <Image src="/firma_w.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={196} height={52} />
+              
+              </h3>
+            <p className="mbr-text align-left  mbr-white mbr-regular mbr-fonts-style display-44">
+              Coaching y Educación Neuroemocional
+            </p>
           </div>
-          <div className="socicon-wrap">
-            <span className="mbr-iconfont socicon-twitter socicon"></span>
-            <span className="mbr-iconfont socicon-instagram socicon"></span>
-            <span className="mbr-iconfont socicon-youtube socicon"></span>
-            <span className="mbr-iconfont socicon-instagram socicon"></span>
-          </div>
+
         </div>
         <div className="col-md-6 col-lg-3">
           <h2 className="title mbr-bold pb-2 mbr-fonts-style display-55">
@@ -62,48 +69,46 @@ const Footer = () => {
         </div>
         <div className="col-md-6 col-lg-3">
           <h2 className="title mbr-bold pb-2 mbr-fonts-style display-55">
-            Services</h2>
+            Servicios</h2>
           <div className="align-wrap">
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <span className="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                <p className="icon-title mbr-regular mbr-fonts-style display-44">Counseling</p>
+                <a className="icon-title mbr-regular mbr-fonts-style display-44" href="/servicios/life-Coaching">Life Coaching</a>
               </div>
             </div>
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <span className="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                <li className="icon-title mbr-regular mbr-fonts-style display-44">Relationships
-                </li>
+                <a className="icon-title mbr-regular mbr-fonts-style display-44" href="/servicios/coaching-vocacional">Coaching Vocacional
+                </a>
               </div>
             </div>
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <span className="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                <p className="icon-title mbr-regular mbr-fonts-style display-44">Marriage</p>
+                <a className="icon-title mbr-regular mbr-fonts-style display-44" href="/servicios/coaching-educativo">Coaching Educativo</a>
               </div>
             </div>
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <span className="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                <p className="icon-title mbr-regular mbr-fonts-style display-44">Life coaching
-                </p>
+                <a className="icon-title mbr-regular mbr-fonts-style display-44" href="/servicios/liderazgo-efectivo">Liderazgo Efectivo
+                </a>
               </div>
             </div>
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <span className="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
-                <p className="icon-title mbr-regular mbr-fonts-style display-44">Anxiety</p>
+                <a className="icon-title mbr-regular mbr-fonts-style display-44" href="/servicios/educación-neuroemocional">Educación neuroemocional</a>
               </div>
             </div>
           </div>
         </div>
         <div className="col-md-6 col-lg-3">
           <h2 className="title mbr-bold pb-2 mbr-fonts-style display-55">
-            Working hours</h2>
-          <p className="mbr-text time pb-4 mbr-white mbr-regular mbr-fonts-style display-44">Weekdays: 9:00 - 20:00
-            <br/>Saturday :&nbsp;10:00 - 18:00
-            <br/>Sunday:&nbsp;Closed</p>
+            Encontranos</h2>
+            <div className="socicon-wrap">
+            <a href="https://www.facebook.com/neuroeducacionycoaching"><span className="mbr-iconfont socicon-facebook socicon"></span></a>
+            <a href="https://www.instagram.com/neuroeducacion_y_coaching/"><span className="mbr-iconfont socicon-instagram socicon"></span></a>
+            <a href="https://www.youtube.com/channel/UC_KxRomgrGaNlccWnPnPS1w"><span className="mbr-iconfont socicon-youtube socicon"></span></a>
+            <a href="https://www.linkedin.com/in/marcela-caputo-03aa40122/"><span className="mbr-iconfont socicon-linkedin socicon"></span></a>
+          </div>
         </div>
       </div>
     </div>

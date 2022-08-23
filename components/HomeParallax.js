@@ -5,7 +5,7 @@ const HomeParallax = () => {
 
     return (
         <ParallaxBanner 
-            layers={[{ image: '/img/h1.png', speed: -25, expanded: false, aspectRatio: '2 / 1' }]}
+            layers={[{ image: '/img/h1.png', speed: -25, expanded: false, aspectratio: '2 / 1' }]}
             className="aspect-[2/1] cid-rSVurVzkop " id="header1-1i" data-sortbtn="btn-primary"
         >
             <div className="mbr-overlay" style={{backgroundColor: "rgb(0, 0, 0)", opacity: "0.6"}}></div>
