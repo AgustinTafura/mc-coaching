@@ -1,13 +1,15 @@
 import Image from "next/image"
 import Link from "next/link"
 
+
 const Footer = () => {
 
 
   return (
-  <footer className="footer2 cid-rT5TRS4qUz" once="footers" id="footer2-5l">
+  <footer className="footer2 cid-rT5TRS4qUz" id="footer2-5l">
     <div className="container">
       <div className="row">
+
         <div className="col-md-6 col-lg-3">
           <div className="pb-4">
             <h3 className="title pb-2 align-left mbr-bold mbr-fonts-style display-55">
@@ -23,50 +25,8 @@ const Footer = () => {
               Coaching y Educación Neuroemocional
             </p>
           </div>
+        </div>
 
-        </div>
-        <div className="col-md-6 col-lg-3">
-          <h2 className="title mbr-bold pb-2 mbr-fonts-style display-55">
-            Frequent questions
-          </h2>
-          <div className="align-wrap">
-            <div className="item-wrap">
-              <div className="icons-wrap pb-2">
-                <span className="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
-                <p className="icon-title mbr-regular mbr-fonts-style display-44">
-                  How to choose a therapist?<br/></p>
-              </div>
-            </div>
-            <div className="item-wrap">
-              <div className="icons-wrap pb-2">
-                <span className="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
-                <p className="icon-title mbr-regular mbr-fonts-style display-44">When to undergo
-                  therapy?</p>
-              </div>
-            </div>
-            <div className="item-wrap">
-              <div className="icons-wrap pb-2">
-                <span className="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
-                <p className="icon-title mbr-regular mbr-fonts-style display-44">What do you do
-                  at therapy?</p>
-              </div>
-            </div>
-            <div className="item-wrap">
-              <div className="icons-wrap pb-2">
-                <span className="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
-                <p className="icon-title mbr-regular mbr-fonts-style display-44">What is group
-                  counseling?</p>
-              </div>
-            </div>
-            <div className="item-wrap">
-              <div className="icons-wrap pb-2">
-                <span className="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
-                <p className="icon-title mbr-regular mbr-fonts-style display-44">Crisis
-                  counseling?</p>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="col-md-6 col-lg-3">
           <h2 className="title mbr-bold pb-2 mbr-fonts-style display-55">
             Servicios</h2>
@@ -100,9 +60,45 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
         <div className="col-md-6 col-lg-3">
           <h2 className="title mbr-bold pb-2 mbr-fonts-style display-55">
-            Encontranos</h2>
+            Conoceme
+          </h2>
+          <div className="align-wrap">
+            <div className="item-wrap">
+              <div className="icons-wrap pb-2">
+                <a className="icon-title mbr-regular mbr-fonts-style display-44">
+                  Más sobre mi</a>
+              </div>
+            </div>
+            <div className="item-wrap">
+              <div className="icons-wrap pb-2">
+                <a className="icon-title mbr-regular mbr-fonts-style display-44">
+                Marca Personal</a>
+              </div>
+            </div>
+            <div className="item-wrap">
+              <div className="icons-wrap pb-2">
+                <a className="icon-title mbr-regular mbr-fonts-style display-44">
+                Agendar una cita</a>
+              </div>
+            </div>
+            <div className="item-wrap">
+              <div className="icons-wrap pb-2">
+                <a className="icon-title mbr-regular mbr-fonts-style display-44">
+                Contáctame</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-6 col-lg-3">
+          <h2 className="title mbr-bold pb-2 mbr-fonts-style display-55">
+            Redes</h2>
+            <div className="align-wrap pb-3">
+              Encuentranos en las siguientes plataformas
+            </div>
             <div className="socicon-wrap">
             <a href="https://www.facebook.com/neuroeducacionycoaching"><span className="mbr-iconfont socicon-facebook socicon"></span></a>
             <a href="https://www.instagram.com/neuroeducacion_y_coaching/"><span className="mbr-iconfont socicon-instagram socicon"></span></a>
