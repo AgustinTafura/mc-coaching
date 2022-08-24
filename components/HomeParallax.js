@@ -26,8 +26,8 @@ const HomeParallax = () => {
                             y mejorar los vínculos intra e interpersonales en todos los ámbitos de desempeño de las personas.
                         </p>
                         <div className="mbr-section-btn">
-                            <a className="btn btn-md btn-white display-44" href="index.html#features6-1k">SABER MAS</a>
-                            <a className="btn btn-md btn-primary display-44" href="https://my.mobirise.com/buy.php?p=96">AGENDAR CITA</a>
+                            <a className="btn btn-md btn-white display-44" href="#">SABER MAS</a>
+                            <a className="btn btn-md btn-primary display-44" href="#">AGENDAR CITA</a>
                         </div>
                     </div>
                 </div>

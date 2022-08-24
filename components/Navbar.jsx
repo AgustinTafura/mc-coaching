@@ -119,7 +119,7 @@ const Navbar = () => {
                     HOME</a>
                 </li>
                 <li className="nav-item dropdown"><a
-                    className="nav-link link mbr-black text-black dropdown-toggle display-44" href="https://mobirise.com"
+                    className="nav-link link mbr-black text-black dropdown-toggle display-44" href="/"
                     aria-expanded="false" data-toggle="dropdown-submenu">
                     LIVE DEMO</a>
                   <div className="dropdown-menu"><a className="mbr-black text-black dropdown-item display-44"
@@ -129,7 +129,7 @@ const Navbar = () => {
                       href="personal.html" aria-expanded="false">Personal Growth</a></div>
                 </li>
                 <li className="nav-item dropdown"><a
-                    className="nav-link link mbr-black text-black dropdown-toggle display-44" href="https://mobirise.com"
+                    className="nav-link link mbr-black text-black dropdown-toggle display-44" href="/"
                     aria-expanded="false" data-toggle="dropdown-submenu">
                     LIVE DEMO BLOCKS</a>
                   <div className="dropdown-menu"><a className="mbr-black text-black dropdown-item display-44"
@@ -146,7 +146,7 @@ const Navbar = () => {
                 </li>
               </ul>
               <div className="navbar-buttons mbr-section-btn"><a className="btn btn-sm btn-primary display-44"
-                  href="https://my.mobirise.com/buy.php?p=96"> BUY NOW</a></div>
+                  href="/"> BUY NOW</a></div>
             </div> */}
 
           </div>
