@@ -97,13 +97,15 @@ const HomeServices = () => {
                                         <div id="collapse3_80" className="panel-collapse noScroll collapse container" role="tabpanel"
                                             aria-labelledby="headingThree" data-parent="#service-accordion_">
                                             <div className="panel-body">
-                                                <p className="mbr-fonts-style panel-text display-77">Lorem ipsum dolor sit
-                                                    amet, consectetur
-                                                    adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus
-                                                    in ipsum
-                                                    consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur
-                                                    sit amet
-                                                    massa quam. In ut ex auctor.</p>
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    Ayudamos a  madres y padres  interesados  en comprender 
+                                                    mejor a sus hijos y acompañarlos en el desarrollo de su 
+                                                    inteligencia emocional, fortaleciendo los vínculos familiares.
+                                                </p>
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    Guiamos procesos de aprendizaje para cualquier persona interesada 
+                                                    en adquirir herramientas para mejorar su comunicación con otras personas.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
