@@ -44,7 +44,7 @@ const HomeServices = () => {
                                                 </h5>
                                             </a>
                                         </div>
-                                        <div id="collapse1_80" className="panel-collapse noScroll collapse " role="tabpanel"
+                                        <div id="collapse1_80" className="panel-collapse noScroll collapse container " role="tabpanel"
                                             aria-labelledby="headingOne" data-parent="#service-accordion_">
                                             <div className="panel-body">
                                                 <p className="mbr-fonts-style panel-text display-77">
@@ -71,7 +71,7 @@ const HomeServices = () => {
                                                 </h5>
                                             </a>
                                         </div>
-                                        <div id="collapse2_80" className="panel-collapse noScroll collapse" role="tabpanel"
+                                        <div id="collapse2_80" className="panel-collapse noScroll collapse container" role="tabpanel"
                                             aria-labelledby="headingTwo" data-parent="#service-accordion_">
                                             <div className="panel-body">
                                                 <p className="mbr-fonts-style panel-text display-77">
@@ -94,7 +94,7 @@ const HomeServices = () => {
                                                 </h5>
                                             </a>
                                         </div>
-                                        <div id="collapse3_80" className="panel-collapse noScroll collapse" role="tabpanel"
+                                        <div id="collapse3_80" className="panel-collapse noScroll collapse container" role="tabpanel"
                                             aria-labelledby="headingThree" data-parent="#service-accordion_">
                                             <div className="panel-body">
                                                 <p className="mbr-fonts-style panel-text display-77">Lorem ipsum dolor sit
@@ -118,7 +118,7 @@ const HomeServices = () => {
                                                 </h5>
                                             </a>
                                         </div>
-                                        <div id="collapse4_80" className="panel-collapse noScroll collapse" role="tabpanel"
+                                        <div id="collapse4_80" className="panel-collapse noScroll collapse container" role="tabpanel"
                                             aria-labelledby="headingFour" data-parent="#service-accordion_">
                                             <div className="panel-body">
                                                 <p className="mbr-fonts-style panel-text display-77">
@@ -153,7 +153,7 @@ const HomeServices = () => {
 
 
             <section className="features12 cid-rT0fyK9jWQ" id="features12-3y">
-                <div className="row justify-content-center">
+                <div className="row gx-0 justify-content-center">
                     <div className="mbr-black col-md-12 col-lg-6 align-center">                       
                         <h3 className="mbr-section-title mbr-bold mbr-black pb-5 mbr-fonts-style display-22">NUESTROS SERVICIOS</h3>
                     </div>
@@ -269,7 +269,7 @@ const HomeServices = () => {
             </section>
 
             <section className="features3 cid-rSVQ0cgT0R" id="features3-25">
-                    <div className="row justify-content-center">
+                    <div className="row gx-0 justify-content-center">
                         <div className="item card1 p-3 col-12 col-md-7 col-lg-4">
                             <div className="card-wrapper">
                                 <span className="mbr-iconfont mobi-mbri-user mobi-mbri">
@@ -305,9 +305,6 @@ const HomeServices = () => {
                                 <span className="mbr-iconfont mobi-mbri-users mobi-mbri">
                                     
                                     <FontAwesomeIcon icon={faHandsHoldingChild} size="1x" color='white'/>
-                                    {/* <FontAwesomeIcon icon={faFemale} size="1x" color='white'/>
-                                    <FontAwesomeIcon icon={faChild} size="xs" color='white'/>
-                                    <FontAwesomeIcon icon={faMale} size="1x" color='white'/> */}
                                 </span>
                                 <div className="card-box">
                                     <h4 className="card-title  mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Familia
