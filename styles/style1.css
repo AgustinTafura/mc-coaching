@@ -121,13 +121,14 @@ section {
 .align-right {
   text-align: right; }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .align-left,
   .align-center,
   .align-right,
   .mbr-section-btn,
   .mbr-section-title {
-    text-align: center; } }
+    text-align: center; } 
+}
 /*! Font-weight  */
 .mbr-light {
   font-weight: 200; }

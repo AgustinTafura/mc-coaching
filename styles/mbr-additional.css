@@ -11256,7 +11256,7 @@ a {
   max-width: 100%;
 }
 .cid-rSVRmJSAl2 .box {
-  background-image: url("../public/img/background28.jpg");
+  background-image: url("../public/img/me.jpg");
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -11422,9 +11422,15 @@ a {
 .cid-rSVRmJSAl2 .mbr-section-text {
   color: #ffffff;
 }
-@media (max-width: 767px) {
+
+.cid-rSVRmJSAl2 .mbr-section-text.opacity-75 {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 992px) {
   .cid-rSVRmJSAl2 .progress_elements {
     padding: 4rem 1rem;
+    text-align:center
   }
 }
 .cid-rT11n6fulj {
