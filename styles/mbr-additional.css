@@ -11248,7 +11248,7 @@ a {
   max-width: 100%;
 }
 .cid-rSVRmJSAl2 .box {
-  background-image: url("../public/img/me.jpg");
+  background-image: url("/img/me.jpg");
   background-size: cover;
   background-position: center;
   height: 672px;
