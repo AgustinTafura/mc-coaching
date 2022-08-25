@@ -1,5 +1,8 @@
-const Frase = () => {
+import Image from 'next/image'
+import SignaturePic from '../public/firma.png'
 
+
+const Frase = () => {
 
   return (
   <section className="cid-rT0fzaj97x" id="info1-3z">
@@ -10,7 +13,7 @@ const Frase = () => {
           <h3 className="mbr-section-title mbr-bold mbr-black pb-4 mbr-fonts-style display-22">
             El coaching es un arte, y la base está en establecer una relación de confianza y respeto mutuo.
           </h3>
-          <img className="pb-3" src="firma.png" alt="Marcela Caputo - Coaching"/>
+          <Image className="pb-3" src={SignaturePic} alt="Marcela Caputo - Coaching - firma"/>
         </div>
       </div>
     </div>
