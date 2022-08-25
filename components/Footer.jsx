@@ -108,7 +108,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center my-auto text-white pt-3 pt-lg-5">
-        <span style={{fontSize: "0.7rem"}}>Copyright© 2022 Marcela Caputo - Powered by <a> 🔴TaFura</a></span>
+        <span style={{fontSize: "0.7rem"}}>Copyright© 2022 Marcela Caputo - Powered by <a> </a></span>
       </div>
     </div>
   </footer>
