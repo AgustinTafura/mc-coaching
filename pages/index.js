@@ -1,13 +1,35 @@
 import Image from 'next/image'
 import Head from 'next/head'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Layout from '../components/Layout'
 import HomeParallax from '../components/HomeParallax'
 import HomeAboutMe from '../components/HomeAboutMe'
 import HomeServices from '../components/HomeServices'
 import Frase from '../components/Frase'
+import { Spinner } from '../components/Spinner'
 
-const index = () => {
+const Index = () => {
+
+    const [loading, setLoading] = useState(true)
+
+    useEffect(() => {
+        
+        setTimeout(() => {
+            setLoading(false)
+        },  2500);
+      
+    
+      return () => {
+        
+      }
+    }, [])
+
+
+    if (loading){
+        return (
+          <Spinner/>
+        )
+      }
 
     return (
         <>
@@ -26,4 +48,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Index

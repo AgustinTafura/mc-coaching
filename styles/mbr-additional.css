@@ -11256,6 +11256,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0.9;
 }
 .cid-rSVRmJSAl2 .icon-wrap {
   border-radius: 50%;

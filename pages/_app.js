@@ -14,6 +14,7 @@ import '../styles/style.css'
 import '../styles/style1.css'
 import '../styles/mbr-additional.css'
 import '../styles/globals.scss'
+import '../styles/spinner.scss'
 
 
 
