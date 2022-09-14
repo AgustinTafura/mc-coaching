@@ -33,9 +33,8 @@ const Booking = (props) => {
 
     return (
         <div  style={{paddingTop: "6.875rem"}}>
-            <div  className="container pt-5" style={{textAlign:"center"}}>
+            <div  className="container" style={{textAlign:"center"}}>
                 <InlineWidget
-                    id="calendly-booking"
                     url={url}   
                     styles={styles}
                     prefill={{}}
