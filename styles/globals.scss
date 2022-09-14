@@ -139,13 +139,3 @@ a:hover {
   q {
     font-family: "Dancing Script" !important;
   }
-
-  #calendly-booking {
-    height: '1235px';
-    overflow: 'hidden';
-    
-    @media (min-width: 1200px) {
-      height: '750px';      
-    }
-
-  }

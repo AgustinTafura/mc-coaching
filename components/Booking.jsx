@@ -1,17 +1,35 @@
+import { useEffect, useState } from "react";
 import { InlineWidget  } from "react-calendly";
 
 const Booking = (props) => {
     const url = 'https://calendly.com/marcelacaputo/sesion-gratuita?back=1'
-    console.log(url)
-    
+    const [windowSize, setWindowSize] = useState({
+        width: undefined,
+        height: undefined,
+    })
     const styles = {
         minWidth: '360px',
-        height: '1235px',
+        height: windowSize?.width < 1200 ? '1235px': '750px',
         overflow: 'hidden',
-        '@media (min-width: 1200px)': {
-          height: '750px',      
-        }
     }
+
+
+    useEffect(()=> {
+
+        function handleResize() {
+            // Set window width/height to state
+            setWindowSize({
+                width: window.innerWidth,
+                height: window.innerHeight,
+            });
+        }
+
+        handleResize()
+
+        window.addEventListener('resize', handleResize)
+
+        return () => window.removeEventListener("resize", handleResize);
+    }, [])
 
     return (
         <div  style={{paddingTop: "6.875rem"}}>
