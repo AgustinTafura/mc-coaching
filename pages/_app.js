@@ -5,9 +5,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
 
-import 'bootstrap/dist/css/bootstrap.css'; // Add this line
-// import '../styles/personalBrand.scss'
-// import '../styles/therapym4.scss'
+import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/mobirise-icons.css'
 import '../styles/socicon.css'
 import '../styles/style.css'

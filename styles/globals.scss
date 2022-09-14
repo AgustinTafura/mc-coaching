@@ -17,6 +17,12 @@ $theme-colors: (
 
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 
+@font-face {
+  font-family: 'Dancing Script';
+  src:  url('./fonts/DancingScript-VariableFont_wght.ttf');
+  // font-weight: normal;
+  // font-style: cursive;
+}
 
 /*============ NAVBAR Styles  =============*/
 // .nav {
@@ -129,3 +135,7 @@ a:hover {
 .btn:focus {
   text-decoration: none;
   outline: 0; }
+
+  q {
+    font-family: "Dancing Script" !important;
+  }
