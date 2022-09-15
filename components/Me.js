@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import MyPic from '../public/img/me3b.png'
 import SectionInfo from './SectionInfo'
@@ -130,7 +131,7 @@ const Me = () => {
                                     emocional que propicien un ambiente laboral óptimo y el alcance de los objetivos.
                                 </p>
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 ">
-                                        Te invito a navegar el sitio y a conocer más sobre nuestros <a href='/servicios' className='text-black-50'>SERVICIOS</a>.
+                                        Te invito a navegar el sitio y a conocer más sobre nuestros <Link href='/servicios' className='text-black-50'>SERVICIOS</Link>.
                                     </p>
                             </div>
                         </div>
@@ -152,9 +153,9 @@ const Me = () => {
                                         en un marco de absoluta reserva profesional garantizada.
                                     </p>
                                 </div>
-                                <a className="col-lg-12 col-md-12 col-sm-12 align-center" href='/agenda'>
+                                <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href='/agenda'>
                                     <button type="button" className="btn btn-primary display-44">RESERVAR</button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
