@@ -2,8 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
 
-// import style from '../styles/Navbar.module.scss'
-
 const Navbar = () => {
 
   const sections = [
@@ -105,8 +103,9 @@ const Navbar = () => {
 
                       return ( 
                         <li key={section.name} className="nav-item text-uppercase fw-normal">
-                          <a
-                           className="nav-link link mbr-black text-black display-44" aria-current="page" href={section.link}>{section.name}</a>
+                          <Link href={section.link}>
+                            <a className="nav-link link mbr-black text-black display-44" aria-current="page">{section.name}</a>
+                          </Link>
                         </li>
                       )
                     })
