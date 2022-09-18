@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 const HomeAboutMe = () => {
@@ -39,8 +40,9 @@ const HomeAboutMe = () => {
                             Puedes contactarme y recibiré tus inquietudes personalmente, en un marco de absoluta reserva
                             profesional garantizada.
                         </p>
-
-                        <a href="/conoceme" style={{color: "white",fontWeight: "500",marginTop: "1rem"}}>Más sobre mi</a>
+                        <Link href="/conoceme">
+                            <a  style={{color: "white",fontWeight: "500",marginTop: "1rem"}}>Más sobre mi</a>
+                        </Link>    
 
                     </div>
                 </div>

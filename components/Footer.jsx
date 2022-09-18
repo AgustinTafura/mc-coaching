@@ -33,29 +33,37 @@ const Footer = () => {
           <div className="align-wrap">
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <a className="icon-title mbr-regular mbr-fonts-style display-44" href="/servicios/life-Coaching">Life Coaching</a>
+                <Link href="/servicios/life-Coaching">
+                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Life Coaching</a>
+                </Link>
               </div>
             </div>
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <a className="icon-title mbr-regular mbr-fonts-style display-44" href="/servicios/coaching-vocacional">Coaching Vocacional
-                </a>
+                <Link href="/servicios/coaching-vocacional">
+                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Coaching Vocacional</a>
+                </Link>
               </div>
             </div>
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <a className="icon-title mbr-regular mbr-fonts-style display-44" href="/servicios/coaching-educativo">Coaching Educativo</a>
+                <Link href="/servicios/coaching-educativo">
+                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Coaching Educativo</a>
+                </Link>
               </div>
             </div>
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <a className="icon-title mbr-regular mbr-fonts-style display-44" href="/servicios/liderazgo-efectivo">Liderazgo Efectivo
-                </a>
+                <Link href="/servicios/liderazgo-efectivo">
+                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Liderazgo Efectivo</a>
+                </Link>
               </div>
             </div>
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <a className="icon-title mbr-regular mbr-fonts-style display-44" href="/servicios/educación-neuroemocional">Educación neuroemocional</a>
+                <Link href="/servicios/educación-neuroemocional">
+                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Educación neuroemocional</a>
+                </Link>
               </div>
             </div>
           </div>
@@ -100,10 +108,18 @@ const Footer = () => {
               Encuentranos en las siguientes plataformas
             </div>
             <div className="socicon-wrap">
-            <a href="https://www.facebook.com/neuroeducacionycoaching"><span className="mbr-iconfont socicon-facebook socicon"></span></a>
-            <a href="https://www.instagram.com/neuroeducacion_y_coaching/"><span className="mbr-iconfont socicon-instagram socicon"></span></a>
-            <a href="https://www.youtube.com/channel/UC_KxRomgrGaNlccWnPnPS1w"><span className="mbr-iconfont socicon-youtube socicon"></span></a>
-            <a href="https://www.linkedin.com/in/marcela-caputo-03aa40122/"><span className="mbr-iconfont socicon-linkedin socicon"></span></a>
+            <Link href="https://www.facebook.com/neuroeducacionycoaching">
+              <a><span className="mbr-iconfont socicon-facebook socicon"></span></a>
+            </Link>
+            <Link href="https://www.instagram.com/neuroeducacion_y_coaching/">
+              <a><span className="mbr-iconfont socicon-instagram socicon"></span></a>
+            </Link>
+            <Link href="https://www.youtube.com/channel/UC_KxRomgrGaNlccWnPnPS1w">
+              <a><span className="mbr-iconfont socicon-youtube socicon"></span></a>
+            </Link>
+            <Link href="https://www.linkedin.com/in/marcela-caputo-03aa40122/">
+              <a><span className="mbr-iconfont socicon-linkedin socicon"></span></a>
+            </Link>
           </div>
         </div>
       </div>

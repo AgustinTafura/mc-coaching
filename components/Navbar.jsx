@@ -88,13 +88,15 @@ const Navbar = () => {
                       if (section.list.length) {
                       return (
                         <li key={section.name} className="nav-item text-uppercase fw-normal dropdown">
-                          <a className="nav-link link mbr-black text-black display-44 dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                          <a
+                           className="nav-link link mbr-black text-black display-44 dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             {section.name}
                           </a>
                           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             {
-                              section.list.map(service=><li key={service.name}><a className="dropdown-item"
+                              section.list.map(service=><li key={service.name}><a
+                                 className="dropdown-item"
                                   href={section.link+"/"+service.link}>{service.name} </a> </li>) 
                             }
                           </ul> 
@@ -103,7 +105,8 @@ const Navbar = () => {
 
                       return ( 
                         <li key={section.name} className="nav-item text-uppercase fw-normal">
-                          <a className="nav-link link mbr-black text-black display-44" aria-current="page" href={section.link}>{section.name}</a>
+                          <a
+                           className="nav-link link mbr-black text-black display-44" aria-current="page" href={section.link}>{section.name}</a>
                         </li>
                       )
                     })
@@ -112,43 +115,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav nav-dropdown js-float-line" data-app-modern-menu="true">
-                <li className="nav-item">
-                  <a className="nav-link link mbr-black text-black display-44" href="index.html" aria-expanded="false">
-                    HOME</a>
-                </li>
-                <li className="nav-item dropdown"><a
-                    className="nav-link link mbr-black text-black dropdown-toggle display-44" href="/"
-                    aria-expanded="false" data-toggle="dropdown-submenu">
-                    LIVE DEMO</a>
-                  <div className="dropdown-menu"><a className="mbr-black text-black dropdown-item display-44"
-                      href="courses.html" aria-expanded="false">Psychological Therapy</a><a
-                      className="mbr-black text-black dropdown-item display-44" href="family.html"
-                      aria-expanded="false">Family Therapy</a><a className="mbr-black text-black dropdown-item display-44"
-                      href="personal.html" aria-expanded="false">Personal Growth</a></div>
-                </li>
-                <li className="nav-item dropdown"><a
-                    className="nav-link link mbr-black text-black dropdown-toggle display-44" href="/"
-                    aria-expanded="false" data-toggle="dropdown-submenu">
-                    LIVE DEMO BLOCKS</a>
-                  <div className="dropdown-menu"><a className="mbr-black text-black dropdown-item display-44"
-                      href="features.html" aria-expanded="false">Headers / Features / Info</a><a
-                      className="mbr-black text-black dropdown-item display-44" href="content.html"
-                      aria-expanded="false">Content / Accordions / Shop
-                    </a><a className="mbr-black text-black dropdown-item display-44" href="pricing.html"
-                      aria-expanded="false"> Pricing / Progress /
-                      Video</a><a className="mbr-black text-black dropdown-item display-44" href="team.html"
-                      aria-expanded="false">Contacts / Team / Maps</a><a
-                      className="mbr-black text-black dropdown-item display-44" href="clients.html" aria-expanded="false">
-                      Clients / Testimonials </a><a className="mbr-black text-black dropdown-item display-44"
-                      href="forms.html" aria-expanded="false"> Forms / Footers</a></div>
-                </li>
-              </ul>
-              <div className="navbar-buttons mbr-section-btn"><a className="btn btn-sm btn-primary display-44"
-                  href="/"> BUY NOW</a></div>
-            </div> */}
-
+ 
           </div>
           {/* </div> */}
       </nav>

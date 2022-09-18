@@ -131,7 +131,7 @@ const Me = () => {
                                     emocional que propicien un ambiente laboral óptimo y el alcance de los objetivos.
                                 </p>
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 ">
-                                        Te invito a navegar el sitio y a conocer más sobre nuestros <Link href='/servicios' className='text-black-50'>SERVICIOS</Link>.
+                                        Te invito a navegar el sitio y a conocer más sobre nuestros <Link href='/servicios'><a  className='text-black-50'>SERVICIOS</a></Link>.
                                     </p>
                             </div>
                         </div>
@@ -154,7 +154,9 @@ const Me = () => {
                                     </p>
                                 </div>
                                 <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href='/agenda'>
-                                    <button type="button" className="btn btn-primary display-44">RESERVAR</button>
+                                    <a>
+                                        <button type="button" className="btn btn-primary display-44">RESERVAR</button>
+                                    </a>
                                 </Link>
                             </div>
                         </div>

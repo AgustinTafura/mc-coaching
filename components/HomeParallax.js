@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { ParallaxBanner } from 'react-scroll-parallax';
 
 
@@ -26,8 +27,12 @@ const HomeParallax = () => {
                             y mejorar los vínculos intra e interpersonales en todos los ámbitos de desempeño de las personas.
                         </p>
                         <div className="mbr-section-btn">
-                            <a className="btn btn-md btn-white display-44" href="#">SABER MAS</a>
-                            <a className="btn btn-md btn-primary display-44" href="#">AGENDAR CITA</a>
+                            <Link className="btn btn-md btn-white display-44" href="/">
+                                <a>SABER MAS</a>
+                            </Link>
+                            <Link className="btn btn-md btn-primary display-44" href="/">
+                                <a>AGENDAR CITA</a>
+                            </Link>
                         </div>
                     </div>
                 </div>

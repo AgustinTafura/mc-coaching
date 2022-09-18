@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFemale, faMale, faGraduationCap, faChild, faBriefcase, faHandsHoldingChild } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 const HomeServices = () => {
 
@@ -27,8 +28,11 @@ const HomeServices = () => {
                                     potenciar la comunicación y mejorar los vínculos intra e interpersonales en todos los ámbitos
                                     de desempeño de las personas. */}
                                 </p>
-                                <div className="mbr-section-btn"><a className="btn btn-md btn-primary display-44"
-                                        href="#servicios">VER MÁS</a></div>
+                                <div className="mbr-section-btn">
+                                    <Link href="#servicios">
+                                        <a className="btn btn-md btn-primary display-44" >VER MÁS</a>
+                                    </Link>
+                                </div>
                             </div>
 
                             <div className="col-12 col-md-12 col-lg-6">
@@ -164,22 +168,24 @@ const HomeServices = () => {
                     <div className="row justify-content-center">
                         <div className="col-md-12 col-big col-lg-6">
                             <div className="card p-3 col-12 col-md-12 col-lg-12">
-                                <a href="/servicios/life-coaching">
-                                    <div className="card-wrapper">
-                                        <div className="img-wrapper">
-                                            <img className="img-big" src="/img/services/life-coaching/1.jpg" alt="Marcela Caputo - Coaching"/>
-                                            <div className="text-wrap">
-                                                <h4
-                                                    className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
-                                                    Life Coaching
-                                                </h4>
-                                                <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
-                                                    PERSONAL O PROFESIONAL
-                                                </h5>
+                                <Link href="/servicios/life-coaching">
+                                    <a >
+                                        <div className="card-wrapper">
+                                            <div className="img-wrapper">
+                                                <img className="img-big" src="/img/services/life-coaching/1.jpg" alt="Marcela Caputo - Coaching"/>
+                                                <div className="text-wrap">
+                                                    <h4
+                                                        className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
+                                                        Life Coaching
+                                                    </h4>
+                                                    <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
+                                                        PERSONAL O PROFESIONAL
+                                                    </h5>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
+                                </Link>
                             </div>
                         </div>
 
@@ -187,81 +193,89 @@ const HomeServices = () => {
                             <div className="row justify-content-center">
 
                                 <div className="card p-3 col-12 col-md-6 col-lg-6">
-                                    <a href="/servicios/liderazgo-efectivo">
-                                        <div className="card-wrapper">
-                                            <div className="img-wrapper">
-                                                <img src="/img/services/liderazgo-efectivo/0.png" alt="Marcela Caputo - Coaching"/>
-                                                <div className="text-wrap">
-                                                    <h4
-                                                        className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
-                                                        Liderazgo Efectivo
-                                                    </h4>
-                                                    <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
-                                                        EQUIPOS DE TRABAJO
-                                                    </h5>
+                                    <Link href="/servicios/liderazgo-efectivo">
+                                        <a >
+                                            <div className="card-wrapper">
+                                                <div className="img-wrapper">
+                                                    <img src="/img/services/liderazgo-efectivo/0.png" alt="Marcela Caputo - Coaching"/>
+                                                    <div className="text-wrap">
+                                                        <h4
+                                                            className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
+                                                            Liderazgo Efectivo
+                                                        </h4>
+                                                        <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
+                                                            EQUIPOS DE TRABAJO
+                                                        </h5>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </a>
+                                        </a>
+                                    </Link>
                                 </div>
 
                                 <div className="card p-3 col-12 col-md-6 col-lg-6">
-                                    <a href="/servicios/coaching-educativo">
-                                        <div className="card-wrapper">
-                                            <div className="img-wrapper">
-                                                <img src="/img/services/coaching-educativo/0.jpg" alt="Marcela Caputo - Coaching"/>
-                                                <div className="text-wrap">
-                                                    <h4
-                                                        className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
-                                                        Coaching Educativo
-                                                    </h4>
-                                                    <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
-                                                        HABILIDADES BLANDAS
-                                                    </h5>
+                                    <Link href="/servicios/coaching-educativo">
+                                        <a >
+                                            <div className="card-wrapper">
+                                                <div className="img-wrapper">
+                                                    <img src="/img/services/coaching-educativo/0.jpg" alt="Marcela Caputo - Coaching"/>
+                                                    <div className="text-wrap">
+                                                        <h4
+                                                            className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
+                                                            Coaching Educativo
+                                                        </h4>
+                                                        <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
+                                                            HABILIDADES BLANDAS
+                                                        </h5>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </a>
+                                        </a>
+                                    </Link>
                                 </div>
 
                                 <div className="card p-3 col-12 col-md-6 col-lg-6">
-                                    <a href="/servicios/coaching-vocacional">
-                                        <div className="card-wrapper">
-                                            <div className="img-wrapper">
-                                                <img src="/img/services/coaching-vocacional/0.jpg" alt="Marcela Caputo - Coaching"/>
-                                                <div className="text-wrap">
-                                                    <h4
-                                                        className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
-                                                        Coaching Vocacional
-                                                    </h4>
-                                                    <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
-                                                        ESTUDIANTES
-                                                    </h5>
+                                    <Link href="/servicios/coaching-vocacional">
+                                        <a >
+                                            <div className="card-wrapper">
+                                                <div className="img-wrapper">
+                                                    <img src="/img/services/coaching-vocacional/0.jpg" alt="Marcela Caputo - Coaching"/>
+                                                    <div className="text-wrap">
+                                                        <h4
+                                                            className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
+                                                            Coaching Vocacional
+                                                        </h4>
+                                                        <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
+                                                            ESTUDIANTES
+                                                        </h5>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </a>
+                                        </a>
+                                    </Link>
                                 </div>
 
 
 
                                 <div className="card p-3 col-12 col-md-6 col-lg-6">
-                                    <a href="/servicios/educacion-neuroemocional">
-                                        <div className="card-wrapper">
-                                            <div className="img-wrapper">
-                                                <img src="/img/services/educacion-neuroemocional/0.png" alt="Marcela Caputo - Coaching"/>
-                                                <div className="text-wrap">
-                                                    <h4
-                                                        className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
-                                                        Educación Neuroemocional
-                                                    </h4>
-                                                    <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
-                                                        INTELIGENCIA EMOCIONAL
-                                                    </h5>
+                                    <Link href="/servicios/educacion-neuroemocional">
+                                        <a >
+                                            <div className="card-wrapper">
+                                                <div className="img-wrapper">
+                                                    <img src="/img/services/educacion-neuroemocional/0.png" alt="Marcela Caputo - Coaching"/>
+                                                    <div className="text-wrap">
+                                                        <h4
+                                                            className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
+                                                            Educación Neuroemocional
+                                                        </h4>
+                                                        <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
+                                                            INTELIGENCIA EMOCIONAL
+                                                        </h5>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </a>
+                                        </a>
+                                    </Link>
                                 </div>
 
                             </div>
