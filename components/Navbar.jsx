@@ -93,9 +93,12 @@ const Navbar = () => {
                           </a>
                           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             {
-                              section.list.map(service=><li key={service.name}><a
-                                 className="dropdown-item"
-                                  href={section.link+"/"+service.link}>{service.name} </a> </li>) 
+                              section.list.map(service=>
+                                <li key={service.name}>
+                                  <Link href={section.link+"/"+service.link}>
+                                    <a className="dropdown-item">{service.name} </a> 
+                                  </Link>
+                                </li>) 
                             }
                           </ul> 
                         </li> 
