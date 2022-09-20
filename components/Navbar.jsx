@@ -71,13 +71,13 @@ const Navbar = () => {
                   <Image src="/logo.png" alt="logo Marcela Caputo" width={231} height={69} />
                 </div>
                 <button className="navbar-toggler " type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
-              <div className="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </button>
+                  <div className="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </button>
               </div>
               <div className="offcanvas-body justify-content-lg-end">
                 <ul className="navbar-nav nav-dropdown justify-content-end">
