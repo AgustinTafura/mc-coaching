@@ -13,21 +13,28 @@ const HomeServices = () => {
                     <div className="wrapper">
                         <div className="row">
 
-                            <div className="mbr-black col-md-12 md-pb col-lg-6">
                                 <h4 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style display-44">
                                     COACHING</h4>
                                 <h3
                                     className="mbr-section-title align-left mbr-bold mbr-white pb-2 mbr-fonts-style display-22">
                                     Cómo lo hacemos</h3>
-                                <p className="mbr-text pb-4 mbr-white align-left mbr-regular mbr-fonts-style display-77">
-                                    Ofrecemos servicios de Coaching de Vida (Life Coaching), Coaching Vocacional, 
-                                    Coaching Educativo, Coaching y Liderazgo efectivo , que facilitan el abordaje de
-                                    los cambios de paradigma del contexto actual. 
-                                    {/* centrando la importancia de la 
-                                    Educación Neuroemocional como área transversal para aprender a gestionar y regular emociones,
-                                    potenciar la comunicación y mejorar los vínculos intra e interpersonales en todos los ámbitos
-                                    de desempeño de las personas. */}
+                            <div className="mbr-black col-md-12 md-pb col-lg-6">
+                                <p className="mbr-text mbr-white align-left mbr-regular mbr-fonts-style display-77">
+                                    Marcela Caputo Coaching ofrece los servicios de: 
                                 </p>
+                                <ul className="mbr-text pb-4 mbr-white align-left mbr-regular mbr-fonts-style display-77">
+                                    <li className='pb-2'>
+                                        <b>Coaching Personal</b><br/> A través de la disciplinas 
+                                        del Life Coaching y el Coaching Ontológico, sumando los aportes de la Programación Neurolingüística 
+                                        (P.N.L.) y la inteligencia emocional para la comunicación efectiva;    
+                                    </li>
+                                    <li className='pb-2'><b>Coaching Vocacional</b></li>
+                                    <li className='pb-2'><b>Coaching Educativo</b></li>
+                                    <li className='pb-2'><b>Liderazgo Efectivo</b></li>
+                                    <li className='pb-2'><b>Coaching para emprendedores</b></li>
+                                </ul>
+
+
                                 <div className="mbr-section-btn">
                                     <Link href="#servicios">
                                         <a className="btn btn-md btn-primary display-44" >VER MÁS</a>
@@ -44,7 +51,7 @@ const HomeServices = () => {
                                                 data-core="" href="#collapse1_80" aria-expanded="false"
                                                 aria-controls="collapse1">
                                                 <h5 className="mbr-fonts-style display-55">
-                                                    <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>Estudiantes
+                                                    <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>Jóvenes y Estudiantes
                                                 </h5>
                                             </a>
                                         </div>
@@ -52,14 +59,19 @@ const HomeServices = () => {
                                             aria-labelledby="headingOne" data-parent="#service-accordion_">
                                             <div className="panel-body">
                                                 <p className="mbr-fonts-style panel-text display-77">
-                                                    Acompañamos a estudiantes universitarios a terminar su carrera, 
-                                                    a insertarse en el mundo laboral y profesional con los nuevos 
-                                                    paradigmas del entorno organizacional, poniendo a su alcance 
-                                                    herramientas para potenciar sus fortalezas y el desarrollo de los talentos.
+                                                    Guiamos a adolescentes y jóvenes a descubrir sus áreas de competencia 
+                                                    y a conectarse con ese oficio o carrera que lo acerque a su propósito de vida.
                                                 </p>
                                                 <p className="mbr-fonts-style panel-text display-77">
-                                                    Ayudamos a adultos a redescubrir sus áreas de competencia y reinventarse en
-                                                    su desempeño laboral, ofreciendo herramientas para emprender con éxito.
+                                                    Acompañamos a estudiantes universitarios a terminar su carrera, 
+                                                    a insertarse en el mundo laboral y profesional con los nuevos paradigmas 
+                                                    del entorno organizacional, poniendo a su alcance herramientas para potenciar 
+                                                    sus fortalezas y el desarrollo de los talentos.
+                                                </p>
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    Ayudamos a adultos a redescubrir sus áreas de competencia 
+                                                    y reinventarse en su desempeño laboral, ofreciendo herramientas 
+                                                    para emprender con éxito.
                                                 </p>
                                             </div>
                                         </div>
@@ -71,7 +83,7 @@ const HomeServices = () => {
                                                 aria-controls="collapse2">
                                                 <h5 className="mbr-fonts-style display-55">
                                                     <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>
-                                                    Lideres
+                                                    Líderes y Organizaciones
                                                 </h5>
                                             </a>
                                         </div>
@@ -79,11 +91,15 @@ const HomeServices = () => {
                                             aria-labelledby="headingTwo" data-parent="#service-accordion_">
                                             <div className="panel-body">
                                                 <p className="mbr-fonts-style panel-text display-77">
-                                                    Impulsamos a equipos docentes y a estudiantes de profesorados 
-                                                    a desarrollar habilidades de liderazgo efectivo para el aula 
-                                                    y para los equipos de conducción escolar, brindamos herramientas 
-                                                    de educación emocional para la mejora del clima escolar.
+                                                    Acompañamos a líderes de instituciones y organizaciones públicas y privadas a realizar procesos de transformación hacia un liderazgo efectivo, potenciando sus talentos para el logro de objetivos personales y organizacionales.
                                                 </p>
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    Guiamos procesos de consolidación y fortalecimiento de equipos de trabajo para mejorar el clima laboral y enfrentar los desafíos que se presentan.
+                                                </p>
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    Nos especializamos en Instituciones educativas y pequeñas organizaciones, como por ejemplo estudios contables, locales de venta de productos o servicios, etc. impulsando la mejora de las relaciones humanas y ayudamos a trabajar los desafíos colectivos, los procesos de transformación cultural, la definición de la misión, visión y valores y el desarrollo de una planificación estratégica.
+                                                </p>
+    
                                             </div>
                                         </div>
                                     </div>
@@ -107,8 +123,7 @@ const HomeServices = () => {
                                                     inteligencia emocional, fortaleciendo los vínculos familiares.
                                                 </p>
                                                 <p className="mbr-fonts-style panel-text display-77">
-                                                    Guiamos procesos de aprendizaje para cualquier persona interesada 
-                                                    en adquirir herramientas para mejorar su comunicación con otras personas.
+                                                    Vivimos en un mundo hiperconectado e hiperinformado. En base a esta dinámica del mundo actual, guiamos procesos de aprendizaje para cualquier persona interesada en adquirir herramientas para mejorar su comunicación con sus estudiantes y sus pares.
                                                 </p>
                                             </div>
                                         </div>
@@ -120,7 +135,7 @@ const HomeServices = () => {
                                                 aria-controls="collapse4">
                                                 <h5 className="mbr-fonts-style display-55">
                                                     <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>
-                                                    Equipos de Trabajo
+                                                    Emprendedores
                                                 </h5>
                                             </a>
                                         </div>
@@ -128,21 +143,16 @@ const HomeServices = () => {
                                             aria-labelledby="headingFour" data-parent="#service-accordion_">
                                             <div className="panel-body">
                                                 <p className="mbr-fonts-style panel-text display-77">
-                                                    Acompañamos a líderes de instituciones y organizaciones 
-                                                    públicas y privadas a realizar procesos de transformación 
-                                                    hacia un liderazgo efectivo, potenciando sus talentos para 
-                                                    el logro de objetivos personales y organizacionales.
+                                                    Ésta modalidad está dirigida a emprendedores y emprendedoras, equipos de venta, pymes.
                                                 </p>
                                                 <p className="mbr-fonts-style panel-text display-77">
-                                                    Guiamos procesos de consolidación y fortalecimiento de equipos 
-                                                    de trabajo para mejorar el clima laboral y enfrentar los desafíos 
-                                                    que se presentan.
+                                                    Consiste en adquirir de herramientas concretas y prácticas para emprender online. 
                                                 </p>
                                                 <p className="mbr-fonts-style panel-text display-77">
-                                                    Impulsamos la mejora de las relaciones entre los distintos componentes 
-                                                    de un sistema organizacional y  ayudamos a trabajar los desafíos colectivos, 
-                                                    los procesos de transformación cultural, la definición de la misión, visión y 
-                                                    valores de la organización o institución y el desarrollo de una  planificación estratégica.
+                                                    En la actualidad, las ventas de productos y servicios online, ponen la mirada en un público objetivo global. Vender ya no alcanza con la aplicación de una técnica , sino que es necesario conocer los procesos de decisión de compra de nuestro público objetivo. 
+                                                </p>
+                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    El Coaching para hombres y mujeres emprendedoras facilita tu camino al éxito en las ventas a través de   un proyecto estratégico que te permitirá alcanzar los objetivos, y te ayudará a vender más y mejor. 
                                                 </p>
                                             </div>
                                         </div>
