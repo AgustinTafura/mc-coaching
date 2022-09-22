@@ -15,15 +15,13 @@ const HomeParallax = () => {
                     <div className="mbr-black col-md-12 col-lg-8">
                         <h1 className="mbr-section-title mbr-bold mbr-white pb-2 mbr-fonts-style display-11">
                             Coaching
-                            Integral
+                            y Educación Integral
                         </h1>
                         <p className="mbr-text pb-4 mbr-white mbr-regular mbr-fonts-style display-77">
                             Somos una organización independiente especializada en el desarrollo personal e integral del Ser Humano.
                             <br />
-                            {/* Ofrecemos servicios de Coaching de Vida ( Life Coaching ), Coaching Vocacional, Coaching Educativo, 
-                            Coaching y Liderazgo efectivo. */}
-                            Nos centramos en <strong>Educación Neuroemocional</strong>  como área transversal 
-                            para aprender a gestionar y regular emociones, potenciar la comunicación 
+                            Nos centramos en  la importancia de la <strong>Educación Emocional</strong>  como área transversal 
+                            para aprender a regular emociones, potenciar la comunicación 
                             y mejorar los vínculos intra e interpersonales en todos los ámbitos de desempeño de las personas.
                         </p>
                         <div className="mbr-section-btn">
