@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFemale, faMale, faGraduationCap, faChild, faBriefcase, faHandsHoldingChild } from '@fortawesome/free-solid-svg-icons'
+import { faFemale, faMale, faRocket, faChild, faLightbulb, faGem } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 
 const HomeServices = () => {
@@ -299,29 +299,60 @@ const HomeServices = () => {
                         <div className="item card1 p-3 col-12 col-md-7 col-lg-4">
                             <div className="card-wrapper">
                                 <span className="mbr-iconfont mobi-mbri-user mobi-mbri">
-                                    <FontAwesomeIcon icon={faGraduationCap} size="1x" color='white'/>
+                                    <FontAwesomeIcon icon={faRocket} size="1x" color='white'/>
                                 </span>
                                 <div className="card-box">
-                                    <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Estudiantes</h4>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Guiamos a adolescentes y jóvenes
-                                        a descubrir sus áreas de competencia y a conectarse con ese oficio o carrera que lo acerque a su 
-                                        propósito de vida.
-                                    </p>
+                                    <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Misión</h4>
+                                    <ul>
+                                        <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
+                                            Propiciar una nueva forma de educación que se ajuste a las necesidades actuales que requiere la universidad y el mundo laboral no sólo a nivel regional sino también a nivel global
+                                        </p>
+                                        <div className="card-title" data-bs-toggle="collapse" data-bs-target="#misionCollapse1" aria-expanded="false" aria-controls="misionCollapse1">
+                                            <a>FACILITAR</a>
+                                        </div>
+                                        <p id='misionCollapse1' className='card-text mbr-regular collapse'>
+                                            El desarrollo de las habilidades blandas a toda persona interesada en realizar un  proceso de autoconocimiento personal ,  descubrir su propósito de vida y orientar sus objetivos a los resultados que desea obtener en su vida personal, laboral o profesional.
+                                        </p>
+                                        <div className="card-title" data-bs-toggle="collapse" data-bs-target="#misionCollapse2" aria-expanded="false" aria-controls="misionCollapse2">
+                                            <a>INSPIRAR</a>
+                                        </div>
+                                        <p id='misionCollapse2' className='card-text mbr-regular collapse'>
+                                            A  otros a conectarse con su mejor versión para el logro de sus objetivos y metas. 
+                                        </p>
+                                        <div className="card-title" data-bs-toggle="collapse" data-bs-target="#misionCollapse3" aria-expanded="false" aria-controls="misionCollapse3">
+                                            <a>AYUDAR</a>
+                                        </div>
+                                        <p id='misionCollapse3' className='card-text mbr-regular collapse'>
+                                            A otras personas a mejorar su vida a través de una mirada distinta, para alcanzar una transformación personal.
+                                        </p>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div className="item card2 p-3 col-12 col-md-7 col-lg-4">
                             <div className="card-wrapper">
                                 <span className="mbr-iconfont mobi-mbri-sad-face mobi-mbri">
-                                    <FontAwesomeIcon icon={faBriefcase} size="1x" color='white'/>
+                                    <FontAwesomeIcon icon={faLightbulb} size="1x" color='white'/>
                                 </span>
                                 <div className="card-box">
-                                    <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Profesionales</h4>
+                                    <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Visión</h4>
                                     <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
-                                    Acompañamos a líderes de instituciones y organizaciones públicas y privadas
-                                    a realizar procesos de transformación hacia un liderazgo efectivo, 
-                                    potenciando sus talentos para el logro de objetivos personales y organizacionales.
+                                    Buscamos formar y educar a aquéllas personas interesadas en iniciar procesos de autoconocimiento y desarrollo personal, a través de contenido neurosicoeducativo y de herramientas de Coaching.
                                     </p>
+                                    <div className='card-text'>
+                                        <Link href="#misionCollapse">
+                                            <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="misionCollapse" style={{fontWeight: "500",marginTop: "1rem"}} className= 'card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55'>+</a>
+                                        </Link>
+                                    </div>
+                                    <div id='misionCollapse' className="card-text mbr-regular mbr-black mbr-fonts-style display-77 collapse">
+                                        <p>
+                                            Impulsamos a adolescentes y jóvenes a descubrir su verdadera vocación y a conectarse con ese oficio o carrera que lo acerque a su propósito de vida. 
+                                        </p>
+                                        <p>
+                                            Procuramos la excelencia y nos proyectamos para construir un futuro mejor. 
+                                            Contribuimos a través de la Educación emocional, a generar relaciones colaborativas  y a crear contextos más humanos, más resilientes.
+                                        </p>
+                                    </div>
                                 </div>
 
                             </div>
@@ -330,16 +361,19 @@ const HomeServices = () => {
                             <div className="card-wrapper">
                                 <span className="mbr-iconfont mobi-mbri-users mobi-mbri">
                                     
-                                    <FontAwesomeIcon icon={faHandsHoldingChild} size="1x" color='white'/>
+                                    <FontAwesomeIcon icon={faGem} size="1x" color='white'/>
                                 </span>
                                 <div className="card-box">
-                                    <h4 className="card-title  mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Familia
+                                    <h4 className="card-title  mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Valores
                                     </h4>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
-                                        Ayudamos a  madres y padres  interesados  en comprender mejor a sus hijos 
-                                        y acompañarlos en el desarrollo de su inteligencia emocional, fortaleciendo 
-                                        los vínculos familiares.
-                                    </p>
+                                    <ul>
+                                        <li className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Experiencia</li>
+                                        <li className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Confianza</li>
+                                        <li className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Confidencialidad y reserva profesional</li>
+                                        <li className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Pasión por lo que hacemos</li>
+                                        <li className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Formación permanente</li>
+                                    </ul>
+                                    
                                 </div>
 
                             </div>
