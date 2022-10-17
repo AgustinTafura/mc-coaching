@@ -27,28 +27,23 @@ const Me = () => {
                                     <br/>
                                 </p>
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    Desde que era una niña supe que me dedicaría a la educación. 
-                                    Apenas tenía 7 años cuando 
-                                    invitaba a mis compañeras de la escuela a jugar, y las esperaba con una 
-                                    pequeña pizarra con patas que me había regalado mi madre, para darles 
-                                    clases en el jardín de mi casa.
-                                    <br/></p>
+                                Desde que era una niña supe que me dedicaría a la educación. Apenas tenía 7 años cuando les daba clases a mis amigas del colegio con una pequeña pizarra . A los 13 años de edad, ya tenía mis primeros alumnos.
+                                <br/></p>
                             </div>
                         </div>
                         <div className="mbr-black col-md-12 col-lg-4">
                             <div className="content align-left mbr-white">
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    Me formé como docente de educación primaria y como profesora en idioma inglés, 
-                                    y trabajé con niños, adolescentes y adultos por más de 25 años. Desde 2012, me 
-                                    desempeñé en un rol directivo del nivel secundario , en una Institución educativa.
+                                Me formé como docente de educación primaria y como profesora en idioma inglés, y trabajé con niños, adolescentes y adultos por casi 30 años. 
                                 </p>
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    Ese tiempo fue mi verdadero maestro. Aprendí a conectarme más conmigo, redescubrí 
-                                    que mi propósito de vida no se limitaba sólo a la enseñanza, sino a poder ayudar a 
-                                    otras personas a encontrar y potenciar sus fortalezas, a compartir herramientas que 
-                                    voy incorporando en mi formación continua para que encuentren la mejor versión de sí 
-                                    mismos, como yo lo hice y continúo haciendo.
+                                    Desde 2012, me desempeñé como líder en un equipo directivo en el nivel secundario , en  una Institución educativa de mi localidad.
+                                    Por cuestiones de la vida, en 2015, experimenté una situación de exceso de estrés que me llevó a correrme del ámbito laboral por un año.
                                 </p>
+                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
+                                    Ese tiempo fue mi verdadero maestro. Aprendí a conectarme más conmigo, a ver la vida y a observarme con otros anteojos.
+                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -60,35 +55,34 @@ const Me = () => {
                     <div className="row justify-content-center">
                     <div className="mbr-black col-md-12 col-lg-4" style={{alignSelf: 'center'}}>
                             <div className="content align-center mbr-white">
-                                <q className="mbr-text quote pb-3 mbr-regular mbr-fonts-style display-55 display-5">
-                                    Emprendé tu cambio
+                                <q className="mbr-text quote pb-5 mbr-regular mbr-fonts-style display-55 display-5 d-inline-block">
+                                    Emprendé tu transformación
                                 </q>
-                            </div>
-                        </div>
-                        <div className="mbr-black col-md-12 col-lg-4">
-                            <div className="content align-left mbr-white">
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    Hoy tengo una nueva vida.<br/> Mi segunda vida.
+                                    La idea de la formación permanente,<br/> está en mi ADN.
                                 </p>
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    Observo desde otro punto 
-                                    de vista, mi mirada se amplía y mi corazón se expande, porque en cada 
-                                    Coachee, en cada aprendiz, en cada “otro” , hay un corazón que late, 
-                                    hay un cerebro emocional que busca expresarse y un ser humano que busca 
-                                    el crecimiento personal.
                                 </p>
                             </div>
                         </div>
                         <div className="mbr-black col-md-12 col-lg-4">
                             <div className="content align-left mbr-white">
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    Cada día trabajo fuerte en mi desarrollo personal , porque eso me 
-                                    prepara y me mejora para hacer algo que amo con mi alma: inspirar 
-                                    a personas como vos, a generar cambios positivos y a potenciar el 
-                                    talento colectivo.
+                                    Soy una Geminiana curiosa y me llevo bastante bien con la incertidumbre.
                                 </p>
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    Por eso, el slogan de mi marca es la misma esencia que habita en todo mi <i>SER</i>.
+                                    En mi formación como Life Coach, pude descubrir que mi propósito de vida se ampliaba en cuanto  poder ayudar a otras personas a autoconocerse y potenciar sus fortalezas, a compartir herramientas para que encuentren la mejor versión de sí mismos.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="mbr-black col-md-12 col-lg-4">
+                            <div className="content align-left mbr-white">
+                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
+                                    Me formé además como Neurosicoeducadora e hice una especialización en Coaching Vocacional y un posgrado universitario en Liderazgo y Coaching. 
+                                    Me apasiona aprender y hacer. Amo las transformaciones y salir de mi zona de confort. Nunca le tuve miedo a los cambios. 
+                                </p>
+                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
+                                    La pandemia y la situación de “quedarse en casa” me abrió la posibilidades de desarrollarme en la modalidad online. 
                                 </p>
                             </div>
                         </div>
@@ -105,30 +99,23 @@ const Me = () => {
                                 <h3 className="mbr-section-subtitle mbr-regular mbr-fonts-style display-44">NUEVO INICIO</h3>
                                 <h2 className="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-22">Coaching</h2>
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    En 2018 me formé como <b>Life Coach</b> y en 2019 abrí mi consultorio presencial 
-                                    y online de <b>Coaching</b>. La pandemia y la situación de “quedarse en casa” me 
-                                    abrió la posibilidades de desarrollarme ampliamente en el formato de sesiones online.
+                                    Hoy, mi mirada se amplía y mi corazón se expande, porque en cada Coachee, en cada “otro” , hay un corazón que late, hay un cerebro emocional que busca expresarse y un ser humano que busca vivir una vida con mayor bienestar.
                                 </p>
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    Me formé como Neurosicoeducadora y Especialista en Coaching Vocacional. 
-                                    Brindo Sesiones individuales de Coaching para la vida , y también oriento 
-                                    a los jóvenes en Coaching Vocacional, a elegir su carrera, su profesión, o 
-                                    su oficio al salir de la secundaria.
+                                    Cada día trabajo fuerte en mi desarrollo personal, porque eso me sigue preparando para hacer algo que amo con mi alma: <b>inspirar a personas como vos, a generar cambios positivos y a potenciar el talento colectivo.</b>
                                 </p>
                             </div>
                         </div>
                         <div className="mbr-black col-md-6 col-lg-4">
                             <div className="content align-left mbr-white">
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    Lidero talleres de Coaching y Mindfulness Meditation y coordino 
-                                    grupos Mastermind. Como Líder Coach, ofrezco consultorías a instituciones 
-                                    educativas y otras organizaciones del ámbito público y privado.
+                                    Por eso, el slogan de mi marca es la misma esencia que habita en todo mi <i>SER</i>.
                                 </p>
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    Mi formación como Especialista en Liderazgo y Coaching y mi experiencia 
-                                    en liderazgo educativo, me permiten capacitar a otros líderes, mandos medios 
-                                    y a los equipos de trabajo, para resolver situaciones de conflicto y gestión 
-                                    emocional que propicien un ambiente laboral óptimo y el alcance de los objetivos.
+                                    Actualmente brindo Sesiones individuales y grupales de Coaching ; lidero talleres de Coaching y Mindfulness Meditation y coordino grupos Mastermind.
+                                </p>
+                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
+                                Como Líder Coach, ofrezco consultorías a instituciones educativas y a pequeñas organizaciones del ámbito público y privado.
                                 </p>
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 ">
                                         Te invito a navegar el sitio y a conocer más sobre nuestros <Link href='/servicios'><a  className='text-black-50'>SERVICIOS</a></Link>.
