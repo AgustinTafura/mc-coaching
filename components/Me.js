@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import MyPic from '../public/img/me3b.png'
+import MyPic from '../public/img/meblack.jpg'
 import SectionInfo from './SectionInfo'
 
 const Me = () => {
@@ -11,7 +11,7 @@ const Me = () => {
             <section className="content1 cid-rT0geqYDWl" id="content1-43">
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="img-col col-12 md-pb col-md-6 align-center col-lg-4">
+                        <div className="img-col col-12 md-pb col-md-6 align-center col-lg-4" width='80%'>
                             <Image src={MyPic} alt="Mobirise"/>
                         </div>
                         <div className="mbr-black col-md-6 col-lg-4">
