@@ -1,52 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
+import { sections } from '../data'
 
 const Navbar = () => {
-
-  const sections = [
-    {
-      name:'conoceme',
-      link: '/conoceme',
-      list:[]
-    },
-    {
-      name:'servicios',
-      link: '/servicios',
-      list:[
-        {
-          name:'life coaching',
-          link: 'life-coaching'
-        },
-        {
-          name:'coaching vocacional',
-          link: 'coaching-vocacional'
-        },
-        {
-          name:'coaching educativo',
-          link: 'coaching-educativo'
-        },
-        {
-          name:'liderazgo efectivo',
-          link: 'liderazgo-efectivo'
-        },
-        {
-          name:'educacion neuroemocional',
-          link: 'educacion-neuroemocional'
-        },
-      ]
-    },
-    {
-      name:'agendar cita',
-      link: '/agenda',
-      list:[]
-    },
-    {
-      name:'contacto',
-      link: '/contacto',
-      list:[]
-    },
-  ]
 
   return (
       <nav className="cid-rSVu0x0NuJ navbar nav navbar-expand-lg navbar-light bg-white shadow-sm p-0 mb-5 bg-body fixed-top opened">
