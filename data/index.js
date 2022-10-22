@@ -11,8 +11,8 @@ module.exports = {
       link: '/servicios',
       list:[
         {
-          name:'life coaching',
-          link: 'life-coaching'
+          name:'coaching personal',
+          link: 'coaching-personal'
         },
         {
           name:'coaching vocacional',
@@ -27,8 +27,8 @@ module.exports = {
           link: 'liderazgo-efectivo'
         },
         {
-          name:'educacion neuroemocional',
-          link: 'educacion-neuroemocional'
+          name:'coaching emprendedores',
+          link: 'coaching-emprendedores'
         },
       ]
     },

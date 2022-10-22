@@ -12,7 +12,7 @@ const Me = () => {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="img-col col-12 md-pb col-md-6 align-center col-lg-4" width='80%'>
-                            <Image src={MyPic} alt="Mobirise"/>
+                            <img src="/img/meblack1.jpg" alt="Mobirise"/>
                         </div>
                         <div className="mbr-black col-md-6 col-lg-4">
                             <div className="content align-left mbr-white">

@@ -18,11 +18,15 @@ const HomeServices = () => {
                                 <h3
                                     className="mbr-section-title align-left mbr-bold mbr-white pb-2 mbr-fonts-style display-22">
                                     Cómo lo hacemos</h3>
-                            <div className="mbr-black col-md-12 md-pb col-lg-6">
-                                <p className="mbr-text mbr-white align-left mbr-regular mbr-fonts-style display-77">
-                                    Marcela Caputo Coaching ofrece los servicios de: 
+                            <div className="align-content-between col-lg-6 col-md-12 d-lg-flex flex-wrap mbr-black md-pb" style={{maxHeight: "310.85px"}}>
+                                <p className="mbr-text mbr-white align-left mbr-regular mbr-fonts-style display-77 mt-3" style={{lineHeight:"1.8"}}>
+                                    Marcela Caputo Coaching ofrece los servicios de Coaching personal,
+                                    a través de la disciplinas del Life Coaching y el Coaching Ontológico, 
+                                    sumando los aportes de la Programación Neurolingüística (P.N.L.) y 
+                                    la inteligencia emocional para la comunicación efectiva; Coaching Vocacional; 
+                                    Coaching Educativo, Liderazgo Efectivo; Coaching para emprendedores. 
                                 </p>
-                                <ul className="mbr-text pb-4 mbr-white align-left mbr-regular mbr-fonts-style display-77">
+                                {/* <ul className="mbr-text pb-4 mbr-white align-left mbr-regular mbr-fonts-style display-77">
                                     <li className='pb-2'>
                                         <b>Coaching Personal</b><br/> A través de la disciplinas 
                                         del Life Coaching y el Coaching Ontológico, sumando los aportes de la Programación Neurolingüística 
@@ -32,9 +36,7 @@ const HomeServices = () => {
                                     <li className='pb-2'><b>Coaching Educativo</b></li>
                                     <li className='pb-2'><b>Liderazgo Efectivo</b></li>
                                     <li className='pb-2'><b>Coaching para emprendedores</b></li>
-                                </ul>
-
-
+                                </ul> */}
                                 <div className="mbr-section-btn">
                                     <Link href="#servicios">
                                         <a className="btn btn-md btn-primary display-44" >VER MÁS</a>
@@ -157,8 +159,6 @@ const HomeServices = () => {
                                             </div>
                                         </div>
                                     </div>
-
-
                                 </div>
                             </div>
                         </div>
@@ -182,7 +182,7 @@ const HomeServices = () => {
                                     <a >
                                         <div className="card-wrapper">
                                             <div className="img-wrapper">
-                                                <img className="img-big" src="/img/services/life-coaching/1.jpg" alt="Marcela Caputo - Coaching"/>
+                                                <img className="img-big" src="/img/services/life-coaching/1.jpg" alt="Marcela Caputo - Coaching life coaching"/>
                                                 <div className="text-wrap">
                                                     <h4
                                                         className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
@@ -207,7 +207,7 @@ const HomeServices = () => {
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <img src="/img/services/liderazgo-efectivo/0.png" alt="Marcela Caputo - Coaching"/>
+                                                    <img src="/img/services/liderazgo-efectivo/0.png" alt="Marcela Caputo - Coaching liderazgo efectivo"/>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
@@ -228,7 +228,7 @@ const HomeServices = () => {
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <img src="/img/services/coaching-educativo/0.jpg" alt="Marcela Caputo - Coaching"/>
+                                                    <img src="/img/services/coaching-educativo/0.jpg" alt="Marcela Caputo - Coaching coaching educativo"/>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
@@ -249,7 +249,7 @@ const HomeServices = () => {
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <img src="/img/services/coaching-vocacional/0.jpg" alt="Marcela Caputo - Coaching"/>
+                                                    <img src="/img/services/coaching-vocacional/0.jpg" alt="Marcela Caputo - Coaching coaching vocacional"/>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
@@ -272,7 +272,7 @@ const HomeServices = () => {
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <img src="/img/services/educacion-neuroemocional/0.png" alt="Marcela Caputo - Coaching"/>
+                                                    <img src="/img/services/educacion-neuroemocional/0.png" alt="Marcela Caputo - Coaching educacion neuroemocional"/>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
