@@ -6,6 +6,7 @@ import { useRouter } from "next/router"
 import { sections } from '../data'
 
 const LayoutServices = ({ children, ...pageProps }) => {
+    const {customColor} = pageProps
     const router = useRouter()
     const {asPath} = router
     const urlTitle = asPath.split('/')[2].replace("-", " ")
@@ -30,7 +31,7 @@ const LayoutServices = ({ children, ...pageProps }) => {
                                 <div className="mbr-black col-md-12 col-lg-12">
                                     
                                     <h1 className="mbr-section-title mbr-bold mbr-white pb-2 mbr-fonts-style display-11 text-capitalize">
-                                        <span>
+                                        <span style={{backgroundColor: customColor ?? ''}}>
                                             &nbsp;{service.name.split(' ')[0]}&nbsp;
                                             <br/>
                                             &nbsp;{service.name.split(' ')[1]}&nbsp;
