@@ -1,15 +1,11 @@
 
 import { useState } from "react";
-import { useRouter } from "next/router";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faUser, faUserGraduate, faUserTie, faRocket, faLightbulb} from '@fortawesome/free-solid-svg-icons'
 import LayoutServices from "../../components/LayoutServices";
 import Link from "next/link";
 
 const CoachingVocacional = (props) => {
-    const router = useRouter()
-    const query = router.query
-    const service = query.service
     const [collapsed, setCollapsed] = useState(true)
 
     return (
