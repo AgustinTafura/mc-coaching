@@ -178,11 +178,11 @@ const HomeServices = () => {
                     <div className="row justify-content-center">
                         <div className="col-md-12 col-big col-lg-6">
                             <div className="card p-3 col-12 col-md-12 col-lg-12">
-                                <Link href="/servicios/life-coaching">
+                                <Link href="/servicios/coaching-personal">
                                     <a >
                                         <div className="card-wrapper">
                                             <div className="img-wrapper">
-                                                <img className="img-big" src="/img/services/life-coaching/1.jpg" alt="Marcela Caputo - Coaching life coaching"/>
+                                                <img className="img-big" src="/img/services/coaching-personal/1.jpg" alt="Marcela Caputo - Coaching life coaching"/>
                                                 <div className="text-wrap">
                                                     <h4
                                                         className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">

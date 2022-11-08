@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="align-wrap">
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <Link href="/servicios/life-Coaching">
+                <Link href="/servicios/coaching-personal">
                   <a className="icon-title mbr-regular mbr-fonts-style display-44">Life Coaching</a>
                 </Link>
               </div>

@@ -13,6 +13,8 @@ module.exports = {
         {
           name:'coaching personal',
           link: 'coaching-personal',
+          img:'/img/services/coaching-personal/0.jpg',
+          description: 'El Coaching Personal es un proceso personalizado y confidencial, orientado en ayudar al Coachee a alcanzar resultados mejores en diferentes áreas de su vida personal o profesional.',
         },
         {
           name:'coaching vocacional',

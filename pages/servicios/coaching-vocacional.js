@@ -184,7 +184,7 @@ const CoachingVocacional = (props) => {
                                     <div className="row justify-content-center">
                                         <div className="col-md-12 col-lg-8">
                                             <h4 style={{color: 'var(--bs-secondary)'}} className="mbr-section-subtitle mbr-regular align-center mbr-fonts-style display-44">¿QUÉ SON?</h4>
-                                            <h3 className="pt-3 br-title align-left align-center mbr-semibold pb-3 mbr-fonts-style display-22">HABILIDADES BLANDAS</h3>
+                                            <h3 className="pt-3 br-title align-left align-center mbr-semibold pb-3 mbr-fonts-style display-22" style={{color: 'var(--bs-secondary)'}}>HABILIDADES BLANDAS</h3>
                                             <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
                                                 Comprenden las habilidades socioemocionales, de comunicación, lenguaje y hábitos que moldean y favorecen los vínculos que establecemos con otras personas. En el ámbito laboral , se refieren a la capacidad para interactuar de manera eficaz y efectiva con jefes, colegas , pares y clientes.
                                                 <br/><br/>
