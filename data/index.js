@@ -19,7 +19,7 @@ module.exports = {
         {
           name:'coaching vocacional',
           link: 'coaching-vocacional',
-          img:'/img/services/coaching-vocacional/1.jpg',
+          img:'/img/services/coaching-vocacional/0.jpg',
           description: 'El Coaching Vocacional es un proceso de acompañamiento integral a través del cual acompañamos a adolescentes, jóvenes universitarios y adultos',
         },
         {

@@ -182,7 +182,9 @@ const HomeServices = () => {
                                     <a >
                                         <div className="card-wrapper">
                                             <div className="img-wrapper">
-                                                <img className="img-big" src="/img/services/coaching-personal/1.jpg" alt="Marcela Caputo - Coaching life coaching"/>
+                                                <pinture>
+                                                    <img className="img-big" src="/img/services/coaching-personal/1.jpg" alt="Marcela Caputo - Coaching life coaching"/>
+                                                </pinture>
                                                 <div className="text-wrap">
                                                     <h4
                                                         className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
@@ -207,7 +209,9 @@ const HomeServices = () => {
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <img src="/img/services/liderazgo-efectivo/0.png" alt="Marcela Caputo - Coaching liderazgo efectivo"/>
+                                                    <pinture>
+                                                        <img src="/img/services/liderazgo-efectivo/0.png" alt="Marcela Caputo - Coaching liderazgo efectivo"/>
+                                                    </pinture>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
@@ -228,7 +232,9 @@ const HomeServices = () => {
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <img src="/img/services/coaching-educativo/0.jpg" alt="Marcela Caputo - Coaching coaching educativo"/>
+                                                    <pinture>
+                                                        <img src="/img/services/coaching-educativo/0.jpg" alt="Marcela Caputo - Coaching coaching educativo"/>
+                                                    </pinture>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
@@ -249,7 +255,9 @@ const HomeServices = () => {
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <img src="/img/services/coaching-vocacional/0.jpg" alt="Marcela Caputo - Coaching coaching vocacional"/>
+                                                    <pinture>
+                                                        <img src="/img/services/coaching-vocacional/0.jpg" alt="Marcela Caputo - Coaching coaching vocacional"/>
+                                                    </pinture>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
@@ -272,7 +280,9 @@ const HomeServices = () => {
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <img src="/img/services/educacion-neuroemocional/0.png" alt="Marcela Caputo - Coaching educacion neuroemocional"/>
+                                                    <pinture>
+                                                        <img src="/img/services/educacion-neuroemocional/0.png" alt="Marcela Caputo - Coaching educacion neuroemocional"/>
+                                                    </pinture>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
