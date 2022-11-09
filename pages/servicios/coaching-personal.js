@@ -85,7 +85,7 @@ const CoachingPersonal = (props) => {
                                 <br/><br/>
                                 Wayne Dyer expresaba en una de sus conferencias, lo siguiente:
                                 <br/>
-                                <q>Si tú cambias la forma en que ves las cosas, esas cosas que tú observas, cambiarán.” 
+                                <q style={{fontSize:' 1.3rem'}}>Si tú cambias la forma en que ves las cosas, esas cosas que tú observas, cambiarán.” 
                                 Por ello es que afirmamos que el cambio no está fuera de nosotros, sino dentro. 
                                 Y es en este sentido, en que el Coaching puede impulsarte a que logres esa transformación que estás&nbsp;buscando.</q>
                                 </p>

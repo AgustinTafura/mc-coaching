@@ -24,7 +24,10 @@ module.exports = {
         },
         {
           name:'coaching educativo',
-          link: 'coaching-educativo'
+          link: 'coaching-educativo',
+          img:'/img/services/coaching-educativo/1.jpg',
+          description: 'Es una disciplina moderna e innovadora, un recurso de acción concreta al servicio de los educadores, para acompañar a sus alumnos a  alcanzar la mejor versión de sí mismos, en cualquiera de los ámbitos de su vida educativa en la educación formal y no formal.',
+
         },
         {
           name:'liderazgo efectivo',
