@@ -31,7 +31,10 @@ module.exports = {
         },
         {
           name:'liderazgo efectivo',
-          link: 'liderazgo-efectivo'
+          link: 'liderazgo-efectivo',
+          img:'/img/services/liderazgo-efectivo/1.png',
+          description: 'Las empresas buscan perfiles integrales que posean competencias técnicas vinculadas a su área de especialización (habilidades duras), y por otro lado, habilidades blandas que les permitan adaptarse de la mejor manera a un entorno cambiante y vincularse mejor con sus superiores,  pares,  y/o equipos a cargo.',
+
         },
         {
           name:'coaching emprendedores',
