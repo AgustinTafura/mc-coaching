@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
                 <Link href="/servicios/coaching-personal">
-                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Life Coaching</a>
+                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Coaching Personal</a>
                 </Link>
               </div>
             </div>
@@ -61,8 +61,8 @@ const Footer = () => {
             </div>
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <Link href="/servicios/educación-neuroemocional">
-                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Educación neuroemocional</a>
+                <Link href="/servicios/coaching-emprendedores">
+                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Educación Emprendedores</a>
                 </Link>
               </div>
             </div>

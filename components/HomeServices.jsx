@@ -188,7 +188,7 @@ const HomeServices = () => {
                                                 <div className="text-wrap">
                                                     <h4
                                                         className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
-                                                        Life Coaching
+                                                        Coaching Personal
                                                     </h4>
                                                     <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
                                                         PERSONAL O PROFESIONAL
@@ -276,20 +276,20 @@ const HomeServices = () => {
 
 
                                 <div className="card p-3 col-12 col-md-6 col-lg-6">
-                                    <Link href="/servicios/educacion-neuroemocional">
+                                    <Link href="/servicios/coaching-emprendedores">
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
                                                     <pinture>
-                                                        <img src="/img/services/educacion-neuroemocional/0.png" alt="Marcela Caputo - Coaching educacion neuroemocional"/>
+                                                        <img src="/img/services/coaching-emprendedores/1.png" alt="Marcela Caputo - Coaching Emprendedores"/>
                                                     </pinture>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
-                                                            Educación Neuroemocional
+                                                            Coaching Emprededores
                                                         </h4>
                                                         <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
-                                                            INTELIGENCIA EMOCIONAL
+                                                            AUTOLIDERAZGO
                                                         </h5>
                                                     </div>
                                                 </div>

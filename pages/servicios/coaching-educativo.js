@@ -275,7 +275,7 @@ const CoachingEducativo = (props) => {
 
                     </div>
                 </div>
-                </div>
+            </div>
         </LayoutServices>
     )
 }
