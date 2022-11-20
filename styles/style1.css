@@ -933,7 +933,8 @@ body {
 
 .mbr-section-title {
   font-style: normal;
-  line-height: 1.3; }
+  /* line-height: 1.3;  */
+}
 
 .mbr-section-subtitle {
   letter-spacing: 0.2rem; 

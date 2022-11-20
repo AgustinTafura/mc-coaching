@@ -13,25 +13,18 @@ const HomeParallax = () => {
             <div className="container align-center">
                 <div className="row justify-content-center">
                     <div className="mbr-black col-md-12 col-lg-8">
-                        <h1 className="mbr-section-title mbr-bold mbr-white pb-2 mbr-fonts-style display-11">
-                            Coaching
-                            y Educación Integral
+                        <h1 className="mbr-section-title mbr-bold mbr-white mbr-fonts-style display-11">
+                            Coaching y Educación Integral
                         </h1>
-                        <p className="mbr-text pb-4 mbr-white mbr-regular mbr-fonts-style display-77">
-                            Somos una organización independiente especializada en el desarrollo personal e integral del Ser Humano.
-                            <br />
-                            Nos centramos en  la importancia de la <strong>Educación Emocional</strong>  como área transversal 
-                            para aprender a regular emociones, potenciar la comunicación 
-                            y mejorar los vínculos intra e interpersonales en todos los ámbitos de desempeño de las personas.
+                        <h3 className="mbr-section-title mbr-bold mbr-white pb-4 mbr-fonts-style display-11" style={{fontSize: '1.8rem'}}>
+                            para el desarrollo personal y&nbsp;profesional
+                        </h3>
+                        <p className="pb-4 mbr-white mbr-regular mbr-fonts-style display-77">
+                            Somos una organización independiente especializada en potenciar el crecimiento Integral del Ser Humano. Nos centramos 
+                            en el desarrollo de  las <b>Habilidades Blandas</b>, la  <b>Inteligencia Emocional</b> y la <b>Comunicación Efectiva</b> como áreas transversales 
+                            para aprender nuevos hábitos, regular emociones y  mejorar los vínculos interpersonales en todos los ámbitos de desempeño de 
+                            las&nbsp;personas.
                         </p>
-                        <div className="mbr-section-btn">
-                            <Link className="btn btn-md btn-white display-44" href="/">
-                                <a>SABER MAS</a>
-                            </Link>
-                            <Link className="btn btn-md btn-primary display-44" href="/">
-                                <a>AGENDAR CITA</a>
-                            </Link>
-                        </div>
                     </div>
                 </div>
             </div>
