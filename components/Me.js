@@ -52,7 +52,7 @@ const Me = () => {
                 </div>
             </section>
 
-            <section className="content4 cid-rT0gf02Oxu" id="content4-46" style={{background: "#f6f3ee"}}>
+            <section className="content4 cid-rT0gf02Oxu" id="content4-46" style={{background: "#9e9e9e0f"}}>
                 <div className="container">
                     <div className="row justify-content-center">
                     <div className="mbr-black col-md-12 col-lg-4" style={{alignSelf: 'center'}}>

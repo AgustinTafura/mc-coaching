@@ -22,7 +22,7 @@ const ContactBubble = () => {
     }
   }, [])
   
-    const contactphone = 5492244445189
+    const contactphone = 5492244408516
 
   return (
     <Link id="contactBubble" className='' style={{transition: "opacity 0.8s", opacity}}

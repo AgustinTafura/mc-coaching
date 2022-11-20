@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
 import { ParallaxProvider } from 'react-scroll-parallax'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -18,13 +18,16 @@ import '../styles/spinner.scss'
 
 function MyApp({ Component, pageProps }) {
 
+  const [firstEnter, setFirstEnter] = useState(true)
+
   useEffect(()=>{
     import("bootstrap/dist/js/bootstrap.js");
+
 },[])
 
   return (
     <ParallaxProvider>
-      <Component {...pageProps} />
+      <Component {...pageProps} firstEnter={firstEnter} setFirstEnter={setFirstEnter} />
     </ParallaxProvider>
   )
 }

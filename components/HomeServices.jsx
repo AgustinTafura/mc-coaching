@@ -239,7 +239,7 @@ const HomeServices = () => {
                         </div>
                         <div className="col-md-12 col-lg-12">
                             <div className="row justify-content-center">
-                                <div className="card p-3 col-12 col-md-6 col-lg-6">
+                                <div className="card p-3 col-12 col-lg-6">
                                     <Link href="/servicios/coaching-vocacional">
                                         <a >
                                             <div className="card-wrapper">
@@ -264,7 +264,7 @@ const HomeServices = () => {
 
 
 
-                                <div className="card p-3 col-12 col-md-6 col-lg-6">
+                                <div className="card p-3 col-12 col-lg-6">
                                     <Link href="/servicios/coaching-emprendedores">
                                         <a >
                                             <div className="card-wrapper">
@@ -338,14 +338,16 @@ const HomeServices = () => {
                                 <div className="card-box">
                                     <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Visión</h4>
                                     <p className="card-text mbr-regular">
-                                    Buscamos formar y educar a aquéllas personas interesadas en iniciar procesos de autoconocimiento y desarrollo personal, a través de contenido neurosicoeducativo y de herramientas de Coaching.
+                                    Procuramos la excelencia y nos proyectamos para construir un futuro&nbsp;mejor.
+                                    <br/><br/>
+                                    Contribuimos a través de la Educación emocional, a generar relaciones colaborativas y a crear contextos más humanos, más&nbsp;resilientes.
                                     </p>
                                     <div className='card-text'>
-                                        <Link href="#misionCollapse">
-                                            <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="misionCollapse" style={{fontWeight: "500",marginTop: "1rem"}} className= 'card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55'>+</a>
+                                        <Link href="#visionCollapse">
+                                            <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="visionCollapse" style={{fontWeight: "500",marginTop: "1rem"}} className= 'card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55'>+</a>
                                         </Link>
                                     </div>
-                                    <div id='misionCollapse' className="card-text mbr-regular collapse">
+                                    <div id='visionCollapse' className="card-text mbr-regular collapse">
                                         <p>
                                             Impulsamos a adolescentes y jóvenes a descubrir su verdadera vocación y a conectarse con ese oficio o carrera que lo acerque a su propósito de vida. 
                                         </p>
@@ -369,10 +371,10 @@ const HomeServices = () => {
                                     </h4>
                                     <ul>
                                         <li className="card-text mbr-regular">Experiencia</li>
-                                        <li className="card-text mbr-regular">Confianza</li>
-                                        <li className="card-text mbr-regular">Confidencialidad y reserva profesional</li>
-                                        <li className="card-text mbr-regular">Pasión por lo que hacemos</li>
+                                        <li className="card-text mbr-regular">Confianza y Seriedad</li>
+                                        <li className="card-text mbr-regular">Confidencialidad profesional</li>
                                         <li className="card-text mbr-regular">Formación permanente</li>
+                                        <li className="card-text mbr-regular">Pasión por lo que hacemos</li>
                                     </ul>
                                     
                                 </div>

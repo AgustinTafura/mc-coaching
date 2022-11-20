@@ -8,14 +8,14 @@ import HomeServices from '../components/HomeServices'
 import Frase from '../components/Frase'
 import { Spinner } from '../components/Spinner'
 
-const Index = () => {
-
-    const [loading, setLoading] = useState(true)
-
+const Index = ({...pageProps}) => {
+    const {firstEnter,setFirstEnter} = pageProps
+    const [loading, setLoading] = useState(true)    
     useEffect(() => {
-        
+        console.log(firstEnter)
         setTimeout(() => {
-            setLoading(false)
+            setLoading(false),
+            setFirstEnter(false)
         },  2500);
       
     
@@ -25,7 +25,7 @@ const Index = () => {
     }, [])
 
 
-    if (loading){
+    if (loading && firstEnter){
         return (
           <Spinner/>
         )
