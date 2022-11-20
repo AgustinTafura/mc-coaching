@@ -8,9 +8,9 @@ const HomeServices = () => {
         <>
 
 
-            <section className="accordion1 cid-rT0gfc1y8M" id="accordion1-47">
+            <section className="accordion1 cid-rT0gfc1y8M" id="accordion1-47" >
                 <div className="">
-                    <div className="wrapper">
+                    <div className="wrapper"  style={{background: "#9e9e9e0f"}}>
                         <div className="row">
 
                                 <h4 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style display-44">
@@ -18,25 +18,16 @@ const HomeServices = () => {
                                 <h3
                                     className="mbr-section-title align-left mbr-bold mbr-white pb-2 mbr-fonts-style display-22">
                                     Cómo lo hacemos</h3>
-                            <div className="align-content-between col-lg-6 col-md-12 d-lg-flex flex-wrap mbr-black md-pb" style={{maxHeight: "310.85px"}}>
+                            <div className="align-content-between col-lg-6 col-md-12 d-lg-flex flex-wrap mbr-black md-pb">
                                 <p className="mbr-text mbr-white align-left mbr-regular mbr-fonts-style display-77 mt-3" style={{lineHeight:"1.8"}}>
-                                    Marcela Caputo Coaching ofrece los servicios de Coaching personal,
-                                    a través de la disciplinas del Life Coaching y el Coaching Ontológico, 
-                                    sumando los aportes de la Programación Neurolingüística (P.N.L.) y 
-                                    la inteligencia emocional para la comunicación efectiva; Coaching Vocacional; 
-                                    Coaching Educativo, Liderazgo Efectivo; Coaching para emprendedores. 
+                                Ofrecemos una mirada INTEGRAL para cada uno de nuestros&nbsp;servicios.
+                                <br/>
+                                A través del Coaching, buscamos generar conciencia a través del autoconocimiento&nbsp;personal.
+                                <br/>
+                                A través de la Educación, nos enfocamos en el desarrollo de las capacidades y las habilidades blandas, integrando las Inteligencias Múltiples y sumando los aportes de la Neurociencia cognitiva, en el marco de los nuevos paradigmas de educación que incorporan el saber hacer, al&nbsp;saber.
+                                <br/>
+                                Entendemos que un buen clima institucional, la convivencia, la emociones ,el aprendizaje y los estándares de alto desempeño, van de la&nbsp;mano.
                                 </p>
-                                {/* <ul className="mbr-text pb-4 mbr-white align-left mbr-regular mbr-fonts-style display-77">
-                                    <li className='pb-2'>
-                                        <b>Coaching Personal</b><br/> A través de la disciplinas 
-                                        del Life Coaching y el Coaching Ontológico, sumando los aportes de la Programación Neurolingüística 
-                                        (P.N.L.) y la inteligencia emocional para la comunicación efectiva;    
-                                    </li>
-                                    <li className='pb-2'><b>Coaching Vocacional</b></li>
-                                    <li className='pb-2'><b>Coaching Educativo</b></li>
-                                    <li className='pb-2'><b>Liderazgo Efectivo</b></li>
-                                    <li className='pb-2'><b>Coaching para emprendedores</b></li>
-                                </ul> */}
                                 <div className="mbr-section-btn">
                                     <Link href="#servicios">
                                         <a className="btn btn-md btn-primary display-44" >VER MÁS</a>
@@ -53,7 +44,7 @@ const HomeServices = () => {
                                                 data-core="" href="#collapse1_80" aria-expanded="false"
                                                 aria-controls="collapse1">
                                                 <h5 className="mbr-fonts-style display-55">
-                                                    <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>Jóvenes y Estudiantes
+                                                    <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>Adolescentes, Universitarios y Adultos
                                                 </h5>
                                             </a>
                                         </div>
@@ -63,14 +54,12 @@ const HomeServices = () => {
                                                 <p className="mbr-fonts-style panel-text display-77">
                                                     Guiamos a adolescentes y jóvenes a descubrir sus áreas de competencia 
                                                     y a conectarse con ese oficio o carrera que lo acerque a su propósito de vida.
-                                                </p>
-                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    <br/>
                                                     Acompañamos a estudiantes universitarios a terminar su carrera, 
                                                     a insertarse en el mundo laboral y profesional con los nuevos paradigmas 
                                                     del entorno organizacional, poniendo a su alcance herramientas para potenciar 
                                                     sus fortalezas y el desarrollo de los talentos.
-                                                </p>
-                                                <p className="mbr-fonts-style panel-text display-77">
+                                                    <br/>
                                                     Ayudamos a adultos a redescubrir sus áreas de competencia 
                                                     y reinventarse en su desempeño laboral, ofreciendo herramientas 
                                                     para emprender con éxito.
@@ -85,7 +74,7 @@ const HomeServices = () => {
                                                 aria-controls="collapse2">
                                                 <h5 className="mbr-fonts-style display-55">
                                                     <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>
-                                                    Líderes y Organizaciones
+                                                    Líderes e Instituciones Educativas
                                                 </h5>
                                             </a>
                                         </div>
@@ -93,13 +82,11 @@ const HomeServices = () => {
                                             aria-labelledby="headingTwo" data-parent="#service-accordion_">
                                             <div className="panel-body">
                                                 <p className="mbr-fonts-style panel-text display-77">
-                                                    Acompañamos a líderes de instituciones y organizaciones públicas y privadas a realizar procesos de transformación hacia un liderazgo efectivo, potenciando sus talentos para el logro de objetivos personales y organizacionales.
-                                                </p>
-                                                <p className="mbr-fonts-style panel-text display-77">
-                                                    Guiamos procesos de consolidación y fortalecimiento de equipos de trabajo para mejorar el clima laboral y enfrentar los desafíos que se presentan.
-                                                </p>
-                                                <p className="mbr-fonts-style panel-text display-77">
-                                                    Nos especializamos en Instituciones educativas y pequeñas organizaciones, como por ejemplo estudios contables, locales de venta de productos o servicios, etc. impulsando la mejora de las relaciones humanas y ayudamos a trabajar los desafíos colectivos, los procesos de transformación cultural, la definición de la misión, visión y valores y el desarrollo de una planificación estratégica.
+                                                    Acompañamos a líderes de <b>instituciones públicas y privadas</b> a realizar procesos de transformación hacia un liderazgo efectivo, potenciando sus talentos para el logro de objetivos personales e&nbsp;institucionales.
+                                                    <br/>
+                                                    Guiamos procesos de consolidación y fortalecimiento de equipos docentes para mejorar el clima laboral y enfrentar los desafíos&nbsp;actuales.
+                                                    <br/>
+                                                    Nos especializamos en Instituciones educativas, impulsando la mejora de las relaciones humanas. Acompañamos el logro de los desafíos colectivos, los procesos de transformación cultural, la definición de la misión, visión y valores y el desarrollo de una planificación estratégica enfocada en mejorar las acciones para alcanzar mejores&nbsp;resultados.
                                                 </p>
     
                                             </div>
@@ -112,7 +99,7 @@ const HomeServices = () => {
                                                 aria-controls="collapse3">
                                                 <h5 className="mbr-fonts-style display-55">
                                                     <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>
-                                                        Vínculos Familiares
+                                                        Coaching para la Vida
                                                 </h5>
                                             </a>
                                         </div>
@@ -120,12 +107,11 @@ const HomeServices = () => {
                                             aria-labelledby="headingThree" data-parent="#service-accordion_">
                                             <div className="panel-body">
                                                 <p className="mbr-fonts-style panel-text display-77">
-                                                    Ayudamos a  madres y padres  interesados  en comprender 
-                                                    mejor a sus hijos y acompañarlos en el desarrollo de su 
-                                                    inteligencia emocional, fortaleciendo los vínculos familiares.
-                                                </p>
-                                                <p className="mbr-fonts-style panel-text display-77">
-                                                    Vivimos en un mundo hiperconectado e hiperinformado. En base a esta dinámica del mundo actual, guiamos procesos de aprendizaje para cualquier persona interesada en adquirir herramientas para mejorar su comunicación con sus estudiantes y sus pares.
+                                                    Acompañamos procesos de autoconocimiento para potenciar cualquier área de tu vida personal: Salud. Ocio y tiempo libre. Amor, familia y  amistad. Crecimiento personal. Entorno.
+                                                    <br/>
+                                                    Brindamos herramientas prácticas y concretas para abordar positivamente conflictos vinculares  en tu entorno familiar o&nbsp;laboral.
+                                                    <br/>
+                                                    Te acompañamos en el encuentro con tu verdadero SER, desaprendiendo las creencias que limitan tus acciones cotidianas, reemplazándolas por otras que potencien tus objetivos  y tus deseos en la&nbsp;vida.
                                                 </p>
                                             </div>
                                         </div>
@@ -137,7 +123,7 @@ const HomeServices = () => {
                                                 aria-controls="collapse4">
                                                 <h5 className="mbr-fonts-style display-55">
                                                     <span className="sign mbr-iconfont mbri-arrow-down inactive"></span>
-                                                    Emprendedores
+                                                    Emprendedores y Organizaciones
                                                 </h5>
                                             </a>
                                         </div>
@@ -145,16 +131,17 @@ const HomeServices = () => {
                                             aria-labelledby="headingFour" data-parent="#service-accordion_">
                                             <div className="panel-body">
                                                 <p className="mbr-fonts-style panel-text display-77">
-                                                    Ésta modalidad está dirigida a emprendedores y emprendedoras, equipos de venta, pymes.
-                                                </p>
-                                                <p className="mbr-fonts-style panel-text display-77">
-                                                    Consiste en adquirir de herramientas concretas y prácticas para emprender online. 
-                                                </p>
-                                                <p className="mbr-fonts-style panel-text display-77">
-                                                    En la actualidad, las ventas de productos y servicios online, ponen la mirada en un público objetivo global. Vender ya no alcanza con la aplicación de una técnica , sino que es necesario conocer los procesos de decisión de compra de nuestro público objetivo. 
-                                                </p>
-                                                <p className="mbr-fonts-style panel-text display-77">
-                                                    El Coaching para hombres y mujeres emprendedoras facilita tu camino al éxito en las ventas a través de   un proyecto estratégico que te permitirá alcanzar los objetivos, y te ayudará a vender más y mejor. 
+                                                    <b>Emprendedores</b>
+                                                    <br/>
+                                                    Ésta modalidad está dirigida a hombres y mujeres emprendedoras, equipos de venta,&nbsp;pymes.
+                                                    <br/>
+                                                    Consiste en adquirir de herramientas concretas y prácticas del marketing estratégico digital para emprender&nbsp;online. 
+                                                    <br/><br/>
+                                                    <b>Organizaciones</b>
+                                                    <br/>
+                                                    Nos especializamos en pequeñas organizaciones, como por ejemplo estudios contables, locales de venta de productos o servicios, etc. impulsando la mejora de las relaciones&nbsp;humanas.
+                                                    <br/>
+                                                    Acompañamos el logro de los desafíos colectivos, los procesos de transformación cultural, la definición de la misión, visión y valores y el desarrollo de una planificación estratégica enfocada en mejorar las acciones para alcanzar óptimos&nbsp;resultados.
                                                 </p>
                                             </div>
                                         </div>
@@ -168,10 +155,10 @@ const HomeServices = () => {
 
 
 
-            <section className="features12 cid-rT0fyK9jWQ" id="features12-3y">
+            <section className="features12 cid-rT0fyK9jWQ" id="servicios">
                 <div className="row gx-0 justify-content-center">
                     <div className="mbr-black col-md-12 col-lg-6 align-center">                       
-                        <h3 className="mbr-section-title mbr-bold mbr-black pb-5 mbr-fonts-style display-22">NUESTROS SERVICIOS</h3>
+                        <h3 className="mbr-section-title mbr-bold mbr-black pb-5 mbr-fonts-style display-22" style={{color: 'var(--bs-secondary)'}}>NUESTROS SERVICIOS</h3>
                     </div>
                 </div>
                 <div className="container">
@@ -182,16 +169,16 @@ const HomeServices = () => {
                                     <a >
                                         <div className="card-wrapper">
                                             <div className="img-wrapper">
-                                                <pinture>
+                                                <picture>
                                                     <img className="img-big" src="/img/services/coaching-personal/1.jpg" alt="Marcela Caputo - Coaching life coaching"/>
-                                                </pinture>
+                                                </picture>
                                                 <div className="text-wrap">
                                                     <h4
                                                         className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
                                                         Coaching Personal
                                                     </h4>
                                                     <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
-                                                        PERSONAL O PROFESIONAL
+                                                    LIFE COACHING <br/> COACHING ONTOLÓGICO
                                                     </h5>
                                                 </div>
                                             </div>
@@ -203,22 +190,21 @@ const HomeServices = () => {
 
                         <div className="col-md-12 col-lg-6">
                             <div className="row justify-content-center">
-
-                                <div className="card p-3 col-12 col-md-6 col-lg-6">
+                                <div className="card p-3 col-12">
                                     <Link href="/servicios/liderazgo-efectivo">
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <pinture>
+                                                    <picture>
                                                         <img src="/img/services/liderazgo-efectivo/0.png" alt="Marcela Caputo - Coaching liderazgo efectivo"/>
-                                                    </pinture>
+                                                    </picture>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
                                                             Liderazgo Efectivo
                                                         </h4>
                                                         <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
-                                                            EQUIPOS DE TRABAJO
+                                                            INSTITUCIONES EDUCATIVAS <br/> ORGANIZACIONES
                                                         </h5>
                                                     </div>
                                                 </div>
@@ -227,21 +213,21 @@ const HomeServices = () => {
                                     </Link>
                                 </div>
 
-                                <div className="card p-3 col-12 col-md-6 col-lg-6">
+                                <div className="card p-3 col-12">
                                     <Link href="/servicios/coaching-educativo">
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <pinture>
-                                                        <img src="/img/services/coaching-educativo/0.jpg" alt="Marcela Caputo - Coaching coaching educativo"/>
-                                                    </pinture>
+                                                    <picture>
+                                                        <img src="/img/services/coaching-educativo/2.jpg" alt="Marcela Caputo - Coaching coaching educativo"/>
+                                                    </picture>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
                                                             Coaching Educativo
                                                         </h4>
                                                         <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
-                                                            HABILIDADES BLANDAS
+                                                            EDUCADORES <br/> ESTUDIANTES DE PROFESORADOS
                                                         </h5>
                                                     </div>
                                                 </div>
@@ -249,22 +235,25 @@ const HomeServices = () => {
                                         </a>
                                     </Link>
                                 </div>
-
+                            </div>
+                        </div>
+                        <div className="col-md-12 col-lg-12">
+                            <div className="row justify-content-center">
                                 <div className="card p-3 col-12 col-md-6 col-lg-6">
                                     <Link href="/servicios/coaching-vocacional">
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <pinture>
+                                                    <picture>
                                                         <img src="/img/services/coaching-vocacional/0.jpg" alt="Marcela Caputo - Coaching coaching vocacional"/>
-                                                    </pinture>
+                                                    </picture>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
                                                             Coaching Vocacional
                                                         </h4>
                                                         <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
-                                                            ESTUDIANTES
+                                                            ESTUDIANTES <br/> TODAS LAS EDADES
                                                         </h5>
                                                     </div>
                                                 </div>
@@ -280,16 +269,16 @@ const HomeServices = () => {
                                         <a >
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
-                                                    <pinture>
+                                                    <picture>
                                                         <img src="/img/services/coaching-emprendedores/1.png" alt="Marcela Caputo - Coaching Emprendedores"/>
-                                                    </pinture>
+                                                    </picture>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
                                                             Coaching Emprededores
                                                         </h4>
                                                         <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
-                                                            AUTOLIDERAZGO
+                                                            ESTRATEGIAS DE MARKETING <br/> NEUROVENTAS PARA TU NEGOCIO ONLINE
                                                         </h5>
                                                     </div>
                                                 </div>
@@ -297,7 +286,6 @@ const HomeServices = () => {
                                         </a>
                                     </Link>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -314,8 +302,11 @@ const HomeServices = () => {
                                 <div className="card-box">
                                     <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Misión</h4>
                                     <ul>
-                                        <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
-                                            Propiciar una nueva forma de educación que se ajuste a las necesidades actuales que requiere la universidad y el mundo laboral no sólo a nivel regional sino también a nivel global
+                                    <div className="card-title" data-bs-toggle="collapse" data-bs-target="#misionCollapse10" aria-expanded="false" aria-controls="misionCollapse10">
+                                            <a>PROPICIAR</a>
+                                        </div>
+                                        <p id='misionCollapse10' className='card-text mbr-regular collapse'>
+                                            Una nueva forma de educación que se ajuste a las necesidades actuales que requiere la universidad y el mundo laboral no sólo a nivel regional sino también a nivel global.
                                         </p>
                                         <div className="card-title" data-bs-toggle="collapse" data-bs-target="#misionCollapse1" aria-expanded="false" aria-controls="misionCollapse1">
                                             <a>FACILITAR</a>
@@ -330,7 +321,7 @@ const HomeServices = () => {
                                             A  otros a conectarse con su mejor versión para el logro de sus objetivos y metas. 
                                         </p>
                                         <div className="card-title" data-bs-toggle="collapse" data-bs-target="#misionCollapse3" aria-expanded="false" aria-controls="misionCollapse3">
-                                            <a>AYUDAR</a>
+                                            <a>ORIENTAR</a>
                                         </div>
                                         <p id='misionCollapse3' className='card-text mbr-regular collapse'>
                                             A otras personas a mejorar su vida a través de una mirada distinta, para alcanzar una transformación personal.
@@ -346,7 +337,7 @@ const HomeServices = () => {
                                 </span>
                                 <div className="card-box">
                                     <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Visión</h4>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
+                                    <p className="card-text mbr-regular">
                                     Buscamos formar y educar a aquéllas personas interesadas en iniciar procesos de autoconocimiento y desarrollo personal, a través de contenido neurosicoeducativo y de herramientas de Coaching.
                                     </p>
                                     <div className='card-text'>
@@ -354,7 +345,7 @@ const HomeServices = () => {
                                             <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="misionCollapse" style={{fontWeight: "500",marginTop: "1rem"}} className= 'card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55'>+</a>
                                         </Link>
                                     </div>
-                                    <div id='misionCollapse' className="card-text mbr-regular mbr-black mbr-fonts-style display-77 collapse">
+                                    <div id='misionCollapse' className="card-text mbr-regular collapse">
                                         <p>
                                             Impulsamos a adolescentes y jóvenes a descubrir su verdadera vocación y a conectarse con ese oficio o carrera que lo acerque a su propósito de vida. 
                                         </p>
@@ -377,11 +368,11 @@ const HomeServices = () => {
                                     <h4 className="card-title  mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Valores
                                     </h4>
                                     <ul>
-                                        <li className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Experiencia</li>
-                                        <li className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Confianza</li>
-                                        <li className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Confidencialidad y reserva profesional</li>
-                                        <li className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Pasión por lo que hacemos</li>
-                                        <li className="card-text mbr-regular mbr-black mbr-fonts-style display-77">Formación permanente</li>
+                                        <li className="card-text mbr-regular">Experiencia</li>
+                                        <li className="card-text mbr-regular">Confianza</li>
+                                        <li className="card-text mbr-regular">Confidencialidad y reserva profesional</li>
+                                        <li className="card-text mbr-regular">Pasión por lo que hacemos</li>
+                                        <li className="card-text mbr-regular">Formación permanente</li>
                                     </ul>
                                     
                                 </div>

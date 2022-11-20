@@ -16,11 +16,11 @@ const Footer = () => {
         <div className="col-md-6 col-lg-3">
           <div className="pb-4">
             <h3 className="title pb-2 align-left mbr-bold mbr-fonts-style display-55">
-              <Link href="/">
+              {/* <Link href="/">
                 <a className="navbar-brand ">
-                  <Image src="/logo_w.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={65} height={50} />
                 </a>
-              </Link>
+              </Link> */}
+                  <Image src="/logo_w.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={65} height={50} />
               <Image src="/firma_w.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={196} height={52} />
               
               </h3>
@@ -111,7 +111,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center my-auto text-white pt-3 pt-lg-5">
-        <span style={{fontSize: "0.7rem"}}>Copyright© 2022 Marcela Caputo - Powered by <a> </a></span>
+        <span style={{fontSize: "0.7rem"}}>Copyright© 2022 Marcela Caputo</span>
       </div>
     </div>
   </footer>

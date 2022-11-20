@@ -3075,7 +3075,7 @@ a {
   }
 }
 .cid-rT0fyK9jWQ {
-  padding-top: 60px;
+  padding-top: 110px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
@@ -3116,7 +3116,8 @@ a {
   width: 100%;
   left: 0;
   top: 0;
-  background: #f6f3ee;
+  /* background: #f6f3ee; */
+  background: #f1f1f1;
   opacity: 0;
   transition: all 0.3s;
   content: '';
@@ -3153,7 +3154,7 @@ a {
   color: #8e678c;
 }
 .cid-rT0fyK9jWQ .card-title {
-  color: #200960;
+  color: var(--bs-secondary);
 }
 .cid-rT0fyK9jWQ .mbr-section-subtitle {
   color: #8e678c;
@@ -3167,7 +3168,7 @@ a {
   color: var(--bs-secondary);
 }
 .cid-rT0fzaj97x H4 {
-  color: #e4d8ca;
+  color: var(--bs-secondary);
   
 }
 .cid-rT0fzjtj2r {
@@ -4270,7 +4271,8 @@ a {
 }
 .cid-rT0gfc1y8M .mbr-text,
 .cid-rT0gfc1y8M .mbr-section-btn {
-  color: #999999;
+  /* color: #999999; */
+  color: #5f5f5f;
 }
 .cid-rT0gfc1y8M H3 {
   color: var(--bs-secondary);
@@ -7401,7 +7403,7 @@ a {
   width: 100%;
   left: 0;
   top: 0;
-  background: #e4d8ca;
+  background: var(--bs-secondary);
   opacity: 0;
   transition: all 0.3s;
   content: '';
@@ -10159,7 +10161,7 @@ a {
   height: 100%;
 }
 .cid-rT0gOCNwRx .col-wrap3 {
-  background: #e4d8ca;
+  background: var(--bs-secondary);
   padding: 5rem;
   height: 100%;
 }
@@ -11468,7 +11470,7 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background: #e4d8ca;
+  background: var(--bs-secondary);
   margin: auto;
   margin-bottom: 2rem;
 }
@@ -11478,10 +11480,10 @@ a {
   }
 }
 .cid-rSVQ0cgT0R .card2 {
-  border-right: 1px solid #e4d8ca;
+  border-right: 1px solid var(--bs-secondary);
 }
 .cid-rSVQ0cgT0R .card1 {
-  border-right: 1px solid #e4d8ca;
+  border-right: 1px solid var(--bs-secondary);
 }
 .cid-rSVQ0cgT0R h4 {
   margin: 0;
@@ -11494,7 +11496,7 @@ a {
   color: #200960;
 }
 .cid-rSVQ0cgT0R .card-title {
-  color: #e4d8ca;
+  color: var(--bs-secondary);
   text-align: center;
 }
 @media (max-width: 991px) {
@@ -13494,7 +13496,7 @@ a {
   width: 100%;
   left: 0;
   top: 0;
-  background: #e4d8ca;
+  background: var(--bs-secondary);
   opacity: 0;
   transition: all 0.3s;
   content: '';
@@ -15077,7 +15079,7 @@ a {
   width: 100%;
   left: 0;
   top: 0;
-  background: #e4d8ca;
+  background: var(--bs-secondary);
   opacity: 0;
   transition: all 0.3s;
   content: '';
