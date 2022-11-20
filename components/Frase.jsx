@@ -9,7 +9,7 @@ const Frase = () => {
     <div className="container">
       <div className="row justify-content-center">
         <div className="mbr-black col-md-12 col-lg-6 align-center">
-          <h4 className="mbr-section-subtitle mbr-regular mbr-fonts-style display-44">BIENVENIDOS</h4>
+          <h4 className="mbr-section-subtitle mbr-regular mbr-fonts-style display-44 mb-5">BIENVENIDOS</h4>
           <h3 className="mbr-section-title mbr-bold mbr-black pb-4 mbr-fonts-style display-22">
             El coaching es un arte, y la base está en establecer una relación de confianza y respeto mutuo.
           </h3>
