@@ -1,10 +1,13 @@
 import Image from "next/image"
 import Link from "next/link"
+import { sections } from '../data'
 
 
 const Footer = () => {
-
-
+  const services = sections.find(section=>section.name=== 'servicios')
+  const conoceme = sections.find(section=>section.name=== 'conoceme')
+  const agendar = sections.find(section=>section.name=== 'agendar cita')
+  const contacto = sections.find(section=>section.name=== 'contacto')
   return (
   <footer className="footer2 cid-rT5TRS4qUz" id="footer2-5l">
     <div className="container">
@@ -22,7 +25,7 @@ const Footer = () => {
               
               </h3>
             <p className="mbr-text align-left  mbr-white mbr-regular mbr-fonts-style display-44">
-              Coaching y Educación Neuroemocional
+              Coaching y Educación Integral
             </p>
           </div>
         </div>
@@ -31,41 +34,19 @@ const Footer = () => {
           <h2 className="title mbr-bold pb-2 mbr-fonts-style display-55">
             Servicios</h2>
           <div className="align-wrap">
-            <div className="item-wrap">
-              <div className="icons-wrap pb-2">
-                <Link href="/servicios/coaching-personal">
-                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Coaching Personal</a>
-                </Link>
-              </div>
-            </div>
-            <div className="item-wrap">
-              <div className="icons-wrap pb-2">
-                <Link href="/servicios/coaching-vocacional">
-                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Coaching Vocacional</a>
-                </Link>
-              </div>
-            </div>
-            <div className="item-wrap">
-              <div className="icons-wrap pb-2">
-                <Link href="/servicios/coaching-educativo">
-                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Coaching Educativo</a>
-                </Link>
-              </div>
-            </div>
-            <div className="item-wrap">
-              <div className="icons-wrap pb-2">
-                <Link href="/servicios/liderazgo-efectivo">
-                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Liderazgo Efectivo</a>
-                </Link>
-              </div>
-            </div>
-            <div className="item-wrap">
-              <div className="icons-wrap pb-2">
-                <Link href="/servicios/coaching-emprendedores">
-                  <a className="icon-title mbr-regular mbr-fonts-style display-44">Educación Emprendedores</a>
-                </Link>
-              </div>
-            </div>
+            {
+              services.list.map(service=>{
+                return (
+                  <div key={service.name} className="item-wrap">
+                    <div className="icons-wrap pb-2">
+                      <Link href={`${services.link}/${service.link}`}>
+                        <a className="icon-title mbr-regular mbr-fonts-style display-44 text-capitalize">{service.name}</a>
+                      </Link>
+                    </div>
+                  </div>                
+                )
+              })
+            }
           </div>
         </div>
 
@@ -76,26 +57,32 @@ const Footer = () => {
           <div className="align-wrap">
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <a className="icon-title mbr-regular mbr-fonts-style display-44">
-                  Más sobre mi</a>
+                <Link href={conoceme.link}>
+                  <a className="icon-title mbr-regular mbr-fonts-style display-44">
+                    Más sobre mi</a>
+                </Link>
               </div>
             </div>
-            <div className="item-wrap">
+            {/* <div className="item-wrap">
               <div className="icons-wrap pb-2">
                 <a className="icon-title mbr-regular mbr-fonts-style display-44">
                 Marca Personal</a>
               </div>
-            </div>
+            </div> */}
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <a className="icon-title mbr-regular mbr-fonts-style display-44">
-                Agendar una cita</a>
+                  <Link href={agendar.link}>
+                    <a className="icon-title mbr-regular mbr-fonts-style display-44">
+                    Agendar una cita</a>
+                  </Link>
               </div>
             </div>
             <div className="item-wrap">
               <div className="icons-wrap pb-2">
-                <a className="icon-title mbr-regular mbr-fonts-style display-44">
-                Contáctame</a>
+                <Link href={contacto.link}>
+                  <a className="icon-title mbr-regular mbr-fonts-style display-44">
+                  Contáctame</a>
+                </Link>
               </div>
             </div>
           </div>

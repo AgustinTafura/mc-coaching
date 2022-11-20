@@ -11344,6 +11344,17 @@ a {
     height: 250px;
   }
 }
+@media (max-width: 576px) {
+  .cid-rSVRmJSAl2 .box.liderazgo {
+    background-position: bottom;
+    height: 400px;
+  }
+}
+@media (min-width: 1400px) {
+  .cid-rSVRmJSAl2 .box.liderazgo {
+    background-position: bottom;
+  }
+}
 .cid-rSVRmJSAl2 .progress {
   width: 100%;
   height: 2px;
