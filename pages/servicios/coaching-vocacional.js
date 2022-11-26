@@ -122,7 +122,7 @@ const CoachingVocacional = (props) => {
                         </div>
                         <div className="col-lg-4">
                             <picture>
-                                <img src="http://localhost:3000/img/services/coaching-vocacional/0.jpg" alt="coaching vocacional"/>
+                                <img src="http://localhost:3000/img/services/coaching-vocacional/0.png" alt="coaching vocacional"/>
                             </picture>
                         </div>
                     </div>

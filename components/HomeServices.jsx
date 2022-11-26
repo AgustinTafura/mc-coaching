@@ -245,7 +245,7 @@ const HomeServices = () => {
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
                                                     <picture>
-                                                        <img src="/img/services/coaching-vocacional/0.jpg" alt="Marcela Caputo - Coaching coaching vocacional"/>
+                                                        <img src="/img/services/coaching-vocacional/0.png" alt="Marcela Caputo - Coaching coaching vocacional"/>
                                                     </picture>
                                                     <div className="text-wrap">
                                                         <h4
