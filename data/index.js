@@ -39,7 +39,7 @@ module.exports = {
         {
           name:'coaching emprendedores',
           link: 'coaching-emprendedores',
-          img:'/img/services/coaching-emprendedores/1.png',
+          img:'/img/services/coaching-emprendedores/3.png',
           description: 'El Coaching para hombres y mujeres emprendedoras facilita tu camino al éxito en las ventas a través de herramientas concretas y un proyecto estratégico que te permitirá alcanzar los objetivos, y te ayudará a vender más y mejor.',
         },
       ]

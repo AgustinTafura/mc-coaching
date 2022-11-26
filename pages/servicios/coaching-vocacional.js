@@ -102,7 +102,7 @@ const CoachingVocacional = (props) => {
                     <div className="row">
                         <div className="mbr-black col-md-12 col-lg-4" style={{position:"relative"}}>
                             <picture>
-                                <img src="/img/services/coaching-vocacional/2.jpg" alt="coaching vocacional" />
+                                <img src="/img/services/coaching-vocacional/2.png" alt="coaching vocacional" />
                             </picture>
                         </div>
                         <div className="mbr-white  col-md-12 col-lg-4">
@@ -112,8 +112,8 @@ const CoachingVocacional = (props) => {
                                 <div className="link-wrap">
                                     <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Desarrollo de su inteligencia emocional</h5>
                                     <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Autoconocimiento</h5>
-                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Sus intereses</h5>
-                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Sus fortalezas y sus competencias</h5>
+                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Tus intereses</h5>
+                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Tus fortalezas y sus competencias</h5>
                                     <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Motivación y proceso creativo</h5>
                                     <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Su propósito de vida</h5>
                                     <br/>

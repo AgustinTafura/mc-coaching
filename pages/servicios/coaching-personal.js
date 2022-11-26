@@ -15,7 +15,7 @@ const CoachingPersonal = (props) => {
                     <div className="row justify-content-center">
                         <div className="img-col col-12 align-center col-lg-4" width='100%'>
                             <picture>
-                                <img src="/img/services/coaching-personal/1.jpg" alt="Mobirise" style={{width:'100%'}} />
+                                <img src="/img/services/coaching-personal/1.jpg" alt="Mobirise" style={{width:'100%', boxShadow: "rgb(0 0 0 / 40%) 0px 10px 50px -5px"}} />
                             </picture>
                         </div>
                         <div className="mbr-black col-lg-6">
@@ -27,7 +27,7 @@ const CoachingPersonal = (props) => {
                                     <br/><br/>
                                     El mundo actual requiere de personas abiertas y dispuestas a desaprender para volver a aprender, a desestructurarse para&nbsp;reinventarse.
                                     <br/><br/>
-                                    Mi propuesta diferencial a través del <b>Coaching</b> y la <b>Educación Integral</b>, y tomando como base  las metodologías del Life Coaching, el Coaching Ontológico y los últimos avances en las Neurociencias, puedo ayudarte con propuestas prácticas y concretas en tu desarrollo personal para potenciar tus recursos y darle un verdadero sentido a tu&nbsp;vida.
+                                    Mi propuesta diferencial a través del <b>Coaching</b> y la <b>Educación Integral</b>, y tomando como base  las metodologías del Life Coaching, el Coaching Ontológico y los últimos avances en las Neurociencias, es que puedo ayudarte con propuestas prácticas y concretas en tu desarrollo personal para potenciar tus recursos y darle un verdadero sentido a tu&nbsp;vida.
                                 </p>
                             </div>
                         </div>

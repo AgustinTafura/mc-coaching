@@ -104,7 +104,7 @@ const CoachingEducativo = (props) => {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="mbr-white col-md-12 video-col col-12 col-lg-6">
-                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/2.jpg)'}}>
+                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/2.png)'}}>
                                 </div>
                             </div>
 
@@ -136,7 +136,7 @@ const CoachingEducativo = (props) => {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="mbr-white col-md-12 video-col col-12 col-lg-6 order-lg-2">
-                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/3.jpg)'}}>
+                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/3.png)'}}>
                                 </div>
                             </div>
                             <div className="progress_elements col-lg-6">
@@ -168,7 +168,7 @@ const CoachingEducativo = (props) => {
                         </div>
                         <div className="row">
                             <div className="mbr-white col-md-12 video-col col-12 col-lg-6 order-lg-2">
-                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/5.jpg)'}}>
+                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/5.png)'}}>
                                 </div>
                             </div>
                             <div className="progress_elements col-lg-6">

@@ -37,7 +37,7 @@ const CoachingPersonal = (props) => {
                     <div className="row">
                         <div className="mbr-black col-md-12 col-lg-4" style={{position:"relative"}}>
                             <picture>
-                                <img src="/img/services/coaching-emprendedores/2.jpg" alt="coaching emprendedores" />
+                                <img src="/img/services/coaching-emprendedores/2.png" alt="coaching emprendedores" />
                             </picture>
                         </div>
                         <div className="mbr-white  col-md-12 col-lg-4">

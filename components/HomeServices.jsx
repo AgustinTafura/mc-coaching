@@ -219,7 +219,7 @@ const HomeServices = () => {
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
                                                     <picture>
-                                                        <img src="/img/services/coaching-educativo/2.jpg" alt="Marcela Caputo - Coaching coaching educativo"/>
+                                                        <img src="/img/services/coaching-educativo/2.png" alt="Marcela Caputo - Coaching coaching educativo"/>
                                                     </picture>
                                                     <div className="text-wrap">
                                                         <h4

@@ -13,7 +13,7 @@ const Me = () => {
                     <div className="row justify-content-center">
                         <div className="img-col col-12 md-pb col-md-6 align-center col-lg-4" width='80%'>
                             <picture>
-                                <img src="/img/meblack1.jpg" alt="Mobirise"/>
+                                <img style={{boxShadow: "rgb(0 0 0 / 40%) 0px 10px 50px -5px"}} src="/img/meblack1.jpg" alt="Mobirise"/>
                             </picture>
                         </div>
                         <div className="mbr-black col-md-6 col-lg-4">

@@ -16,7 +16,7 @@ const CoachingEducativo = (props) => {
                         <div className="mbr-black col-lg-5">
                             <div className="content align-left mbr-white">
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-center text-lg-start" >
-                                    El <b>Coaching Educativo</b> Es una propuesta transversal en el proceso de enseñanza y aprendizaje que abarca todo el desarrollo integral como ser humano, y crea espacios donde escuchamos de manera activa y acompañamos el proceso de autodescubrimiento, sin imponer nuestras opiniones y puntos de&nbsp;vista.
+                                    El <b>Coaching Educativo</b> es una propuesta transversal en el proceso de enseñanza y aprendizaje que abarca todo el desarrollo integral como ser humano, y crea espacios donde escuchamos de manera activa y acompañamos el proceso de autodescubrimiento, sin imponer nuestras opiniones y puntos de&nbsp;vista.
                                     <br/>
                                     <br/>
                                     A través de esta metodología los alumnos se hacen conscientes de su realidad individual (quiénes son), de su capacidad intrínseca para superar sus problemas o bloqueos en relación al estudio y alcanzar los objetivos que deseen plantearse (Por ej: aprobar una materia, aprender a estudiar, aprobar el&nbsp;curso).
@@ -25,7 +25,7 @@ const CoachingEducativo = (props) => {
                         </div>
                         <div className="img-col col-lg-5" width='100%'>
                             <picture>
-                                <img src="/img/services/coaching-educativo/0.jpg" alt="Mobirise" style={{width:'100%'}} />
+                                <img src="/img/services/coaching-educativo/0.jpg" alt="Mobirise" style={{width:'100%',boxShadow: "rgb(0 0 0 / 40%) 0px 10px 50px -5px"}} />
                             </picture>
                         </div>
                     </div>
