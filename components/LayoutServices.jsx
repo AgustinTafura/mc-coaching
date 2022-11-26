@@ -38,9 +38,15 @@ const LayoutServices = ({ children, ...pageProps }) => {
                                             <br/>
                                         </span>
                                     </h1>
-                                    <p className="mbr-text pb-4 mbr-white mbr-regular mbr-fonts-style display-77 col-lg-7">
-                                        {service.description}
-                                    </p>
+                                        {
+                                            service.phrases.map((item,key) =>
+                                                <div key={key} className="mbr-text mb-2 mbr-white mbr-regular mbr-fonts-style display-77 col-lg-12">
+                                                    {item.phrase} 
+                                                    <br />
+                                                    <b><i>{item.author}</i></b>
+                                                </div>
+                                                )
+                                        }
                         </div>
                     </div>
                 </div>
