@@ -11,7 +11,7 @@ const Navbar = () => {
 
             <Link href="/">
             <a className="navbar-brand ">
-              <Image src="/logo.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={261} height={69} />
+              <Image src="/logoB.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={261} height={59} />
             </a>
           </Link>
           <button className="navbar-toggler " type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
