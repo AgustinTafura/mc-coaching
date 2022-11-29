@@ -34,7 +34,8 @@ const Index = ({...pageProps}) => {
     return (
         <>
             <Head>
-                <title>Marcela Caputo Coaching</title>
+                <title>Marcela Caputo - Coaching y Educación Integral</title>
+                <meta name="description" content="Sesiones online o presencial de Coaching Personal, Coaching Vocacional, Coaching Educativo, Coaching Efectivo y Coaching para Emprendedores. Nos centramos en el desarrollo de las Habilidades Blandas, la Inteligencia Emocional y la Comunicación Efectiva como áreas transversales para aprender nuevos hábitos, regular emociones y mejorar los vínculos interpersonales en todos los ámbitos de desempeño de las personas."/>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
 

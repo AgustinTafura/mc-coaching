@@ -16,18 +16,18 @@ module.exports = {
           img:'/img/services/coaching-personal/0.jpg',
           description: 'El Coaching Personal es un proceso personalizado y confidencial, orientado en ayudar al Coachee a alcanzar resultados mejores en diferentes áreas de su vida personal o profesional.',
           phrases:[
-            {
-              phrase:"Si uno queda atrapado en una idea creyendo que es “cierta”, pierde la oportunidad de conocer la verdad.",
-              author:"Buda",
-            },
+            // {
+            //   phrase:"Si uno queda atrapado en una idea creyendo que es “cierta”, pierde la oportunidad de conocer la verdad.",
+            //   author:"Buda",
+            // },
             {
               phrase:"Cuando ya no somos capaces de cambiar una situación, nos encontramos ante el desafío de cambiarnos a nosotros mismos.",
               author:"Viktor Frankl",
             },
-            {
-              phrase:"Los retos de la vida no están ahí para paralizarte, sino para ayudarte a descubrir quién eres.",
-              author:"Bernice Reagan",
-            }
+            // {
+            //   phrase:"Los retos de la vida no están ahí para paralizarte, sino para ayudarte a descubrir quién eres.",
+            //   author:"Bernice Reagan",
+            // }
           ],
         },
         {
@@ -82,10 +82,10 @@ module.exports = {
               phrase:"Si tú no trabajas  por tus sueños, otros te pagarán para que trabajes por los suyos.",
               author:"Steve Jobs",
             },
-            {
-              phrase:"Un error es una forma distinta de hacer las cosas.",
-              author:"Albert Einstein",
-            },
+            // {
+            //   phrase:"Un error es una forma distinta de hacer las cosas.",
+            //   author:"Albert Einstein",
+            // },
             // {
             //   phrase:"Cuando cambias el modo en que ves las cosas, esas cosas que tú observas, cambian.",
             //   author:"Wayne Dyer",

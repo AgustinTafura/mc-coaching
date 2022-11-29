@@ -270,12 +270,12 @@ const HomeServices = () => {
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
                                                     <picture>
-                                                        <img src="/img/services/coaching-emprendedores/1.png" alt="Marcela Caputo - Coaching Emprendedores"/>
+                                                        <img src="/img/services/coaching-emprendedores/3.png" alt="Marcela Caputo - Coaching Emprendedores"/>
                                                     </picture>
                                                     <div className="text-wrap">
                                                         <h4
                                                             className="card-title align-center mbr-semibold mbr-black mbr-fonts-style display-55">
-                                                            Coaching Emprededores
+                                                            Coaching Emprendedores
                                                         </h4>
                                                         <h5 className="mbr-section-subtitle align-center mbr-regular mbr-fonts-style display-44">
                                                             ESTRATEGIAS DE MARKETING <br/> NEUROVENTAS PARA TU NEGOCIO ONLINE
