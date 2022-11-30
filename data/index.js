@@ -4,7 +4,11 @@ module.exports = {
     {
       name:'conoceme',
       link: '/conoceme',
-      list:[]
+      list:[],
+      meta:{
+        title:"",
+        description: "",
+      }
     },
     {
       name:'servicios',
@@ -29,6 +33,10 @@ module.exports = {
             //   author:"Bernice Reagan",
             // }
           ],
+          meta:{
+            title:"Marcela Caputo - Cursos sobre Coaching Personal",
+            description: "Obtené más información acerca de mis cursos sobre Coaching Personal y alcanzá resultados mejores en diferentes áreas de su vida personal o profesiona",
+          },    
         },
         {
           name:'coaching vocacional',
@@ -45,6 +53,10 @@ module.exports = {
             //   author:"Lao Tsé",
             // }
           ],
+          meta:{
+            title:"Marcela Caputo - Cursos sobre Coaching Vocacional",
+            description: "Obtené más información acerca de mis cursos sobre Coaching Vocacional, en los cuales acompañamos a adolescentes, jóvenes universitarios y adultos",
+          },    
         },
         {
           name:'coaching educativo',
@@ -57,7 +69,10 @@ module.exports = {
               author:"Benjamín Franklin",
             }
           ],
-
+          meta:{
+            title:"Marcela Caputo - Cursos sobre Coaching Educativo",
+            description: "Obtené más información acerca de mis cursos sobre Coaching Educativo, y desarrollá nuevos recursos para acompañar a tus alumnos a alcanzar la mejor versión de sí mismos",
+          },    
         },
         {
           name:'liderazgo efectivo',
@@ -70,7 +85,10 @@ module.exports = {
               author:"Anónimo",
             }
           ],
-
+          meta:{
+            title:"Marcela Caputo - Cursos sobre Liderazgo Efectivo",
+            description: "Obtené más información acerca de mis cursos sobre Liderazgo Efectivo, y desarrollá habilidades que permitan adaptarte de la mejor manera a un entorno cambiante y vincularse mejor con sus superiores,  pares,  y/o equipos a cargo",
+          },
         },
         {
           name:'coaching emprendedores',
@@ -91,18 +109,31 @@ module.exports = {
             //   author:"Wayne Dyer",
             // }
           ],
+          meta:{
+            title:"Marcela Caputo - Cursos sobre Coaching para Emprendedores",
+            description: "Obtené más información acerca de mis cursos sobre Coaching para Emprendedores, facilitá tu camino al éxito y alcanzá objetivos que te propongas",
+          },
+    
         },
       ]
     },
     {
       name:'agendar cita',
       link: '/agenda',
-      list:[]
+      list:[],
+      meta:{
+        title:"",
+        description: "",
+      },
     },
     {
       name:'contacto',
       link: '/contacto',
-      list:[]
+      list:[],
+      meta:{
+        title:"",
+        description: "",
+      },
     },
   ]
 

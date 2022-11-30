@@ -9,7 +9,8 @@ const contacto = () => {
     return (
         <>
             <Head>
-                <title>Marcela Caputo Coaching</title>
+                <title>Marcela Caputo - Coaching y Educación Integral - Contacto</title>
+                <meta name="description" content="Contáctame por WhatsApp, telefono o email para obenter información o agendar una sesión online o presencial de Coaching Personal, Coaching Vocacional, Coaching Educativo, Coaching Efectivo y Coaching para Emprendedores."/>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
 
