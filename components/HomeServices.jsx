@@ -303,25 +303,33 @@ const HomeServices = () => {
                                     <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55">Misión</h4>
                                     <ul>
                                     <div className="card-title" data-bs-toggle="collapse" data-bs-target="#misionCollapse10" aria-expanded="false" aria-controls="misionCollapse10">
-                                            <a>PROPICIAR</a>
+                                            <Link href="#misionCollapse10">
+                                                <a style={{color:"inherit"}}>PROPICIAR</a>
+                                            </Link>
                                         </div>
                                         <p id='misionCollapse10' className='card-text mbr-regular collapse'>
                                             Una nueva forma de educación que se ajuste a las necesidades actuales que requiere la universidad y el mundo laboral no sólo a nivel regional sino también a nivel global.
                                         </p>
                                         <div className="card-title" data-bs-toggle="collapse" data-bs-target="#misionCollapse1" aria-expanded="false" aria-controls="misionCollapse1">
-                                            <a>FACILITAR</a>
+                                            <Link href="#misionCollapse1">
+                                                <a style={{color:"inherit"}}>FACILITAR</a>
+                                            </Link>
                                         </div>
                                         <p id='misionCollapse1' className='card-text mbr-regular collapse'>
                                             El desarrollo de las habilidades blandas a toda persona interesada en realizar un  proceso de autoconocimiento personal ,  descubrir su propósito de vida y orientar sus objetivos a los resultados que desea obtener en su vida personal, laboral o profesional.
                                         </p>
                                         <div className="card-title" data-bs-toggle="collapse" data-bs-target="#misionCollapse2" aria-expanded="false" aria-controls="misionCollapse2">
-                                            <a>INSPIRAR</a>
+                                            <Link href="#misionCollapse2">
+                                                <a style={{color:"inherit"}}>INSPIRAR</a>
+                                            </Link>
                                         </div>
                                         <p id='misionCollapse2' className='card-text mbr-regular collapse'>
                                             A  otros a conectarse con su mejor versión para el logro de sus objetivos y metas. 
                                         </p>
                                         <div className="card-title" data-bs-toggle="collapse" data-bs-target="#misionCollapse3" aria-expanded="false" aria-controls="misionCollapse3">
-                                            <a>ORIENTAR</a>
+                                            <Link href="#misionCollapse3">
+                                                <a style={{color:"inherit"}}>ORIENTAR</a>
+                                            </Link>
                                         </div>
                                         <p id='misionCollapse3' className='card-text mbr-regular collapse'>
                                             A otras personas a mejorar su vida a través de una mirada distinta, para alcanzar una transformación personal.
