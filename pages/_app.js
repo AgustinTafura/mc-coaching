@@ -1,3 +1,4 @@
+import Script from "next/script"
 import { useEffect,useState } from "react";
 import { ParallaxProvider } from 'react-scroll-parallax'
 import { config } from '@fortawesome/fontawesome-svg-core'
@@ -26,9 +27,26 @@ function MyApp({ Component, pageProps }) {
 },[])
 
   return (
-    <ParallaxProvider>
-      <Component {...pageProps} firstEnter={firstEnter} setFirstEnter={setFirstEnter} />
-    </ParallaxProvider>
+    <>
+      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-25SMY81P1F"/>
+      <Script
+      id='google-analytics'
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+      __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-25SMY81P1F', {
+      page_path: window.location.pathname,
+      });
+      `,
+      }}
+      />
+      <ParallaxProvider>
+        <Component {...pageProps} firstEnter={firstEnter} setFirstEnter={setFirstEnter} />
+      </ParallaxProvider>
+    </>
   )
 }
 
