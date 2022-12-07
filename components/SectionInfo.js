@@ -6,7 +6,7 @@ const SectionInfo = () => {
     const title = asPath.replace("/", '').replace("/", ' / ').replace("-", " ")
 
   return (
-        <section className="info02 cid-rSVC8dfBcs" id="info2-1s">
+        <section className="info02 cid-rSVC8dfBcs pb-3" id="info2-1s">
         <div className="container align-center">
             <div className="row justify-content-center">
                 <div className="mbr-black col-md-12 col-lg-10">
