@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faBuildingColumns, faPeopleGroup, faSitemap} from '@fortawesome/free-solid-svg-icons'
-import LayoutServices from "../../components/LayoutServices";
+import LayoutServices from "../../../components/LayoutServices";
 import Link from "next/link";
 
 const CoachingEducativo = (props) => {
