@@ -3983,8 +3983,8 @@ a {
   }
 }
 .cid-rSVC8dfBcs {
-  /* padding-top: 120px;
-  padding-bottom: 45px; */
+  padding-top: 120px;
+  /* padding-bottom: 45px; */
   background-color: var(--bs-secondary);
 }
 .cid-rSVC8dfBcs H4 {
@@ -10012,11 +10012,39 @@ a {
   left: 0px;
   top: 55%;
   transform: translateY(-50%);
-  content: "\e908";
+  content: "\e909";
   font-family: 'MobiriseIcons' !important;
-  color: currentColor;
+  color: var(--bs-secondary);
   font-size: 0.8rem;
 }
+.cid-rT0gOkWcki  ol{
+  counter-reset:item;
+  list-style:none;
+  padding-inline-start: 40px;
+  /* list-style: 'upper-roman';
+  list-style-position: 'inside'; */
+ }
+
+.cid-rT0gOkWcki ol li:before {
+  content: counter(item, upper-roman) "."; 
+  color: var(--bs-secondary);
+  counter-increment: item;
+  position: absolute;
+  text-align: right;
+  margin-left: -30px;
+}
+
+@media (max-width: 992px) {
+
+  .cid-rT0gOkWcki .link {
+    place-self: center;
+  }
+  .cid-rT0gOkWcki .link:before, 
+  .cid-rT0gOkWcki ol li:before {
+    display: none;
+  }
+}
+
 .cid-rT0gOkWcki .jq-selectbox__select-text {
   color: #8e678c;
 }
@@ -10151,7 +10179,8 @@ a {
 }
 .cid-rT0gOkWcki .link,
 .cid-rT0gOkWcki .link-wrap {
-  color: #999999;
+  /* color: #999999; */
+  color: #5f5f5f;
 }
 .cid-rT0gOkWcki H6 {
   text-align: center;
@@ -10159,7 +10188,8 @@ a {
 }
 .cid-rT0gOkWcki H5 {
   text-align: center;
-  color: #200960;
+  /* color: #200960; */
+  color: #6c5b67;
 }
 .cid-rT0gOCNwRx {
   padding-top: 30px;
