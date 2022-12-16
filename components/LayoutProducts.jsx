@@ -43,13 +43,22 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                         </div>
                         <div className="mbr-black col-lg-7">
                             <div className="content align-left mbr-white">
-                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    <b>{product.shortDescription[0]}</b>
-                                </p>
-                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
-                                    {product.shortDescription[1]}
-                                </p>
-
+                                {
+                                    product.shortDescription.map((element,index)=>{
+                                        return (
+                                            
+                                                index === 0 ?
+                                                <h3 key={index} className="mbr-fonts-style display-55 text-left mb-3" style={{color: "rgb(108, 91, 103)"}}>
+                                                    {element}
+                                                </h3>
+                                                
+                                                :   (<p key={index} className={`mbr-text mbr-regular mbr-fonts-style display-77 ${index === 0 ?'pb-0' : 'pb-2'}`}>
+                                                        <span dangerouslySetInnerHTML={{__html: element}}/>
+                                                    </p>)
+                                            
+                                        )
+                                    })
+                                }
                                 <h3 className="mbr-fonts-style display-55 text-left mt-5 mb-3" style={{color: "rgb(108, 91, 103)"}}>
                                     En este curso aprenderás a…
                                 </h3>
@@ -138,29 +147,31 @@ const LayoutProducts = ({ children, ...pageProps }) => {
 
                         <div className='col-lg-1'></div>
 
-                        <div className="col-lg-4 mx-auto mbr-form" data-form-type="formoid">
-                            <div className="form-col" data-form-type="formoid">
-                                <div className="col-lg-12 col-md-12 col-sm-12">
-                                    <h6 className="mbr-section-subtitle mbr-fonts-style display-44">
-                                        AGENDA  
-                                    </h6>
+                        <div className="col-lg-4 mx-auto mbr-form position-relative" data-form-type="formoid">
+                            <div className='sticky-sidebar'>
+                                <div className="form-col sticky-item" data-form-type="formoid">
+                                    <div className="col-lg-12 col-md-12 col-sm-12">
+                                        <h6 className="mbr-section-subtitle mbr-fonts-style display-44">
+                                            DATOS DEL CURSO  
+                                        </h6>
+                                    </div>
+                                    <div className="col-lg-12 col-md-12 col-sm-12">
+                                        <h5 className="mbr-fonts-style display-55 text-start" style={{color: 'var(--bs-secondary)'}}>
+                                            PRECIOS
+                                        </h5>
+                                    </div>
+                                    <div className='pt-3'>
+                                        <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 align-left">
+                                            BLA BLA BLA
+                                        </p>
+                                    </div>
+                                    <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href='/agenda'>
+                                        <a>
+                                            <button type="button" className="btn btn-primary display-44">COMPRAR</button>
+                                        </a>
+                                    </Link>
                                 </div>
-                                <div className="col-lg-12 col-md-12 col-sm-12">
-                                    <h5 className="mbr-fonts-style display-55 text-start" style={{color: 'var(--bs-secondary)'}}>
-                                        Reserva una cita
-                                    </h5>
-                                </div>
-                                <div className='pt-3'>
-                                    <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 align-left">
-                                        Puedes contactarme y recibiré tus inquietudes personalmente, 
-                                        en un marco de absoluta reserva profesional garantizada.
-                                    </p>
-                                </div>
-                                <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href='/agenda'>
-                                    <a>
-                                        <button type="button" className="btn btn-primary display-44">RESERVAR</button>
-                                    </a>
-                                </Link>
+
                             </div>
                         </div>
 

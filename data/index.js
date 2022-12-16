@@ -41,21 +41,24 @@ module.exports = {
             {
               title:"conocerse para crecer",
               subtitle:"Curso práctico de Coaching para la vida (Life Coaching)",
-              numberOfSesions:"6",
-              numberOfHours:"12",
-              days:{
-                sabado:'10 a 12 hs',
-              },
-              mode:'Sincrónico - Plataforma Zoom',
-              dateStart: 'Sábado 4 Febrero 2023',
-              dateEnd: 'Sábado 11 Marzo 2023',
+              numberOfSesions:"5",
+              numberOfHours:"10",
+              days:[
+                ['sabado','10 a 12 hs'],
+              ],
+              mode:'Sincrónico - Plataforma Meet',
+              dateStart: 'Sábado 4 de Marzo 2023',
+              dateEnd: 'Sábado 1 de Abril 2023',
               investment: {
-                argentina: '$ 10.500',
-                exterior: 'U$D 47',
+                argentina: 16000,
+                exterior: 60,
               },
               shortDescription: [
-                '¿Cuánto inviertes en tu crecimiento personal? Eres de esas personas que quieren hacer un cambio en su vida, y no sabe cómo? O por dónde empezar?',
+                '¿Cuánto inviertes en tu crecimiento personal?',
+                'Eres de esas personas que quieren hacer un cambio en su vida, y no sabe cómo? O por dónde empezar?',
                 'Este curso te elevará desde una mentalidad fija hacia una mentalidad de crecimiento. Te cuento cómo lo vamos a hacer!!',
+                'El coaching es un proceso de entrenamiento personalizado y 100% confidencial , que se vale de un conjunto de herramientas orientadas a cubrir la distancia que existe entre dos momentos: tu estado actual y el estado al que deseas llegar.',
+                'Es una disciplina que nos acerca al logro de objetivos, permitiéndonos desarrollarnos personal y profesionalmente.',
               ],
               longDescription: [
                 'Descubrir y potenciar tus fortalezas.',
