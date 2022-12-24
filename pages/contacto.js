@@ -28,9 +28,9 @@ const contacto = () => {
                                         <h4 className="card-title align-left pb-1 mbr-semibold mbr-black mbr-fonts-style display-55">
                                             Espero tu mensaje</h4>
                                         {/* <p className="mbr-text  mbr-fonts-style display-77"> */}
-                                            <Link href = "mailto: info@marcelacaputo.com">
+                                            <Link href = "mailto: info@marcelacaputo.com.ar">
                                                 <a className='mbr-text  mbr-fonts-style display-77'>
-                                                    info@marcelacaputo.com<br/>
+                                                    info@marcelacaputo.com.ar<br/>
                                                 </a>
                                             </Link>
                                             <Link href = "tel:+542244408516">
