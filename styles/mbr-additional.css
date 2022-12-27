@@ -10020,7 +10020,7 @@ a {
 .cid-rT0gOkWcki  ol{
   counter-reset:item;
   list-style:none;
-  padding-inline-start: 40px;
+  padding-inline-start: 50px;
   /* list-style: 'upper-roman';
   list-style-position: 'inside'; */
  }
@@ -10031,7 +10031,7 @@ a {
   counter-increment: item;
   position: absolute;
   text-align: right;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 
 @media (max-width: 992px) {

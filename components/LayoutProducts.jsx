@@ -78,31 +78,36 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                     product.shortDescription.map((element,index)=>{
                                         return (
                                             
-                                                index === 0 ?
-                                                <h3 key={index} className="mbr-fonts-style display-55 text-left mb-3" style={{color: "rgb(108, 91, 103)"}}>
-                                                    {element}
-                                                </h3>
-                                                
-                                                :   (<p key={index} className={`mbr-text mbr-regular mbr-fonts-style display-77 ${index === 0 ?'pb-0' : 'pb-2'}`}>
-                                                        <span dangerouslySetInnerHTML={{__html: element}}/>
-                                                    </p>)
+                                            index === 0 ?
+                                            <h3 key={index} className="mbr-fonts-style display-55 text-left mb-3" style={{color: "rgb(108, 91, 103)"}}>
+                                                {element}
+                                            </h3>
+                                            
+                                            :   (<div key={index} className={`mbr-text mbr-regular mbr-fonts-style display-77 mb-3 ${index === 0 ?'pb-0' : 'pb-2'}`}>
+                                                    <span dangerouslySetInnerHTML={{__html: element}}/>
+                                                </div>)
                                         )
                                     })
                                 }
-                                <h3 className="mbr-fonts-style display-55 text-left mt-5 mb-3" style={{color: "rgb(108, 91, 103)"}}>
-                                    En este curso aprenderás a…
-                                </h3>
-                                <div className="link-wrap text-left">
-                                    {
-                                        product.longDescription.map((element,i)=>{
-                                            return (
-                                                <li key={i} className="link display-77 mbr-black mbr-fonts-style mbr-regular mbr-text">
-                                                    {element}
-                                                </li>
-                                            )
-                                        })
-                                    }
-                                </div>
+                                {
+                                    product.longDescription && 
+                                    <>
+                                        <h3 className="mbr-fonts-style display-55 text-left mt-5 mb-3" style={{color: "rgb(108, 91, 103)"}}>
+                                            En este curso aprenderás a…
+                                        </h3>
+                                        <div className="link-wrap text-left">
+                                            {
+                                                product.longDescription.map((element,i)=>{
+                                                    return (
+                                                        <li key={i} className="link display-77 mbr-black mbr-fonts-style mbr-regular mbr-text">
+                                                            {element}
+                                                        </li>
+                                                    )
+                                                })
+                                            }
+                                        </div>
+                                    </>
+                                }
 
                                 <div>
                                     <h3 className="mbr-fonts-style display-55 text-left mt-5 mb-3" style={{color: "rgb(108, 91, 103)"}}>
@@ -127,6 +132,13 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                         {
                                             product.content.map((element,i)=>{
                                                 return (
+                                                    typeof element !== 'string' ?
+                                                    <div key={i} className="display-77 mbr-black mbr-fonts-style mbr-regular mbr-text mt-3"
+                                                        style={{padding: '0.2rem 0',marginBottom: '0.5rem'}}>
+                                                        <b>{element[0]}</b>
+                                                        {element[1].map((el,index)=><li key={index} className="display-77 mbr-black mbr-fonts-style mbr-regular mbr-text">{el}</li>)}
+                                                    </div>
+                                                    :
                                                     <li key={i} className="display-77 mbr-black mbr-fonts-style mbr-regular mbr-text"
                                                         style={{padding: '0.2rem 0',marginBottom: '0.5rem'}}>
                                                         {element}
