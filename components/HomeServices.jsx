@@ -371,7 +371,6 @@ const HomeServices = () => {
                         <div className="item card3 p-3 col-12 col-md-7 col-lg-4">
                             <div className="card-wrapper">
                                 <span className="mbr-iconfont mobi-mbri-users mobi-mbri">
-                                    
                                     <FontAwesomeIcon icon={faGem} size="1x" color='white'/>
                                 </span>
                                 <div className="card-box">

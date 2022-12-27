@@ -1,11 +1,14 @@
 import React from 'react'
 import Head from 'next/head'
 import Layout from './Layout'
-import { ParallaxBanner } from 'react-scroll-parallax';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faClock } from '@fortawesome/free-solid-svg-icons'
+import { faCalendar, faClock } from '@fortawesome/free-regular-svg-icons'
 import { useRouter } from "next/router"
-import { sections } from '../data'
+import { sections, generalFAQ } from '../data'
 import SectionInfo from './SectionInfo'
 import Link from 'next/link'
+import { faDesktop, faTimeline } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -26,7 +29,6 @@ const LayoutProducts = ({ children, ...pageProps }) => {
             <meta  name="description" content={service.meta.description} /> */}
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
-
         <Layout>
             <SectionInfo/>
             <section className="form cid-rT0gOkWcki" id="form4-50">
@@ -43,6 +45,20 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                         </div>
                         <div className="mbr-black col-lg-7">
                             <div className="content align-left mbr-white">
+                                <h3 className="mbr-fonts-style display-55 text-left mt-5 mb-3" style={{color: "rgb(108, 91, 103)"}}>
+                                    ¿A quiénes está dirigida esta propuesta?
+                                </h3>
+                                <div className="link-wrap text-left">
+                                    {
+                                        product.target.map((element,i)=>{
+                                            return (
+                                                <div key={i} className="display-77 mbr-black mbr-fonts-style mbr-regular mbr-text">
+                                                    {element}
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </div>
                                 {
                                     product.shortDescription.map((element,index)=>{
                                         return (
@@ -111,15 +127,14 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                     <h3 className="mbr-fonts-style display-55 text-left mt-5 mb-3" style={{color: "rgb(108, 91, 103)"}}>
                                         Por qué realizar un curso en esta casa
                                     </h3>
-                                    
                                         {
                                             product.value.map((element,i)=>{
 
                                                 if(typeof element === 'string') {
                                                     return (
-                                                        <p key={i} className="display-77 mbr-black mbr-fonts-style mbr-regular mbr-text">
-                                                            {element}
-                                                        </p>
+                                                        <div key={i} className="display-77 mbr-black mbr-fonts-style mbr-regular mbr-text mb-3">
+                                                            <span dangerouslySetInnerHTML={{__html: element}}/>
+                                                        </div>
                                                     )
                                                 } else {
                                                     return(
@@ -133,43 +148,74 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                                 )
                                                             })}
                                                         </ul>
-
                                                     )
                                                 }
                                             })
                                         }
-                                    
                                 </div>
-                                
-                                
                             </div>
                         </div>
 
                         <div className='col-lg-1'></div>
 
-                        <div className="col-lg-4 mx-auto mbr-form position-relative" data-form-type="formoid">
+                        <div className="col-lg-4 mx-auto mbr-form position-relative py-5 pt-lg-0 g-0" data-form-type="formoid">
                             <div className='sticky-sidebar'>
                                 <div className="form-col sticky-item" data-form-type="formoid">
-                                    <div className="col-lg-12 col-md-12 col-sm-12">
-                                        <h6 className="mbr-section-subtitle mbr-fonts-style display-44">
-                                            DATOS DEL CURSO  
+                                    <div className="col-lg-12 col-md-12 col-sm-12 mb-4" >
+                                        <h6 className="mbr-section-subtitle mbr-fonts-style display-44" style={{color:'var(--bs-secondary)'}}>
+                                            PRÓXIMO CURSO  
                                         </h6>
                                     </div>
-                                    <div className="col-lg-12 col-md-12 col-sm-12">
-                                        <h5 className="mbr-fonts-style display-55 text-start" style={{color: 'var(--bs-secondary)'}}>
-                                            PRECIOS
-                                        </h5>
+
+                                    <div className='row justify-content-center'>
+                                        <div className='row d-flex col-sm-10 col-md-6 col-lg-12 g-0'>
+
+                                            <div className='col-3 text-center mb-4'>
+                                                <FontAwesomeIcon icon={faCalendar} size="3x" color='var(--bs-secondary)'/>
+                                            </div>
+                                            <div className='col-9 mbr-regular mb-4'>
+                                                <b>INICIO:</b> {product.dateStart}
+                                                <br/>
+                                                <b>FIN:</b> {product.dateEnd}
+                                            </div>
+
+                                            <div className='col-3 text-center mb-4'>
+                                                <FontAwesomeIcon icon={faClock} size="3x" color='var(--bs-secondary)'/>
+                                            </div>
+                                            <div className='col-9 mbr-regular mb-4'>
+                                                <b>DIAS Y HORARIO</b>
+                                                <br/>
+                                                {
+                                                    product.days.map((day,key)=> {
+                                                        return (<span key={key}>{day[0]} - {day[1]}</span>)
+                                                    })
+                                                }
+                                            </div>
+
+                                            <div className='col-3 text-center mb-4'>
+                                                <FontAwesomeIcon icon={faTimeline} size="3x" color='var(--bs-secondary)'/>
+                                            </div>
+                                            <div className='col-9 mbr-regular mb-4'>
+                                            <b>CANTIDAD DE ENCUENTROS:</b> {product.numberOfSesions}
+                                                <br/>
+                                                <b>TIEMPO TOTAL:</b> {product.numberOfHours} horas
+                                            </div>
+
+                                            <div className='col-3 text-center mb-4'>
+                                                <FontAwesomeIcon icon={faDesktop} size="3x" color='var(--bs-secondary)'/>
+                                                </div>
+                                            <div className='col-9 mbr-regular mb-4'>
+                                            <b>MODALIDAD</b>
+                                                <br/>
+                                                {product.mode}
+                                            </div>
+                                            <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href='/mercadopago'>
+                                                <a>
+                                                    <button type="button" className="btn btn-primary display-44">COMPRAR</button>
+                                                </a>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    <div className='pt-3'>
-                                        <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 align-left">
-                                            BLA BLA BLA
-                                        </p>
-                                    </div>
-                                    <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href='/agenda'>
-                                        <a>
-                                            <button type="button" className="btn btn-primary display-44">COMPRAR</button>
-                                        </a>
-                                    </Link>
                                 </div>
 
                             </div>
@@ -226,6 +272,40 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                 )
                                             })
                                         }
+                                        
+                                        {/* GENERAL FAQS - INICIO*/}
+
+                                        {
+                                            generalFAQ.map((data,key)=>{
+                                                return (
+                                                    <div key={key} className="accordion-item card bg-transparent">
+                                                        <div className="card-header" role="tab" id={`heading-11${key}`}>
+                                                            <a type='button' className="collapsed panel-title" data-bs-toggle="collapse"
+                                                                data-core="" href={`#collapse-question-11${key}`} aria-expanded="false"
+                                                                aria-controls={`collapse11${key}`}>
+                                                                <h5 className="mbr-fonts-style display-55 text-start">
+                                                                    <span className="sign mbr-iconfont mbri-arrow-down inactive ps-3"></span>
+                                                                    {data[0]}
+                                                                </h5>
+                                                            </a>
+                                                        </div>
+                                                        <div id={`collapse-question-11${key}`} className="panel-collapse noScroll collapse container" role="tabpanel"
+                                                            aria-labelledby={`heading-11${key}`} data-parent="#service-accordion_">
+                                                            <div className="panel-body">
+                                                                {
+                                                                    data[1].map((el,index)=>
+                                                                        <p key={index} className='mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start'><span dangerouslySetInnerHTML={{__html: el}}/></p>
+                                                                    )
+                                                                }
+                                                                    
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                )
+                                            })
+                                        }
+                                        {/* GENERAL FAQS - FIN*/}
                                         </div>
                                     </div>
                                 </div>

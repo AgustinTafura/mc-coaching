@@ -1,5 +1,42 @@
 module.exports = {
   
+  generalFAQ: [
+    [
+      '¿Dónde y cuándo son los encuentros?', 
+      [
+        'Los encuentros son sincrónicos, es decir, te conectas por videollamada a la plataforma MEET.',
+        ' Una vez que abones el curso, recibirás por mail el enlace para acceder al aula virtual.',
+        'Las fechas se encuentran en el cronograma.'
+      ]
+    ],
+    [
+      '¿Cómo abono este curso?',
+      [
+        '<b>Vivo en Argentina</b>. Puedes abonar por Mercado Pago. También puedes abonar por <i>transferencia inmediata bancaria</i> y compartir el comprobante de pago por WhatsApp.',
+        '<b>No vivo en Argentina</b>. Abona este curso por medio de la plataforma PAY PAL.',
+      ]
+    ],
+    [
+      '¿Hay algún descuento disponible?',
+      [
+        'Si ya has participado de otros cursos o talleres con nosotros, o has realizado algún proceso de Coaching individual o grupal, puedes acceder a un descuento especial. En este caso, sólo podrás abonar con tarjeta de débito o transferencia inmediata.'
+      ]
+    ],
+    [
+      'Los descuentos, ¿son acumulables?',
+      [
+        'Los descuentos no son acumulables.'
+      ]
+    ],
+    [
+      '¿Tengo garantía de devolución?',
+      [
+        'Si! Si por alguna razón no te sientes capaz de asumir el compromiso de realizar este curso y ascender al siguiente nivel, dispones de una garantía de satisfacción de 7 días. Puedes presenciar la primer clase, y dispones de 7 días para solicitar la devolución de tu inversión.',
+        '<b>Te devolvemos tu dinero.</b> Sólo te descontaremos el porcentaje que haya percibido el banco o la aplicación en caso de corresponder',
+      ]
+    ],
+  ],
+
   sections: [
     {
       name:'conoceme',
@@ -20,18 +57,10 @@ module.exports = {
           img:'/img/services/coaching-personal/0.jpg',
           description: 'El Coaching Personal es un proceso personalizado y confidencial, orientado en ayudar al Coachee a alcanzar resultados mejores en diferentes áreas de su vida personal o profesional.',
           phrases:[
-            // {
-            //   phrase:"Si uno queda atrapado en una idea creyendo que es “cierta”, pierde la oportunidad de conocer la verdad.",
-            //   author:"Buda",
-            // },
             {
               phrase:"Cuando ya no somos capaces de cambiar una situación, nos encontramos ante el desafío de cambiarnos a nosotros mismos.",
               author:"Viktor Frankl",
             },
-            // {
-            //   phrase:"Los retos de la vida no están ahí para paralizarte, sino para ayudarte a descubrir quién eres.",
-            //   author:"Bernice Reagan",
-            // }
           ],
           meta:{
             title:"Marcela Caputo - Cursos sobre Coaching Personal",
@@ -44,20 +73,29 @@ module.exports = {
               numberOfSesions:"5",
               numberOfHours:"10",
               days:[
-                ['sabado','10 a 12 hs'],
+                ['Sábados','10 a 12 hs'],
               ],
               mode:'Online - Vivo - Plataforma Meet',
               dateStart: 'Sábado 4 de Marzo 2023',
               dateEnd: 'Sábado 1 de Abril 2023',
               investment: {
-                argentina: 16000,
-                exterior: 60,
+                argentina:{
+                  price: 11200,
+                  discount: 15,
+                  discountDate: '13 febrero de 2023',
+                },
+                exterior: {
+                  price: 60,
+                  discount:205,
+                  discountDate: '13 febrero de 2023',
+                }
               },
+              target: ['“Conocerse para crecer” es una propuesta diseñada para cualquier persona que  busque autoconocerse, desarrollar su inteligencia emocional, potenciar sus fortalezas, desarrollar sus capacidades y recursos internos,  y adquirir herramientas para una comunicación efectiva que genere una mejora en los vínculos interpersonales en su vida personal, laboral y social.'],
               shortDescription: [
                 '¿Cuánto inviertes en tu crecimiento personal?',
                 'Eres de esas personas que quieren hacer un cambio en su vida, y no sabe cómo? O por dónde empezar?',
                 'Este curso te elevará desde una mentalidad fija hacia una mentalidad de crecimiento. Te cuento cómo lo vamos a hacer!!',
-                'El coaching es un proceso de entrenamiento personalizado y 100% confidencial , que se vale de un conjunto de herramientas orientadas a cubrir la distancia que existe entre dos momentos: tu estado actual y el estado al que deseas llegar.',
+                'El coaching es un proceso de entrenamiento personalizado y 100% confidencial, que se vale de un conjunto de herramientas orientadas a cubrir la distancia que existe entre dos momentos: tu estado actual y el estado al que deseas llegar.',
                 'Es una disciplina que nos acerca al logro de objetivos, permitiéndonos desarrollarnos personal y profesionalmente.',
               ],
               longDescription: [
@@ -67,11 +105,15 @@ module.exports = {
                 'Desarrollar hábitos positivos.',
                 'Comunicarte de manera más efectiva.',
                 'Planificar pequeñas acciones que sean sostenibles y ecológicas en relación a los objetivos que te planteas para tu vida futura.',
+                'Abordar los conflictos desde otra perspectiva y con nuevas herramientas para encontrar soluciones más pacíficas.',
+                'Ser un observador diferente de las situaciones que se presentan, de modo que puedas encontrar nuevas posibilidades de abordaje.',
+                'Coordinar pequeñas acciones y sostenerlas en el tiempo para alcanzar los objetivos que te propongas en tu ámbito personal o laboral. ',
+                'Generar entornos de confianza.',
                 'Vivir con menos estrés y más bienestar.',
               ],
               goals: [
-                'Ofrecerte herramientas teórico-prácticas de la disciplina del Coaching , la Inteligencia emocional y el Mindfulness para el autoconocimiento personal y el desarrollo de tus habilidades intra e interpersonales.',
-                'Acompañarte en el proceso de CREAR(TE) un futuro más amigable y más ecológico.',
+                'Ofrecerte herramientas teórico-prácticas de la disciplina del Coaching, la Inteligencia emocional y el Mindfulness para el autoconocimiento personal y el desarrollo de tus habilidades intra e interpersonales.',
+                'Acompañarte en el proceso de CREAR (TE) un futuro más amigable y más ecológico(que sea bueno para vos y para tu entorno)',
               ],
               content: [
                 'Tu estado presente. Haciendo zoom en cada una de las áreas de tu vida.',
@@ -84,42 +126,34 @@ module.exports = {
                 'Despertar. La atención plena y consciente. Cierre.',
               ],
               value: [
-                'En Marcela Caputo Coaching y Educación Integral para el desarrollo personal y profesional ponemos especial énfasis en los aportes de las Neurociencias  para comprender:',
+                'En Marcela Caputo Coaching y Educación Integral para el desarrollo personal y profesional ponemos especial énfasis en los aportes de las Neurociencias  y el desarrollo de la  Inteligencia Emocional para comprender:',
                 [
-                  'Cómo funciona nuestro cerebro cuando aprendemos,',
-                  'la importancia del descanso mínimo durante el tiempo de la cursada, que permite al cerebro recargar energía.',
-                  'la importancia de la participación concreta y práctica, ya que aprendemos más y mejor cuando pasamos el aprendizaje por el cuerpo.',
-                  'La interacción entre el profesor y los participantes, propiciando y respetando los distintos puntos de vista.',
-                  'La importancia de la mirada empática y amable para nosotros mismos y para con los demás, para entender que aprendemos a partir del error y que éste no es pasible de sanciones, sino que tomamos al error como oportunidad para el aprendizaje. ',
+                'Cómo funciona nuestro cerebro cuando aprendemos.',
+                'Qué papel juegan nuestras emociones y las de los demás.',
+                'La importancia del descanso mínimo durante el tiempo de aprendizaje, que permite al cerebro recargar energía.',
+                'La importancia de la participación concreta y práctica, ya que aprendemos más y mejor cuando pasamos el aprendizaje por el cuerpo.',
+                'La interacción entre el profesor y los participantes, propiciando y respetando los distintos puntos de vista.',
+                'La importancia de la mirada empática y amable para nosotros mismos y para con los demás, para entender que aprendemos a partir del error y que éste no es pasible de sanciones sino que tomamos al error como oportunidad para el aprendizaje.',
                 ],
-                'Nuestra propuesta se desarrolla en un marco pedagógico- didáctico, ya que nuestros capacitadores y facilitadores, poseen una formación pedagógica,  además de la especialización académica.',
-                'Metodología. Todos nuestros cursos y talleres, están cuidadosamente planificados bajo los lineamientos de una Educación Integral que busca promover a la educación emocional y el desarrollo de las habilidades sociales como contenidos transversales para nuestros alumnos sean capaces de afrontar los desafíos del contexto social actual en el marco de su propio desarrollo personal y/o profesional.',
+                '<span>Nuestra propuesta se desarrolla dentro de un marco pedagógico- didáctico cuidado.</span>',
+                '<div  class="pt-3" style="color:var(--bs-secondary)"><b>¿Cuál es la metodología de las capacitaciones?</b></div>',
+                'Todos nuestros cursos, capacitaciones, Masterclasses y talleres, están cuidadosamente planificados bajo los lineamientos de una Educación Integral que busca promover la educación emocional y el desarrollo de las habilidades blandas como contenidos transversales para que nuestros estudiantes sean capaces de afrontar los desafíos del contexto social actual en el marco de su propio desarrollo personal y/o profesional.',
               ],
               faq: [
-                ['¿A quiénes está dirigida esta propuesta?', ['“Conocerse para crecer” es una propuesta diseñada para cualquier persona que  busque autoconocerse ,desarrollar su inteligencia emocional , potenciar sus fortalezas, desarrollar sus capacidades y recursos internos,  y adquirir herramientas para una comunicación efectiva que genere una mejora en los vínculos interpersonales en su vida personal, laboral y social.']],
-                ['¿Qué voy a aprender ?',[
-                  'Mejorar tus habilidades de comunicación.',
-                  'Relacionarte con los demás de manera más efectiva.',
-                  'Abordar los conflictos desde otra perspectiva y con nuevas herramientas para encontrar soluciones más pacíficas.',
-                  'Ser un observador diferente de las situaciones que se presentan, de modo que puedas encontrar nuevas posibilidades de abordaje.',
-                  'Coordinar pequeñas acciones y sostenerlas en el tiempo para alcanzar los objetivos que te propongas en tu ámbito personal o laboral.',
-                  'Generar entornos de confianza.',
-                  'Propiciar en otras personas, el desarrollo de  habilidades socioemocionales.',
-                ]],
-                ['¿Necesito poseer conocimientos previos?',['No necesitas conocimientos previos.']],
-                ['¿Qué me voy a llevar?  P R E M I U M', [
-                  'Todo el material  trabajado en clase en formato PDF con actividades prácticas para ejercitar en tu tiempo libre cuando quieras!',
-                  'Feedback sobre cada una de las actividades planteadas para que realices en tiempo extra a los encuentros.',
-                  'Acompañamiento  a través de Whatsapp donde podrás consultar todas tus dudas  durante el tiempo que dure el curso.',
-                  'Admisión a nuestra comunidad de Facebook “Marcela Caputo Coaching y Educación Integral “ donde tendrás acceso al material gratuito que estará disponible para todos los miembros a lo largo de todo el año.',
-                  '20% de descuento para los próximos cursos que tomes con nosotros.',
-                  'Tu certificado de aprobación o participación.',
-                ]],
+                ['¿Necesito poseer conocimientos previos?',['No necesitas conocimientos previos. Este curso tiene un nivel inicial para que puedas ir internalizando a tu propio ritmo, los nuevos conceptos que te llevarán por el camino de la transformación personal.']],
                 ['Las actividades para resolver fuera del horario de los encuentros, ¿Son obligatorias?', ['Lo son siempre que quieras obtener tu certificado de FINALIZACIÓN del Curso. Dentro de las actividades, está incluida una evaluación final  ( Ir a la pregunta : “¿Cómo apruebo el curso?” ). De lo contrario, puedes tomar el curso sin la realizar las actividades y recibirás un certificado de PARTICIPACIÓN.']],
                 ['¿Qué necesito para acceder al curso ?', ['Necesitas tener una buena conexión a internet y, una computadora, tablet, Netbook o smartphone para poder conectarte a la plataforma de videollamadas Zoom.']],
                 ['¿Quien  va a dictar este curso?', ['El curso será dictado por Marcela Caputo.']],
-                ['¿Dónde y cuándo son los encuentros?', ['Los encuentros son sincrónicos, es decir, te conectas por videollamada a la plataforma ZOOM. Una ves que abones el curso, recibirás por mail el enlace. Las fechas se encuentran en el cronograma.']],
-                ['¿Cómo apruebo el curso?', ['Para aprobar el curso deberás realizar una evaluación final con la metodología de múltiple Choice. Para aprobar el curso, debes alcanzar el 60% de opciones acertadas.']],
+                ['¿Qué me voy a llevar?  P R E M I U M', [
+                  '10 horas de encuentros vivenciales con Marcela Caputo, quien compartirá su experiencia no sólo en el ámbito del Coaching y la meditación Mindfulness, sino también su experiencia como docente en las aulas por más de 25 años y como Líder del Equipo Directivo en Gestión Educativa por 15 años.',
+                  'La grabación de las clases durante un mes para que puedas repasar todo lo aprendido, o ver las clases si por algún motivo te perdiste alguna.',
+                  'Todo el material  trabajado en clase en formato PDF con actividades prácticas para ejercitar en tu tiempo libre cuando quieras !',
+                  'Feedback sobre cada una de las actividades planteadas para que realices en tiempo extra a los encuentros. ',
+                  'Acompañamiento  a través de Whatsapp donde podrás consultar todas tus dudas  durante el tiempo que dure el curso y hasta un mes después , que es el tiempo que quedan las clases grabadas. ',
+                  'Admisión a nuestro grupo comunidad de Whatsapp “Intencional Mente“ donde podrás interactuar con tus compañer@s de cursada y otros estudiantes de otras ediciones , compartir material, experiencias, intercambiar ideas y contarnos cómo vas poniendo en práctica  todas las herramientas que te llevas del curso. ',
+                  'Un descuento especial  para los próximos cursos que tomes con nosotros.',
+                  'Tu certificado de participación.',
+                ]],
               ]
             }
           ]
@@ -134,10 +168,6 @@ module.exports = {
               phrase:"La única manera de hacer un gran trabajo, es amar lo que se hace. Si aún no has encontrado algo que ames, sigue buscando. No te conformes. Al igual que en los asuntos del corazón, sabrás cuando lo encuentres.",
               author:"Steve Jobs",
             },
-            // {
-            //   phrase:"Un viaje de mil millas comienza con un primer paso.",
-            //   author:"Lao Tsé",
-            // }
           ],
           meta:{
             title:"Marcela Caputo - Cursos sobre Coaching Vocacional",
@@ -186,14 +216,6 @@ module.exports = {
               phrase:"Si tú no trabajas  por tus sueños, otros te pagarán para que trabajes por los suyos.",
               author:"Steve Jobs",
             },
-            // {
-            //   phrase:"Un error es una forma distinta de hacer las cosas.",
-            //   author:"Albert Einstein",
-            // },
-            // {
-            //   phrase:"Cuando cambias el modo en que ves las cosas, esas cosas que tú observas, cambian.",
-            //   author:"Wayne Dyer",
-            // }
           ],
           meta:{
             title:"Marcela Caputo - Cursos sobre Coaching para Emprendedores",

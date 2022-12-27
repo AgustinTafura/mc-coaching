@@ -53,7 +53,7 @@ const CoachingEducativo = (props) => {
                                 <h3 className="mbr-fonts-style display-55 text-center mb-3" style={{color: '#6c5b67'}}>
                                     ¿A qué personas está destinada esta propuesta?
                                 </h3>
-                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-start text-sm-center">
+                                <div className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-start text-sm-center">
                                     El Coaching Educativo como disciplina innovadora está destinada a
                                     <br/><br/>
                                     <div className="row">
@@ -96,7 +96,7 @@ const CoachingEducativo = (props) => {
                                     <b>Si entiendes</b> como nosotros que aportar valor a los nuevos desafíos, redundará en un mundo un poco mejor para nosotros y nuestro&nbsp;entorno.
                                     <br/><br/>
                                     <b>Si sientes</b> como nosotros, que dejar huellas positivas es necesario para construir algo mejor, entonces escríbenos y únete a nuestros cursos, talleres y sesiones personalizadas&nbsp;online.
-                                </p>
+                                </div>
                             </div>
                         </div>
 
