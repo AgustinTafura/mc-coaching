@@ -13,8 +13,8 @@ const HomeServices = () => {
                     <div className="wrapper"  style={{background: "#9e9e9e0f"}}>
                         <div className="row">
 
-                                <h4 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style display-44">
-                                    COACHING</h4>
+                                {/* <h4 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style display-44">
+                                    COACHING</h4> */}
                                 <h3
                                     className="mbr-section-title align-left mbr-bold mbr-white pb-2 mbr-fonts-style display-22">
                                     Cómo lo hacemos</h3>
@@ -26,7 +26,7 @@ const HomeServices = () => {
                                 <br/>
                                 A través de la Educación, nos enfocamos en el desarrollo de las capacidades y las habilidades blandas, integrando las Inteligencias Múltiples y sumando los aportes de la Neurociencia cognitiva, en el marco de los nuevos paradigmas de educación que incorporan el saber hacer, al&nbsp;saber.
                                 <br/>
-                                Entendemos que un buen clima institucional, la convivencia, la emociones ,el aprendizaje y los estándares de alto desempeño, van de la&nbsp;mano.
+                                Entendemos que un buen clima institucional, la convivencia, las emociones ,el aprendizaje y los estándares de alto desempeño, van de la&nbsp;mano.
                                 </p>
                                 <div className="mbr-section-btn">
                                     <Link href="#servicios">
@@ -135,7 +135,7 @@ const HomeServices = () => {
                                                     <br/>
                                                     Ésta modalidad está dirigida a hombres y mujeres emprendedoras, equipos de venta,&nbsp;pymes.
                                                     <br/>
-                                                    Consiste en adquirir de herramientas concretas y prácticas del marketing estratégico digital para emprender&nbsp;online. 
+                                                    Consiste en adquirir herramientas concretas y prácticas del marketing estratégico digital para emprender&nbsp;online. 
                                                     <br/><br/>
                                                     <b>Organizaciones</b>
                                                     <br/>
@@ -358,10 +358,6 @@ const HomeServices = () => {
                                     <div id='visionCollapse' className="card-text mbr-regular collapse">
                                         <p>
                                             Impulsamos a adolescentes y jóvenes a descubrir su verdadera vocación y a conectarse con ese oficio o carrera que lo acerque a su propósito de vida. 
-                                        </p>
-                                        <p>
-                                            Procuramos la excelencia y nos proyectamos para construir un futuro mejor. 
-                                            Contribuimos a través de la Educación emocional, a generar relaciones colaborativas  y a crear contextos más humanos, más resilientes.
                                         </p>
                                     </div>
                                 </div>

@@ -390,7 +390,12 @@ const CoachingPersonal = (props) => {
                                         Por ello y gracias a los relevantes descubrimientos de las neurociencias y el impulso que el Psicólogo Daniel Goleman le dio al concepto de Inteligencia Emocional como capacidad para reconocer nuestros propios sentimientos y los de los demás, de regular nuestras emociones y automotivarnos, la educación emocional o educación neuroemocional, a mi criterio, se ha transformado en una herramienta fundamental para contribuir a tener una vida plena, pues - insisto-, son nuestras emociones las que definen nuestra forma de reaccionar y actuar ante los estímulos que se presentan ante nosotros en nuestra vida cotidiana.
                                         <br/><br/>
                                     </p>
+                                    <picture>
+                                        <img src="/img/services/coaching-personal/icon.png" alt="icon" style={{width:'100px'}} />
+                                    </picture>
                                 </div>
+
+
                                 <div className="pb-5">
                                     <h3 className="mbr-fonts-style display-55 text-center mb-3" style={{color: '#6c5b67'}}>
                                         ¿Qué es la Neurosicoeducación?
