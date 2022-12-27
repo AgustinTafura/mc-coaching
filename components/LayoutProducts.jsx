@@ -8,7 +8,7 @@ import { useRouter } from "next/router"
 import { sections, generalFAQ } from '../data'
 import SectionInfo from './SectionInfo'
 import Link from 'next/link'
-import { faDesktop, faTimeline } from '@fortawesome/free-solid-svg-icons'
+import { faDesktop, faDollarSign, faTimeline } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -21,6 +21,21 @@ const LayoutProducts = ({ children, ...pageProps }) => {
     const services = sections.find(service=>service.name === 'servicios')
     const service = services.list.find(service=>service.name === urlTitle)
     const product = service.products.find(p=>p.title === productName)
+
+    function toARS(value) {
+        return new Intl.NumberFormat('es-ar', {
+            style: 'currency',
+            currency: 'ARS',
+            minimumFractionDigits: 0
+        }).format(value)
+    }
+    function toUSD(value) {
+        return new Intl.NumberFormat('en-US', {
+            style: 'currency',
+            currency: 'USD',
+            minimumFractionDigits: 0
+        }).format(value)
+    }
 
     return (
     <>
@@ -160,7 +175,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
 
                         <div className="col-lg-4 mx-auto mbr-form position-relative py-5 pt-lg-0 g-0" data-form-type="formoid">
                             <div className='sticky-sidebar'>
-                                <div className="form-col sticky-item" data-form-type="formoid">
+                                <div className="form-col sticky-item px-lg-4" data-form-type="formoid">
                                     <div className="col-lg-12 col-md-12 col-sm-12 mb-4" >
                                         <h6 className="mbr-section-subtitle mbr-fonts-style display-44" style={{color:'var(--bs-secondary)'}}>
                                             PRÓXIMO CURSO  
@@ -170,7 +185,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                     <div className='row justify-content-center'>
                                         <div className='row d-flex col-sm-10 col-md-6 col-lg-12 g-0'>
 
-                                            <div className='col-3 text-center mb-4'>
+                                            <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faCalendar} size="3x" color='var(--bs-secondary)'/>
                                             </div>
                                             <div className='col-9 mbr-regular mb-4'>
@@ -179,7 +194,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                 <b>FIN:</b> {product.dateEnd}
                                             </div>
 
-                                            <div className='col-3 text-center mb-4'>
+                                            <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faClock} size="3x" color='var(--bs-secondary)'/>
                                             </div>
                                             <div className='col-9 mbr-regular mb-4'>
@@ -192,7 +207,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                 }
                                             </div>
 
-                                            <div className='col-3 text-center mb-4'>
+                                            <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faTimeline} size="3x" color='var(--bs-secondary)'/>
                                             </div>
                                             <div className='col-9 mbr-regular mb-4'>
@@ -201,7 +216,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                 <b>TIEMPO TOTAL:</b> {product.numberOfHours} horas
                                             </div>
 
-                                            <div className='col-3 text-center mb-4'>
+                                            <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faDesktop} size="3x" color='var(--bs-secondary)'/>
                                                 </div>
                                             <div className='col-9 mbr-regular mb-4'>
@@ -209,6 +224,24 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                 <br/>
                                                 {product.mode}
                                             </div>
+                                            <div className='col-3 text-center align-self-center'>
+                                                <FontAwesomeIcon icon={faDollarSign} size="3x" color='var(--bs-secondary)'/>
+                                                </div>
+                                            <div className='col-4 mbr-regular'>
+                                            <b>ARGENTINA</b>
+                                                <br/>
+                                                <del>ARS {toARS(product.investment.argentina.price)}</del>
+                                                <br />
+                                                <b>ARS {toARS(product.investment.argentina.price*((100-product.investment.argentina.discount)/100))}*</b>
+                                            </div>
+                                            <div className='col-4 mbr-regular'>
+                                            <b>EXTERIOR</b>
+                                                <br/>
+                                                <del>USD {toUSD(product.investment.exterior.price)}</del>
+                                                <br />
+                                                <b>USD {toUSD(product.investment.exterior.price*((100-product.investment.exterior.discount)/100))}*</b>
+                                            </div>
+                                            <div className='my-3 text-center' style={{fontSize:'12px'}}>* Precio PROMOCIONAL hasta el {product.investment.discountDate} o <b>3 cuotas Sin Interes</b> sobre el precio de&nbsp;lista</div>
                                             <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href='/mercadopago'>
                                                 <a>
                                                     <button type="button" className="btn btn-primary display-44">COMPRAR</button>

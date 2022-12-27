@@ -86,9 +86,10 @@ module.exports = {
                 },
                 exterior: {
                   price: 60,
-                  discount:205,
+                  discount:20,
                   discountDate: '13 febrero de 2023',
-                }
+                },
+                discountDate:'13 febrero de 2023',
               },
               target: ['“Conocerse para crecer” es una propuesta diseñada para cualquier persona que  busque autoconocerse, desarrollar su inteligencia emocional, potenciar sus fortalezas, desarrollar sus capacidades y recursos internos,  y adquirir herramientas para una comunicación efectiva que genere una mejora en los vínculos interpersonales en su vida personal, laboral y social.'],
               shortDescription: [
