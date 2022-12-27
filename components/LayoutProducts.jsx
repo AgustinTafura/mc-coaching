@@ -233,14 +233,20 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                 <br />
                                                 <b>ARS {toARS(product.investment.argentina.price*((100-product.investment.argentina.discount)/100))}*</b>
                                             </div>
-                                            <div className='col-4 mbr-regular'>
-                                            <b>EXTERIOR</b>
-                                                <br/>
-                                                <del>USD {toUSD(product.investment.exterior.price)}</del>
-                                                <br />
-                                                <b>USD {toUSD(product.investment.exterior.price*((100-product.investment.exterior.discount)/100))}*</b>
-                                            </div>
-                                            <div className='my-3 text-center' style={{fontSize:'12px'}}>* Precio PROMOCIONAL hasta el {product.investment.discountDate} o <b>3 cuotas Sin Interes</b> sobre el precio de&nbsp;lista</div>
+                                            {
+                                                product.investment.exterior && (
+                                                    <div className='col-4 mbr-regular'>
+                                                        <b>EXTERIOR</b>
+                                                            <br/>
+                                                            <del>USD {toUSD(product.investment.exterior.price)}</del>
+                                                            <br />
+                                                            <b>USD {toUSD(product.investment.exterior.price*((100-product.investment.exterior.discount)/100))}*</b>
+                                                    </div>
+                                                )
+                                            }
+                                            {
+                                                product.investment.discountDate && <div className='my-3 text-center' style={{fontSize:'12px'}}>* Precio PROMOCIONAL hasta el {product.investment.discountDate} o <b>3 cuotas Sin Interes</b> sobre el precio de&nbsp;lista. <b>CUPOS&nbsp;LIMITADOS</b></div>
+                                            }
                                             <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href='/mercadopago'>
                                                 <a>
                                                     <button type="button" className="btn btn-primary display-44">COMPRAR</button>

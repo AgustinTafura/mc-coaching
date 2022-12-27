@@ -174,7 +174,106 @@ module.exports = {
           meta:{
             title:"Marcela Caputo - Cursos sobre Coaching Vocacional",
             description: "Obtené más información acerca de mis cursos sobre Coaching Vocacional, en los cuales acompañamos a adolescentes, jóvenes universitarios y adultos",
-          },    
+          },
+          products: [
+            {
+              title:'VOCACIONALMENTE (Estudiantes Universitarios)',
+              link:'vocacionalmente',
+              subtitle:"Re-descubrí tu vocación y tu propósito de vida.",
+              numberOfSesions:"6",
+              numberOfHours:"15",
+              days:[
+                ['Martes','19 a 21.30 hs'],
+              ],
+              mode:'Online - Vivo - Plataforma Meet',
+              dateStart: 'Martes 14 de Marzo 2023',
+              dateEnd: 'Martes 18 de Abril 2023',
+              investment: {
+                argentina:{
+                  price: 41000,
+                  discount: 20,
+                  discountDate: '10 de Marzo de 2023',
+                },
+                // exterior: {
+                //   price: 60,
+                //   discount:20,
+                //   discountDate: '10 de Marzo de 2023',
+                // },
+                discountDate:'10 de Marzo de 2023',
+              },
+              target: ['La presente propuesta está pensada para los y las jóvenes universitarias que están cursando una carrera y presentan inconvenientes para rendir sus exámenes, terminar de cursar, o presentan dudas acerca de si la continuidad en la misma, es una decisión acertada de cara a transformarse en los futuros profesionales que aspiran ser.'],
+              shortDescription: [
+                '¿Sabías que con HERRAMIENTAS de COACHING y  NEUROMARKETING  podés hacer que tu negocio pase al siguiente nivel?',
+                'En la actualidad vemos en las redes sociales, a miles de hombres y mujeres que iniciaron su emprendimiento en Instagram. Ahora , por qué motivo algunos venden muchísimo, y otros muy poco ?',
+                'Con este curso vas a aprender a  desarrollar tu emprendimiento,  hacerlo crecer  y transformarte en un vendedor /vendedora  estratégica e incrementar tus ventas todo lo que te propongas!',
+              ],
+              longDescription: [
+                'A conocerte, conocer tu propósito y el para qué realizar tu emprendimiento actual.',
+                'Herramientas de Coaching para potenciar tus fortalezas y superar tus miedos e inseguridades a la hora de emprender, como base fundamental para emprender de manera creativa y exitosa.',
+                'El nuevo paradigma de la comunicación digital.',
+                'Ideas básicas sobre el marketing estratégico digital para la mejora de un emprendimiento o perfil personal/comercial.',
+                'Cómo funcionan las herramientas de neuromarketing aplicadas a las redes sociales. ',
+                'Cómo salir de una mentalidad fija y transformarte hacia una mentalidad de crecimiento.',
+                'Los pro y los contra  de emprender y vivir sin jefe. El vaso medio lleno.',
+                'Cómo la creatividad influye en tus procesos de venta.',
+                'Cómo encontrar tu nicho ideal para vender más.',
+                
+              ],
+              goals: [
+                'Introducirse en el mundo del marketing estratégico digital como herramienta para vender más a través de sus perfiles en redes sociales.',
+                'Afrontar su emprendimiento de manera estratégica, con herramientas y habilidades blandas, que le permitan interpretar el comportamiento del público objetivo.',
+                'Conocer y poner en práctica las herramientas que ofrece el Coaching y las Neurociencias al servicio del Marketing para que las ventas sean de calidad.',
+
+              ],
+              content: [
+                '¿Por qué y para qué emprender?',
+                'Emprender y Aprender a vivir sin jefe.',
+                'Marketing . Esquema integral.',
+                'Contexto actual.',
+                'Marketing Estratégico.',
+                'Vivir sin jefe.',
+                'Los procesos Creativos.',
+                'Mindset. Hacia una mentalidad de crecimiento y éxito.',
+                'Marca Personal. Tu propósito de vida y tu “para qué“.',
+                'Vender productos. Vender servicios.',
+                'Posicionamiento.',
+                'Público Objetivo. Perfil del Usuario. Avatar.',
+                'Herramienta “ Brand Key Model”.',
+                'Herramienta : “The Value Proposition Canvas”.',
+                'Funnel de Ventas.',
+                'Encontrando mi nicho.',
+                'Los micromomentos en el camino del consumidor.',
+                'Contenido de calidad. Storytelling.',
+                'Call to action ( Llamado a la acción ).',
+                'Las buenas prácticas.',
+              ],
+              value: [
+                'Marcela ha ejercido la docencia con adultos durante más de 25 años y paralelamente siempre se dedicó a las ventas de productos y servicios, siendo ambas actividades su pasión y su propósito de vida.',
+                'Se especializó en Liderazgo y Coaching y cursó un programa de posgrado universitario en Marketing Estratégico Digital, en la Universidad Nacional de La Plata.',
+                '<div  class="pt-3" style="color:var(--bs-secondary)"><b>¿Cuál es la metodología de las capacitaciones?</b></div>',
+                'Todos nuestros cursos, capacitaciones, Masterclasses y talleres, están cuidadosamente planificados bajo los lineamientos de una Educación Integral que busca promover el desarrollo de las habilidades blandas como contenidos transversales para que nuestros estudiantes sean capaces de afrontar y adaptarse  a los desafíos del contexto social actual en el marco de la virtualidad.',
+                '<div  class="pt-3" style="color:var(--bs-secondary)"><b>¿Qué me voy a llevar de este entrenamiento?</b></div>',
+                [
+                '8 horas de encuentros vivenciales en cada uno de los Niveles (24 horas entre los tres Niveles).',
+                'La grabación de las clases durante un mes para que puedas repasar todo lo aprendido, o ver las clases si por algún motivo te perdiste alguna.',
+                'Todo el material  trabajado en clase en formato PDF con actividades prácticas para ejercitar en tu tiempo libre cuando quieras !',
+                'Acompañamiento a través de Whatsapp donde podrás consultar todas tus dudas durante el tiempo que dure el curso y hasta un mes después , que es el tiempo que quedan las clases grabadas.',
+                'Admisión a nuestro grupo comunidad de Whatsapp “HOMBRES Y MUJERES EMPRENDIENDO MEJOR “ donde podrás interactuar con tus compañeros de cursada y otros estudiantes de las otras ediciones, compartir material, experiencias, intercambiar ideas y contarnos cómo vas poniendo en práctica  toaso las herramientas que te llevas del curso. ',
+                'Un descuento especial  para los próximos cursos que tomes con nosotros.',
+                'Tu certificado de participación.',
+                ]
+              ],
+              faq: [
+                ['¿Cuánto dura este curso?',[
+                  'Este curso está dividido en 3 niveles, y cada nivel tiene una duración de 1 mes (4 encuentros).<br/> Es decir, que si deseas completar los tres ( 3 ) niveles, la formación completa abarcará un total de 3 meses aproximadamente ( 12 encuentros ).<br/> El propósito es que puedas ir incorporando los conocimientos de a poco y a tu ritmo. <br/><br/> Los  <b>NIVELES  II y III</b>, se dictarán al finalizar la cursada del <b>NIVEL I</b>. Al iniciar la cursada , publicaremos la fecha de inicio de los siguientes niveles.'
+                ]],
+                ['¿Es obligatorio completar los 3 niveles?', ['Por supuesto que no. Sólo te recomiendo hacerlos si tu intención es aprender a generar un buen plan de marketing para vender más. <br/>Depende de vos, de cuánto quieras hacer crecer tu emprendimiento. <br/> Si por algún motivo, no te es posible realizar los siguientes niveles a continuación del primer nivel, y deseas hacerlo, podrás inscribirte en las siguientes cohortes ( o promociones ), ya que este es un curso que se publicará durante todo el año. <br/>Te llevarás un certificado de participación por cada Nivel que cumplimentes.']],
+                ['¿Necesito poseer conocimientos previos ?', [
+                  'No necesitas conocimientos previos. Por eso hemos pensado este curso completo con un nivel inicial para que puedas ir internalizando a tu propio ritmo, los nuevos conceptos que te llevarán a aumentar tus ventas hasta en un 100%, cuando culmines el nivel III.',
+                ]],
+              ]
+            }
+          ]    
         },
         {
           name:'coaching educativo',
@@ -301,7 +400,7 @@ module.exports = {
                 'Se especializó en Liderazgo y Coaching y cursó un programa de posgrado universitario en Marketing Estratégico Digital, en la Universidad Nacional de La Plata.',
                 '<div  class="pt-3" style="color:var(--bs-secondary)"><b>¿Cuál es la metodología de las capacitaciones?</b></div>',
                 'Todos nuestros cursos, capacitaciones, Masterclasses y talleres, están cuidadosamente planificados bajo los lineamientos de una Educación Integral que busca promover el desarrollo de las habilidades blandas como contenidos transversales para que nuestros estudiantes sean capaces de afrontar y adaptarse  a los desafíos del contexto social actual en el marco de la virtualidad.',
-                '<div  class="pt-3" style="color:var(--bs-secondary)"><b>¿Cuál es la metodología de las capacitaciones?</b></div>',
+                '<div  class="pt-3" style="color:var(--bs-secondary)"><b>¿Qué me voy a llevar de este entrenamiento?</b></div>',
                 [
                 '8 horas de encuentros vivenciales en cada uno de los Niveles (24 horas entre los tres Niveles).',
                 'La grabación de las clases durante un mes para que puedas repasar todo lo aprendido, o ver las clases si por algún motivo te perdiste alguna.',
