@@ -1,6 +1,9 @@
 module.exports = {
   
   generalFAQ: [
+    ['Las actividades para resolver fuera del horario de los encuentros, ¿Son obligatorias?', ['Lo son siempre que quieras obtener tu certificado de FINALIZACIÓN del Curso. Dentro de las actividades, está incluida una evaluación final  ( Ir a la pregunta : “¿Cómo apruebo el curso?” ). De lo contrario, puedes tomar el curso sin la realizar las actividades y recibirás un certificado de PARTICIPACIÓN.']],
+    ['¿Qué necesito para acceder al curso ?', ['Necesitas tener una buena conexión a internet y, una computadora, tablet, Netbook o smartphone para poder conectarte a la plataforma de videollamadas Zoom.']],
+    ['¿Quien  va a dictar este curso?', ['El curso será dictado por Marcela Caputo.']],
     [
       '¿Dónde y cuándo son los encuentros?', 
       [
@@ -69,6 +72,7 @@ module.exports = {
           products: [
             {
               title:"conocerse para crecer",
+              link:"conocerse-para-crecer",
               subtitle:"Curso práctico de Coaching para la vida (Life Coaching)",
               numberOfSesions:"5",
               numberOfHours:"10",
@@ -82,14 +86,14 @@ module.exports = {
                 argentina:{
                   price: 11200,
                   discount: 15,
-                  discountDate: '13 febrero de 2023',
+                  discountDate: '13 Febrero de 2023',
                 },
                 exterior: {
                   price: 60,
                   discount:20,
-                  discountDate: '13 febrero de 2023',
+                  discountDate: '13 Febrero de 2023',
                 },
-                discountDate:'13 febrero de 2023',
+                discountDate:'13 Febrero de 2023',
               },
               target: ['“Conocerse para crecer” es una propuesta diseñada para cualquier persona que  busque autoconocerse, desarrollar su inteligencia emocional, potenciar sus fortalezas, desarrollar sus capacidades y recursos internos,  y adquirir herramientas para una comunicación efectiva que genere una mejora en los vínculos interpersonales en su vida personal, laboral y social.'],
               shortDescription: [
@@ -142,9 +146,6 @@ module.exports = {
               ],
               faq: [
                 ['¿Necesito poseer conocimientos previos?',['No necesitas conocimientos previos. Este curso tiene un nivel inicial para que puedas ir internalizando a tu propio ritmo, los nuevos conceptos que te llevarán por el camino de la transformación personal.']],
-                ['Las actividades para resolver fuera del horario de los encuentros, ¿Son obligatorias?', ['Lo son siempre que quieras obtener tu certificado de FINALIZACIÓN del Curso. Dentro de las actividades, está incluida una evaluación final  ( Ir a la pregunta : “¿Cómo apruebo el curso?” ). De lo contrario, puedes tomar el curso sin la realizar las actividades y recibirás un certificado de PARTICIPACIÓN.']],
-                ['¿Qué necesito para acceder al curso ?', ['Necesitas tener una buena conexión a internet y, una computadora, tablet, Netbook o smartphone para poder conectarte a la plataforma de videollamadas Zoom.']],
-                ['¿Quien  va a dictar este curso?', ['El curso será dictado por Marcela Caputo.']],
                 ['¿Qué me voy a llevar?  P R E M I U M', [
                   '10 horas de encuentros vivenciales con Marcela Caputo, quien compartirá su experiencia no sólo en el ámbito del Coaching y la meditación Mindfulness, sino también su experiencia como docente en las aulas por más de 25 años y como Líder del Equipo Directivo en Gestión Educativa por 15 años.',
                   'La grabación de las clases durante un mes para que puedas repasar todo lo aprendido, o ver las clases si por algún motivo te perdiste alguna.',
@@ -222,7 +223,106 @@ module.exports = {
             title:"Marcela Caputo - Cursos sobre Coaching para Emprendedores",
             description: "Obtené más información acerca de mis cursos sobre Coaching para Emprendedores, facilitá tu camino al éxito y alcanzá objetivos que te propongas",
           },
-    
+          products: [
+            {
+              title:"Cómo desarrollar tu emprendimiento online con herramientas de COACHING y MARKETING DIGITAL - Nivel I",
+              link:'coaching-y-marketing-digital-1',
+              subtitle:"Curso teórico-práctico para Emprendedores.",
+              numberOfSesions:"4",
+              numberOfHours:"8",
+              days:[
+                ['Lunes','14 a 16 hs'],
+              ],
+              mode:'Online - Vivo - Plataforma Meet',
+              dateStart: 'Lunes 20 de Marzo 2023',
+              dateEnd: 'Lunes 10 de Abril 2023',
+              investment: {
+                argentina:{
+                  price: 11200,
+                  discount: 15,
+                  discountDate: '10 de Marzo de 2023',
+                },
+                exterior: {
+                  price: 60,
+                  discount:20,
+                  discountDate: '10 de Marzo de 2023',
+                },
+                discountDate:'10 de Marzo de 2023',
+                msg:'Además, congelas el valor del NIVEL II al mismo precio que el nivel I.'
+              },
+              target: ['A todo emprendedor o emprendedora que sienta que no está creciendo en su profesión y quiera mejorar sus ventas a través de Instagram, Facebook o Whatsapp.'],
+              shortDescription: [
+                '¿Sabías que con HERRAMIENTAS de COACHING y  NEUROMARKETING  podés hacer que tu negocio pase al siguiente nivel?',
+                'En la actualidad vemos en las redes sociales, a miles de hombres y mujeres que iniciaron su emprendimiento en Instagram. Ahora , por qué motivo algunos venden muchísimo, y otros muy poco ?',
+                'Con este curso vas a aprender a  desarrollar tu emprendimiento,  hacerlo crecer  y transformarte en un vendedor /vendedora  estratégica e incrementar tus ventas todo lo que te propongas!',
+              ],
+              longDescription: [
+                'A conocerte, conocer tu propósito y el para qué realizar tu emprendimiento actual.',
+                'Herramientas de Coaching para potenciar tus fortalezas y superar tus miedos e inseguridades a la hora de emprender, como base fundamental para emprender de manera creativa y exitosa.',
+                'El nuevo paradigma de la comunicación digital.',
+                'Ideas básicas sobre el marketing estratégico digital para la mejora de un emprendimiento o perfil personal/comercial.',
+                'Cómo funcionan las herramientas de neuromarketing aplicadas a las redes sociales. ',
+                'Cómo salir de una mentalidad fija y transformarte hacia una mentalidad de crecimiento.',
+                'Los pro y los contra  de emprender y vivir sin jefe. El vaso medio lleno.',
+                'Cómo la creatividad influye en tus procesos de venta.',
+                'Cómo encontrar tu nicho ideal para vender más.',
+                
+              ],
+              goals: [
+                'Introducirse en el mundo del marketing estratégico digital como herramienta para vender más a través de sus perfiles en redes sociales.',
+                'Afrontar su emprendimiento de manera estratégica, con herramientas y habilidades blandas, que le permitan interpretar el comportamiento del público objetivo.',
+                'Conocer y poner en práctica las herramientas que ofrece el Coaching y las Neurociencias al servicio del Marketing para que las ventas sean de calidad.',
+
+              ],
+              content: [
+                '¿Por qué y para qué emprender?',
+                'Emprender y Aprender a vivir sin jefe.',
+                'Marketing . Esquema integral.',
+                'Contexto actual.',
+                'Marketing Estratégico.',
+                'Vivir sin jefe.',
+                'Los procesos Creativos.',
+                'Mindset. Hacia una mentalidad de crecimiento y éxito.',
+                'Marca Personal. Tu propósito de vida y tu “para qué“.',
+                'Vender productos. Vender servicios.',
+                'Posicionamiento.',
+                'Público Objetivo. Perfil del Usuario. Avatar.',
+                'Herramienta “ Brand Key Model”.',
+                'Herramienta : “The Value Proposition Canvas”.',
+                'Funnel de Ventas.',
+                'Encontrando mi nicho.',
+                'Los micromomentos en el camino del consumidor.',
+                'Contenido de calidad. Storytelling.',
+                'Call to action ( Llamado a la acción ).',
+                'Las buenas prácticas.',
+              ],
+              value: [
+                'Marcela ha ejercido la docencia con adultos durante más de 25 años y paralelamente siempre se dedicó a las ventas de productos y servicios, siendo ambas actividades su pasión y su propósito de vida.',
+                'Se especializó en Liderazgo y Coaching y cursó un programa de posgrado universitario en Marketing Estratégico Digital, en la Universidad Nacional de La Plata.',
+                '<div  class="pt-3" style="color:var(--bs-secondary)"><b>¿Cuál es la metodología de las capacitaciones?</b></div>',
+                'Todos nuestros cursos, capacitaciones, Masterclasses y talleres, están cuidadosamente planificados bajo los lineamientos de una Educación Integral que busca promover el desarrollo de las habilidades blandas como contenidos transversales para que nuestros estudiantes sean capaces de afrontar y adaptarse  a los desafíos del contexto social actual en el marco de la virtualidad.',
+                '<div  class="pt-3" style="color:var(--bs-secondary)"><b>¿Cuál es la metodología de las capacitaciones?</b></div>',
+                [
+                '8 horas de encuentros vivenciales en cada uno de los Niveles (24 horas entre los tres Niveles).',
+                'La grabación de las clases durante un mes para que puedas repasar todo lo aprendido, o ver las clases si por algún motivo te perdiste alguna.',
+                'Todo el material  trabajado en clase en formato PDF con actividades prácticas para ejercitar en tu tiempo libre cuando quieras !',
+                'Acompañamiento a través de Whatsapp donde podrás consultar todas tus dudas durante el tiempo que dure el curso y hasta un mes después , que es el tiempo que quedan las clases grabadas.',
+                'Admisión a nuestro grupo comunidad de Whatsapp “HOMBRES Y MUJERES EMPRENDIENDO MEJOR “ donde podrás interactuar con tus compañeros de cursada y otros estudiantes de las otras ediciones, compartir material, experiencias, intercambiar ideas y contarnos cómo vas poniendo en práctica  toaso las herramientas que te llevas del curso. ',
+                'Un descuento especial  para los próximos cursos que tomes con nosotros.',
+                'Tu certificado de participación.',
+                ]
+              ],
+              faq: [
+                ['¿Cuánto dura este curso?',[
+                  'Este curso está dividido en 3 niveles, y cada nivel tiene una duración de 1 mes (4 encuentros).<br/> Es decir, que si deseas completar los tres ( 3 ) niveles, la formación completa abarcará un total de 3 meses aproximadamente ( 12 encuentros ).<br/> El propósito es que puedas ir incorporando los conocimientos de a poco y a tu ritmo. <br/><br/> Los  <b>NIVELES  II y III</b>, se dictarán al finalizar la cursada del <b>NIVEL I</b>. Al iniciar la cursada , publicaremos la fecha de inicio de los siguientes niveles.'
+                ]],
+                ['¿Es obligatorio completar los 3 niveles?', ['Por supuesto que no. Sólo te recomiendo hacerlos si tu intención es aprender a generar un buen plan de marketing para vender más. <br/>Depende de vos, de cuánto quieras hacer crecer tu emprendimiento. <br/> Si por algún motivo, no te es posible realizar los siguientes niveles a continuación del primer nivel, y deseas hacerlo, podrás inscribirte en las siguientes cohortes ( o promociones ), ya que este es un curso que se publicará durante todo el año. <br/>Te llevarás un certificado de participación por cada Nivel que cumplimentes.']],
+                ['¿Necesito poseer conocimientos previos ?', [
+                  'No necesitas conocimientos previos. Por eso hemos pensado este curso completo con un nivel inicial para que puedas ir internalizando a tu propio ritmo, los nuevos conceptos que te llevarán a aumentar tus ventas hasta en un 100%, cuando culmines el nivel III.',
+                ]],
+              ]
+            }
+          ]
         },
       ]
     },

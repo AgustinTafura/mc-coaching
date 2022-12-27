@@ -17,9 +17,9 @@ const LayoutProducts = ({ children, ...pageProps }) => {
     const {productName} = pageProps
     const router = useRouter()
     const {asPath} = router
-    const urlTitle = asPath.split('/')[2].replace("-", " ")
+    const urlTitle = asPath.split('/')[2]
     const services = sections.find(service=>service.name === 'servicios')
-    const service = services.list.find(service=>service.name === urlTitle)
+    const service = services.list.find(service=>service.link === urlTitle)
     const product = service.products.find(p=>p.title === productName)
 
     function toARS(value) {
@@ -86,7 +86,6 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                 :   (<p key={index} className={`mbr-text mbr-regular mbr-fonts-style display-77 ${index === 0 ?'pb-0' : 'pb-2'}`}>
                                                         <span dangerouslySetInnerHTML={{__html: element}}/>
                                                     </p>)
-                                            
                                         )
                                     })
                                 }
@@ -293,7 +292,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                                     data[1].map((el,index)=>
                                                                         data[1].length > 1 ?
                                                                             <li key={index} className='mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start'>{el}</li>
-                                                                        : <p key={index} className='mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start'>{el}</p>
+                                                                        : <p key={index} className='mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start'><span dangerouslySetInnerHTML={{__html: el}}/></p>
                                                                     
                                                                     )
                                                                 }

@@ -10031,7 +10031,7 @@ a {
   counter-increment: item;
   position: absolute;
   text-align: right;
-  margin-left: -30px;
+  margin-left: -40px;
 }
 
 @media (max-width: 992px) {
