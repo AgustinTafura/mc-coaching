@@ -319,7 +319,113 @@ module.exports = {
           meta:{
             title:"Marcela Caputo - Cursos sobre Coaching Educativo",
             description: "Obtené más información acerca de mis cursos sobre Coaching Educativo, y desarrollá nuevos recursos para acompañar a tus alumnos a alcanzar la mejor versión de sí mismos",
-          },    
+          },
+          products: [
+            {
+              title:"Inteligencia Emocional y Liderazgo para el Aula",
+              link:'inteligencia-emocional-y-liderazgo',
+              subtitle:"Curso práctico para docentes, profesores, directivos, estudiantes de profesorados, bibliotecarios, preceptores, equipos de orientación escolar, ETR, encargados de áreas técnico-pedagógicas, formadores, capacitadores, facilitadores.",
+              numberOfSesions:"5",
+              numberOfHours:"10",
+              days:[
+                ['Jueves','19 a 21 hs'],
+              ],
+              mode:'Online - Vivo - Plataforma Meet',
+              dateStart: 'Jueves 2 de Marzo 2023',
+              dateEnd: 'Jueves 30 de Marzo 2023',
+              investment: {
+                argentina:{
+                  price: 14900,
+                  discount: 15,
+                  discountDate: '15 de Febrero de 2023',
+                },
+                // exterior: {
+                //   price: 60,
+                //   discount:20,
+                //   discountDate: '15 de Febrero de 2023',
+                // },
+                discountDate:'15 de Febrero de 2023',
+                msg:'Además, congelas el valor del NIVEL II al mismo precio que el nivel I.'
+              },
+              target: ['Esta propuesta está pensada para docentes, profesores, directivos, estudiantes de profesorados, bibliotecarios, preceptores, equipos de orientación escolar, ETR, encargados de áreas técnico-pedagógicas, formadores, capacitadores y facilitadores que deseen <i>obtener herramientas de Inteligencia Emocional, Liderazgo efectivo y los últimos avances de las neurociencias aplicados a la educación y al liderazgo en el aula</i>,  para poder desempeñarse como un líder efectivo, y generar un clima emocional positivo que mejore los procesos de  enseñanza y aprendizaje en cualquier ámbito educativo, dentro y fuera de las aulas.'],
+              shortDescription: [
+                '¿Estás buscando herramientas innovadoras para ejercer la docencia de manera más efectiva?',
+                '¿Tal vez estés buscando interiorizar tus conocimientos sobre la Inteligencia Emocional para mejorar tu comunicación y tus relaciones intra e interpersonales?',
+                '¿Necesitas generar en tus clases, un clima de buena convivencia y bienestar ,  y aprender a establecer límites, durante los procesos de enseñanza y aprendizaje?',
+                'Sigue leyendo!! Porque este curso, es para vos!',
+              ],
+              longDescription: [
+                'Aplicar técnicas prácticas de gestión emocional que te permitirán optimizar y potenciar tus habilidades personales, aplicándolas en tu desempeño docente.',
+                'Utilizar herramientas efectivas para acompañar los procesos de gestión emocional de tus alumnos.',
+                'Ejercer un liderazgo efectivo con tus alumnos.',
+                'Aplicar tus nuevos aprendizajes teóricos y prácticos en relación al liderazgo efectivo y a la Inteligencia Emocional, a la experiencia diaria del aula o en cualquier ámbito escolar.',
+                'Adaptarte de manera más ecológica al contexto complejo actual que atraviesan las escuelas.',
+                'Promover y acompañar los procesos de aprendizaje de las capacidades socioemocionales de tus alumnos,',
+                'Generar conversaciones más asertivas, relaciones más colaborativas y crear contextos más humanos, más resilientes.',
+                
+                
+              ],
+              goals: [
+                'Resignificar la labor docente.',
+                'Incorporar herramientas y habilidades que te ayuden a tomar conciencia sobre tu propia regulación emocional  y la de tus alumnos y pares.',
+                'Reconocer tus aptitudes personales y ponerlas en acción en diferentes ámbitos de tu vida profesional.',
+                'Llevar a la práctica las herramientas de comunicación y liderazgo efectivo para gestionar los desafíos cotidianos de manera responsable.',
+              ],
+              content: [
+               'Contextos actuales. Pospandemia. Caos. Incertidumbre. Volatilidad. Velocidad en los cambios.',
+               'Qué son las emociones. Neurobiología de las emociones. Para qué sirven. Las emociones básicas.',
+               'Qué es la Inteligencia Emocional. Los aportes de Daniel Goleman. ',
+               'La comunicación efectiva.',
+               'Motivación e inspiración.',
+               'Habilidades socioemocionales. Autoconocimiento. Autogestión. Automotivación. Empatía. Sociabilidad. Construcción de vínculos sanos.',
+                'Inteligencia inter e intrapersonal. Howard Gardner.',
+               'Las emociones y su impacto en las comunicaciones.',
+                'La importancia de desarrollar un vocabulario emocional.', 
+                'Prácticas para gestionar las emociones propias y de otros. Nuestro sistema de amenazas: SCARF. Abordaje al modelo RENER para regular nuestras propias emociones.',
+                'Pensar rápido-pensar lento. Cerebro antiguo, Instintivo emocional. Cerebro lento, Neocortex. El secuestro amigdalino.',
+                'Ser resilientes. Claves de la I.E. en momentos de crisis.',
+               'Ser un buen líder. Un liderazgo que obtiene resultados. D. Goleman',
+               'Liderazgo efectivo. Cómo hacer que las cosas sucedan. D. Goleman. B. Blejman.',
+               'Plan de acción.',
+
+              ],
+              value: [
+                'Marcela ha ejercido la docencia en las aulas de más de 20 escuelas públicas y privadas del Nivel Primario, Secundario y Adultos, durante más de 25 años.',
+                'Fue líder de un  Equipo de Conducción en una escuela Secundaria durante 15 años.',
+                'Ha dedicado su vida a la docencia, a la formación y a la acción pedagógica y social, encontrando en cada experiencia, un aprendizaje para sí misma.',
+                'Se ha formado como Life Coach, Coach Vocacional,  Coach Ontológico, Neurosicoeducadora.',
+                'Es  especialista en Liderazgo y Coaching.',
+                '<div  class="pt-3" style="color:var(--bs-secondary)"><b>En Marcela Caputo Coaching y Educación Integral para el desarrollo personal y profesional ponemos especial énfasis en los aportes de las Neurociencias  y el desarrollo de la  Inteligencia Emocional para comprender:</b></div>',
+                [
+                  'Cómo funciona nuestro cerebro cuando aprendemos,',
+                  'Qué papel juegan nuestras emociones y las de los demás,',
+                  'La importancia de la participación concreta y práctica, ya que aprendemos más y mejor cuando pasamos el aprendizaje por el cuerpo.',
+                  'La interacción entre el profesor y los participantes, propiciando y respetando los distintos puntos de vista .',
+                  'La importancia de la mirada empática y amable para nosotros mismos y para con los demás, para entender que aprendemos a partir del error y que éste no es pasible de sanciones sino que tomamos al error como oportunidad para el aprendizaje. ',
+                ],
+                '<div  class="pt-3" style="color:var(--bs-secondary)"><b>¿Cuál es la metodología de las capacitaciones?</b></div>',
+                'Todos nuestros cursos, capacitaciones, Masterclasses y talleres, están cuidadosamente planificados bajo los lineamientos de una Educación Integral que busca promover la educación emocional y el desarrollo de las <i><b>habilidades blandas</b></i> como contenidos transversales para nuestros estudiantes sean capaces de afrontar los desafíos del contexto social actual en el marco de su propio desarrollo personal y/o profesional.',
+              ],
+              faq: [
+                ['¿Necesito poseer conocimientos previos ?', [
+                  'No necesitas conocimientos previos. Este curso tiene un nivel inicial para que puedas ir internalizando a tu propio ritmo, los nuevos conceptos que te llevarán por el camino de la transformación personal.',
+                ]],
+                ['¿Qué me voy a llevar de este entrenamiento?  P R E M I U M?', [
+                  '10 horas de encuentros teórico- práctico vivenciales con Marcela Caputo.',
+                  'La grabación de las clases durante un mes para que puedas repasar todo lo aprendido, o ver las clases si por algún motivo te perdiste alguna.',
+                  'Todo el material  trabajado en clase en formato PDF con actividades prácticas para ejercitar en tu tiempo libre cuando quieras !',
+                  'Feedback sobre cada una de las actividades planteadas para que realices en tiempo extra a los encuentros. ',
+                  'Acompañamiento  a través de Whatsapp donde podrás consultar todas tus dudas  durante el tiempo que dure el curso.',
+                  'Admisión a nuestro grupo comunidad de Whatsapp “ INTELIGENCIA EMOCIONAL Y LIDERAZGO EFECTIVO EN EL AULA “donde podrás interactuar con tus compañer@s de cursada y otros estudiantes de las ediciones siguientes, compartir material, experiencias, intercambiar ideas y contarnos cómo vas poniendo en práctica  todo las herramientas que te llevas del curso. ',
+                  'Un descuento especial  para los próximos cursos que tomes con nosotros.',
+                  'Tu certificado de participación.',
+                ]],
+                ['¿Otorga puntaje docente?', [
+                  'Este curso no otorga puntaje docente. Sin embargo, te extenderemos un certificado de participación.'
+                ]]
+              ]
+            }
+          ]    
         },
         {
           name:'liderazgo efectivo',

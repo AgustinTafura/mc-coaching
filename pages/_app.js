@@ -12,8 +12,10 @@ import '../styles/mobirise-icons.css'
 import '../styles/socicon.css'
 import '../styles/style.css'
 import '../styles/style1.css'
-import '../styles/globals.scss'
 import '../styles/spinner.scss'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import '../styles/globals.scss'
 
 
 

@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import { ParallaxBanner } from 'react-scroll-parallax';
 import { useRouter } from "next/router"
 import { sections } from '../data'
+import Testimonials from '../components/Testimonials'
 
 const LayoutServices = ({ children, ...pageProps }) => {
     const {customColor} = pageProps
@@ -53,6 +54,8 @@ const LayoutServices = ({ children, ...pageProps }) => {
                 </div>
             </ParallaxBanner>
             {children}
+
+            <Testimonials/>
         </Layout>           
   </>
   )

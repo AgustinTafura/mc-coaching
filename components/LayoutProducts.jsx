@@ -61,15 +61,13 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                         <div className="mbr-black col-lg-7">
                             <div className="content align-left mbr-white">
                                 <h3 className="mbr-fonts-style display-55 text-left mt-5 mb-3" style={{color: "rgb(108, 91, 103)"}}>
-                                    ¿A quiénes está dirigida esta propuesta?
+                                    ¿A quiénes está dirigida ésta propuesta?
                                 </h3>
                                 <div className="link-wrap text-left">
                                     {
                                         product.target.map((element,i)=>{
                                             return (
-                                                <div key={i} className="display-77 mbr-black mbr-fonts-style mbr-regular mbr-text">
-                                                    {element}
-                                                </div>
+                                                <div key={i} className="display-77 mbr-black mbr-fonts-style mbr-regular mbr-text" dangerouslySetInnerHTML={{__html: element}}/>
                                             )
                                         })
                                     }
