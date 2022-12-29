@@ -35,7 +35,7 @@ body {
 }
 .display-55 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.1;
 }
 .display-55 > .mbr-iconfont {
@@ -8564,6 +8564,7 @@ a {
 .cid-rT0gH1spU6 .user_name {
   margin: 0;
   color: #8e678c;
+  line-height: 1rem;
 }
 .cid-rT0gH1spU6 .user_image {
   width: 120px;

@@ -1,5 +1,50 @@
 module.exports = {
   
+  testimonials: [
+    [
+      'Excelente profesional. La recomiendo! Nuestro primer encuentro fue en una de sus meditaciones, y ese día se convirtió en mi Coach, porque además de ser súper agradable, sus charlas son muy interesantes.',
+      'Desarrollo Personal',
+      'Albertina Luján',
+      'Las Flores - Pcia. Buenos Aires.',
+      '@marcelacaputocoaching Facebook 15 Nov. 2019',
+    ],
+    [
+      'Los talleres de Marcela son geniales, además de sus charlas. Hay interacción entre los participantes, y por eso el aprendizaje es mayor. El momento de relajación es muy bueno! La selección musical para el relax es fantástica.',
+      'Taller de Coaching y Mindfulness Meditación',
+      'Gabby Pessotano',
+      'Gral. Alvear - Pcia. Buenos Aires.',
+      '@marcelacaputocoaching. Facebook 25 Enero 2019',
+    ],
+    [
+      'Excelente profesional y persona! Agradezco haberla encontrado y que continuemos este hermoso camino juntas. SUPER recomendable.',
+      'Life Coaching - Coaching para el desarrollo personal',
+      'Andrea Rodríguez',
+      'Rawson - Pcia. Chubut',
+      '@marcelacaputocoaching.  Facebook 28 Abril 2020',
+    ],
+    [
+      'Hermosos los talleres y las meditaciones. Seguiremos recorriendo este camino de reencuentro con uno mismo. Gracias Marce ! Sos una genia en lo que hacés! Me alegro que hayas llegado a Gral. Alvear y haberte conocido.',
+      'Taller de Coaching y Mindfulness Meditación',
+      'Emilia Pina',
+      'Gral. Alvear - Pcia. Buenos Aires',
+      '@marcelacaputocoaching. Facebook 23 Enero 2019',
+    ],
+    [
+      'Por supuesto que la recomiendo. Humana, cálida y profesional. Entregada a lo que hace por sobre todas las cosas.',
+      'Life Coaching - Sesiones online',
+      'Rosa Garaza',
+      'Florida - Estados Unidos',
+      '@marcelacaputocoaching. Facebook 22 Abril 2019',
+    ],
+    [
+      'Gracias Marcela por brindarnos un lindo aprendizaje con tus charlas. Fue un placer tenerte como ponente en la charla brindada de “Mindfulness” para nuestra comunidad de BrainCoaching Perú. Eres un ser humano increíble;',
+      'Coaching y Mindfulness Meditación - Videoconferencia online',
+      'Ada Escudero - Instituto BrainCoaching',
+      'Lima - Perú',
+      '@marcelacaputocoaching. Facebook 11 Octubre 2020',
+    ]
+  ],
+
   generalFAQ: [
     ['Las actividades para resolver fuera del horario de los encuentros, ¿Son obligatorias?', ['Lo son siempre que quieras obtener tu certificado de FINALIZACIÓN del Curso. Dentro de las actividades, está incluida una evaluación final  ( Ir a la pregunta : “¿Cómo apruebo el curso?” ). De lo contrario, puedes tomar el curso sin la realizar las actividades y recibirás un certificado de PARTICIPACIÓN.']],
     ['¿Qué necesito para acceder al curso ?', ['Necesitas tener una buena conexión a internet y, una computadora, tablet, Netbook o smartphone para poder conectarte a la plataforma de videollamadas Zoom.']],
