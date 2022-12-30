@@ -54,7 +54,6 @@ const LayoutServices = ({ children, ...pageProps }) => {
                 </div>
             </ParallaxBanner>
             {children}
-
             <Testimonials/>
         </Layout>           
   </>

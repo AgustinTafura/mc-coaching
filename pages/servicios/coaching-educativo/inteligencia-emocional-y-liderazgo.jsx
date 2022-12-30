@@ -4,7 +4,7 @@ import LayoutProducts from '../../../components/LayoutProducts'
 
 const test = () => {
   return (
-    <LayoutProducts productName='Inteligencia Emocional y Liderazgo para el Aula'>
+    <LayoutProducts productName='Docentes - Inteligencia Emocional y Liderazgo para el Aula'>
             
     </LayoutProducts>
   )

@@ -118,6 +118,7 @@ module.exports = {
             {
               title:"conocerse para crecer",
               link:"conocerse-para-crecer",
+              paymentLink: 'https://mpago.la/15NvbFU',
               subtitle:"Curso práctico de Coaching para la vida (Life Coaching)",
               numberOfSesions:"5",
               numberOfHours:"10",
@@ -224,6 +225,7 @@ module.exports = {
             {
               title:'VOCACIONALMENTE (Estudiantes Universitarios)',
               link:'vocacionalmente',
+              paymentLink: 'https://mpago.la/2GU8D53',
               subtitle:"Re-descubrí tu vocación y tu propósito de vida.",
               numberOfSesions:"6",
               numberOfHours:"15",
@@ -367,8 +369,9 @@ module.exports = {
           },
           products: [
             {
-              title:"Inteligencia Emocional y Liderazgo para el Aula",
+              title:"Docentes - Inteligencia Emocional y Liderazgo para el Aula",
               link:'inteligencia-emocional-y-liderazgo',
+              paymentLink: 'https://mpago.la/21nEZK7',
               subtitle:"Curso práctico para docentes, profesores, directivos, estudiantes de profesorados, bibliotecarios, preceptores, equipos de orientación escolar, ETR, encargados de áreas técnico-pedagógicas, formadores, capacitadores, facilitadores.",
               numberOfSesions:"5",
               numberOfHours:"10",
@@ -507,6 +510,7 @@ module.exports = {
             {
               title:"Cómo desarrollar tu emprendimiento online con herramientas de COACHING y MARKETING DIGITAL - Nivel I",
               link:'coaching-y-marketing-digital-1',
+              paymentLink: 'https://mpago.la/1UP4wfm',
               subtitle:"Curso teórico-práctico para Emprendedores.",
               numberOfSesions:"4",
               numberOfHours:"8",

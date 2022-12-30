@@ -3,9 +3,10 @@ import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faUser, faUserGraduate, faUserTie, faRocket, faLightbulb} from '@fortawesome/free-solid-svg-icons'
 import LayoutServices from "../../../components/LayoutServices.jsx";
+import CarouselProducts from "../../../components/CarouselProducts.jsx";
 import Link from "next/link";
 
-const CoachingEducativo = (props) => {
+const CoachingEducativo = ({...props}) => {
     const [collapsed, setCollapsed] = useState(true)
 
     return (
@@ -102,6 +103,9 @@ const CoachingEducativo = (props) => {
 
                     </div>
                 </div>
+
+                <CarouselProducts products={props.services}/>
+
                 <div className="mbr-section-btn d-flex justify-content-center">
                     <Link href="#saberMasEducativo">
                         <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="saberMasEducativo"
@@ -109,6 +113,7 @@ const CoachingEducativo = (props) => {
                     </Link>
                 </div>
             </div>
+
             <div id='saberMasEducativo' className="features2 cid-rT0fsFPh8T collapse">
                 <div className="accordion1 cid-rT0gfc1y8M" id="content4-46" style={{background: "#9e9e9e0f"}}>
                     <div className="container">
