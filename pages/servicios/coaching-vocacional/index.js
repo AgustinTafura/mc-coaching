@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faUser, faUserGraduate, faUserTie, faRocket, faLightbulb} from '@fortawesome/free-solid-svg-icons'
 import LayoutServices from "../../../components/LayoutServices";
 import Link from "next/link";
+import CarouselProducts from "../../../components/CarouselProducts";
 
 const CoachingVocacional = (props) => {
     const [collapsed, setCollapsed] = useState(true)
@@ -127,6 +128,9 @@ const CoachingVocacional = (props) => {
                         </div>
                     </div>
                 </div>
+
+                <CarouselProducts products={props.services}/>
+
                 <div className="mbr-section-btn d-flex justify-content-center">
                     <Link href="#saberMasVocacional">
                         <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="saberMasVocacional"

@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faUser, faUserGraduate, faUserTie, faRocket, faLightbulb} from '@fortawesome/free-solid-svg-icons'
 import LayoutServices from "../../../components/LayoutServices";
 import Link from "next/link";
+import CarouselProducts from "../../../components/CarouselProducts";
 
 const CoachingPersonal = (props) => {
     const [collapsed, setCollapsed] = useState(true)
@@ -33,12 +34,15 @@ const CoachingPersonal = (props) => {
                         </div>
                     </div>
                 </div>
-                        <div className="mbr-section-btn d-flex justify-content-center">
-                            <Link href="#saberMasPersonal">
-                                <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="saberMasPersonal"
-                                className="btn btn-md btn-primary display-44" onClick={()=>setCollapsed(!collapsed)}>{collapsed?'QUIERO SABER MÁS': 'OCULTAR'} </a>
-                            </Link>
-                        </div>
+
+                <CarouselProducts products={props.services}/>
+
+                <div className="mbr-section-btn d-flex justify-content-center">
+                    <Link href="#saberMasPersonal">
+                        <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="saberMasPersonal"
+                        className="btn btn-md btn-primary display-44" onClick={()=>setCollapsed(!collapsed)}>{collapsed?'QUIERO SABER MÁS': 'OCULTAR'} </a>
+                    </Link>
+                </div>
             </div>
             <div id='saberMasPersonal' className="features2 cid-rT0fsFPh8T collapse">
                     <div className="container">

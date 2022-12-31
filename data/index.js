@@ -116,9 +116,10 @@ module.exports = {
           },
           products: [
             {
-              title:"conocerse para crecer",
+              title:"Conocerse para crecer",
               link:"conocerse-para-crecer",
               paymentLink: 'https://mpago.la/15NvbFU',
+              img: '/img/services/coaching-personal/5.jpg',
               subtitle:"Curso práctico de Coaching para la vida (Life Coaching)",
               numberOfSesions:"5",
               numberOfHours:"10",
@@ -209,7 +210,7 @@ module.exports = {
         {
           name:'coaching vocacional',
           link: 'coaching-vocacional',
-          img:'/img/services/coaching-vocacional/0.png',
+          img:'/img/services/coaching-vocacional/1.jpg',
           description: 'El Coaching Vocacional es un proceso de acompañamiento integral a través del cual acompañamos a adolescentes, jóvenes universitarios y adultos',
           phrases:[
             {
@@ -226,6 +227,7 @@ module.exports = {
               title:'VOCACIONALMENTE (Estudiantes Universitarios)',
               link:'vocacionalmente',
               paymentLink: 'https://mpago.la/2GU8D53',
+              img: '/img/services/coaching-vocacional/4.jpg',
               subtitle:"Re-descubrí tu vocación y tu propósito de vida.",
               numberOfSesions:"6",
               numberOfHours:"15",
@@ -372,6 +374,7 @@ module.exports = {
               title:"Docentes - Inteligencia Emocional y Liderazgo para el Aula",
               link:'inteligencia-emocional-y-liderazgo',
               paymentLink: 'https://mpago.la/21nEZK7',
+              img: '/img/services/coaching-educativo/3.jpg',
               subtitle:"Curso práctico para docentes, profesores, directivos, estudiantes de profesorados, bibliotecarios, preceptores, equipos de orientación escolar, ETR, encargados de áreas técnico-pedagógicas, formadores, capacitadores, facilitadores.",
               numberOfSesions:"5",
               numberOfHours:"10",
@@ -511,6 +514,7 @@ module.exports = {
               title:"Cómo desarrollar tu emprendimiento online con herramientas de COACHING y MARKETING DIGITAL - Nivel I",
               link:'coaching-y-marketing-digital-1',
               paymentLink: 'https://mpago.la/1UP4wfm',
+              img: '/img/services/coaching-emprendedores/4.png',
               subtitle:"Curso teórico-práctico para Emprendedores.",
               numberOfSesions:"4",
               numberOfHours:"8",

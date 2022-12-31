@@ -2,6 +2,7 @@ import Slider from "react-slick";
 import { useRouter} from "next/router";
 import { sections } from '../data'
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const CarouselProducts = ({}) => {
 
@@ -54,33 +55,34 @@ const CarouselProducts = ({}) => {
                         {
                             service.products.map((product, key)=>{
                                 return (
-                                        <div key={key} className="card p-3 col-12 col-md-6 col-lg-4">
-                                            <div className="card-wrapper d-inline-block col-12 col-md-6 col-lg-4">
-                                                <div className="img-wrapper">
-                                                    <picture>
-                                                        <img src="/img/face1.jpg" alt="icon service" />
-                                                    </picture>
-                                                    <div className="text-wrap">
-                                                        <p className="mbr-text pb-2 mbr-regualr mbr-fonts-style display-77">
-                                                        {}
-                                                        </p>
-                    
-                                                        <div className="link-align">
-                                                            <div className="link-wrap">
-                                                                <h6 className="link mbr-regular mbr-black mbr-fonts-style display-44">READ
-                                                                    MORE</h6>
-                                                            </div>
+                                        <div key={key} className="p-3 col-12 col-md-6 col-lg-4">
+                                            <Link href={asPath+"/"+product.link}>
+                                                <a className="card card-wrapper d-inline-block col-12 col-md-6 col-lg-4">
+                                                    <div className="img-wrapper">
+                                                        <picture>
+                                                            <img src={product.img} alt="icon service" />
+                                                        </picture>
+                                                        <div className="text-wrap">
+                                                            <p className="mbr-text pb-2 mbr-regualr mbr-fonts-style display-77 text-start">
+                                                            {product.subtitle}
+                                                            </p>
+                        
+                                                            {/* <div className="link-align">
+                                                                <div className="link-wrap">
+                                                                    <h6 className="link mbr-regular mbr-black mbr-fonts-style display-44">VER MÁS</h6>
+                                                                </div>
+                                                            </div> */}
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div className="card-box align-left">
-                                                    <h4 className="card-title align-left mbr-regular mbr-black mbr-fonts-style display-55">
-                                                        {product.title}
-                                                    </h4>
-                                                    <h3 className="mbr-section-subtitle pb-2 mbr-regular mbr-fonts-style display-44">
-                                                        THERAPIST</h3>
-                                                </div>
-                                            </div>
+                                                    <div className="card-box align-left">
+                                                        <h4 className="card-title align-left mbr-regular mbr-black mbr-fonts-style display-55 mb-3">
+                                                            {product.title}
+                                                        </h4>
+                                                        <h3 className="mbr-section-subtitle pb-2 mbr-regular mbr-fonts-style display-44">
+                                                            CURSO</h3>
+                                                    </div>
+                                                </a>
+                                            </Link>
                                         </div> 
                                 )
                             })

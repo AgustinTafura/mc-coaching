@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faUser, faUserGraduate, faUserTie, faRocket, faLightbulb} from '@fortawesome/free-solid-svg-icons'
 import LayoutServices from "../../../components/LayoutServices";
 import Link from "next/link";
+import CarouselProducts from "../../../components/CarouselProducts";
 
 const CoachingPersonal = (props) => {
     const [collapsed, setCollapsed] = useState(true)
@@ -37,7 +38,7 @@ const CoachingPersonal = (props) => {
                     <div className="row">
                         <div className="mbr-black col-md-12 col-lg-4" style={{position:"relative"}}>
                             <picture>
-                                <img src="/img/services/coaching-emprendedores/2.png" alt="coaching emprendedores" />
+                                <img src="/img/services/coaching-emprendedores/1.png" alt="coaching emprendedores" />
                             </picture>
                         </div>
                         <div className="mbr-white  col-md-12 col-lg-4">
@@ -86,6 +87,8 @@ const CoachingPersonal = (props) => {
                     </div>
                 </div>
             </div>
+
+            <CarouselProducts products={props.services}/>
         </LayoutServices>
     )
 }
