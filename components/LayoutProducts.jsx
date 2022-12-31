@@ -21,6 +21,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
     const services = sections.find(service=>service.name === 'servicios')
     const service = services.list.find(service=>service.link === urlTitle)
     const product = service.products.find(p=>p.title === productName)
+    
 
     function toARS(value) {
         return new Intl.NumberFormat('es-ar', {

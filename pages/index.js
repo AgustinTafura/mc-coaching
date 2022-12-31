@@ -10,18 +10,13 @@ import { Spinner } from '../components/Spinner'
 
 const Index = ({...pageProps}) => {
     const {firstEnter,setFirstEnter} = pageProps
-    const [loading, setLoading] = useState(true)    
+    const [loading, setLoading] = useState(true)
+
     useEffect(() => {
-        console.log(firstEnter)
         setTimeout(() => {
             setLoading(false),
             setFirstEnter(false)
         },  2500);
-      
-    
-      return () => {
-        
-      }
     }, [])
 
 
