@@ -4,7 +4,7 @@ import LayoutProducts from '../../../components/LayoutProducts'
 
 const test = () => {
   return (
-    <LayoutProducts productName='VOCACIONALMENTE (Estudiantes Universitarios)'>
+    <LayoutProducts productName='VOCACIONAL MENTE (Estudiantes Universitarios)'>
             
     </LayoutProducts>
   )

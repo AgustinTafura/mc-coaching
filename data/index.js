@@ -224,7 +224,7 @@ module.exports = {
           },
           products: [
             {
-              title:'VOCACIONALMENTE (Estudiantes Universitarios)',
+              title:'VOCACIONAL MENTE (Estudiantes Universitarios)',
               link:'vocacionalmente',
               paymentLink: 'https://mpago.la/2GU8D53',
               img: '/img/services/coaching-vocacional/4.jpg',

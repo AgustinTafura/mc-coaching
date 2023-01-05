@@ -108,15 +108,15 @@ const CoachingVocacional = (props) => {
                         </div>
                         <div className="mbr-white  col-md-12 col-lg-4">
                             <div className="items-col" style={{backgroundColor: '#8e678c'}}>
-                                <h4 className="mbr-section-subtitle mbr-regular align-left mbr-fonts-style display-44">MÉTODO</h4>
+                                {/* <h4 className="mbr-section-subtitle mbr-regular align-left mbr-fonts-style display-44">MÉTODO</h4> */}
                                 <h3 className="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-22">Nuestra Propuesta</h3>
                                 <div className="link-wrap">
-                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Desarrollo de su inteligencia emocional</h5>
+                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Desarrollo de la inteligencia emocional</h5>
                                     <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Autoconocimiento</h5>
-                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Tus intereses</h5>
-                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Tus fortalezas y sus competencias</h5>
+                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Intereses</h5>
+                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Fortalezas y Competencias</h5>
                                     <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Motivación y proceso creativo</h5>
-                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Su propósito de vida</h5>
+                                    <h5 className="link mbr-black mbr-fonts-style display-77 pe-lg-0 align-self-center align-self-lg-start">Propósito de vida</h5>
                                     <br/>
                                 </div>
                             </div>

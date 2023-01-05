@@ -26,7 +26,7 @@ const ContactBubble = () => {
 
   return (
     <Link id="contactBubble" className='' style={{transition: "opacity 0.8s", opacity}}
-      href={`https://api.whatsapp.com/send?phone=${contactphone}&text=Hola+Marcela%21%0A%0AMe+gustaría+recibir+información+sobre+tus+servicios.%0A%0AMuchas+gracias+🤗&type=phone_number&app_absent=0`}
+      href={`https://api.whatsapp.com/send?phone=${contactphone}&text=Hola+Marcela%21%0A%0AMe+gustaría+recibir+información+sobre+...+&type=phone_number&app_absent=0`}
       onMouseOver={()=> setOpacity(1) }
       onMouseOut={()=> setOpacity(0.8) }
     >
