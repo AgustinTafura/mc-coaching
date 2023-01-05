@@ -48,7 +48,7 @@ module.exports = {
   generalFAQ: [
     ['Las actividades para resolver fuera del horario de los encuentros, ¿Son obligatorias?', ['Lo son siempre que quieras obtener tu certificado de FINALIZACIÓN del Curso. Dentro de las actividades, está incluida una evaluación final  ( Ir a la pregunta : “¿Cómo apruebo el curso?” ). De lo contrario, puedes tomar el curso sin la realizar las actividades y recibirás un certificado de PARTICIPACIÓN.']],
     ['¿Qué necesito para acceder al curso ?', ['Necesitas tener una buena conexión a internet y, una computadora, tablet, Netbook o smartphone para poder conectarte a la plataforma de videollamadas Zoom.']],
-    ['¿Quien  va a dictar este curso?', ['El curso será dictado por Marcela Caputo.']],
+    ['¿Quien  va a dictar este curso?', ['El curso será dictado por <a style="color:var(--bs-primary)" href="/conoceme">Marcela Caputo.</a>']],
     [
       '¿Dónde y cuándo son los encuentros?', 
       [
