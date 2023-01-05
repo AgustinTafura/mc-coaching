@@ -198,7 +198,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faCalendar} size="3x" color='var(--bs-secondary)'/>
                                             </div>
-                                            <div className='col-9 mbr-regular mb-4'>
+                                            <div className='col-9 mbr-regular mb-4 fw-normal text-black'>
                                                 <b>INICIO:</b> {product.dateStart}
                                                 <br/>
                                                 <b>FIN:</b> {product.dateEnd}
@@ -207,7 +207,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faClock} size="3x" color='var(--bs-secondary)'/>
                                             </div>
-                                            <div className='col-9 mbr-regular mb-4'>
+                                            <div className='col-9 mbr-regular mb-4 fw-normal text-black'>
                                                 <b>DIAS Y HORARIO</b>
                                                 <br/>
                                                 {
@@ -220,7 +220,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faTimeline} size="3x" color='var(--bs-secondary)'/>
                                             </div>
-                                            <div className='col-9 mbr-regular mb-4'>
+                                            <div className='col-9 mbr-regular mb-4 fw-normal text-black'>
                                             <b>CANTIDAD DE ENCUENTROS:</b> {product.numberOfSesions}
                                                 <br/>
                                                 <b>TIEMPO TOTAL:</b> {product.numberOfHours} horas
@@ -229,7 +229,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faDesktop} size="3x" color='var(--bs-secondary)'/>
                                                 </div>
-                                            <div className='col-9 mbr-regular mb-4'>
+                                            <div className='col-9 mbr-regular mb-4 fw-normal text-black'>
                                             <b>MODALIDAD</b>
                                                 <br/>
                                                 {product.mode}
@@ -237,7 +237,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center align-self-center'>
                                                 <FontAwesomeIcon icon={faDollarSign} size="3x" color='var(--bs-secondary)'/>
                                                 </div>
-                                            <div className='col-4 mbr-regular'>
+                                            <div className='col-4 mbr-regular  fw-normal text-black'>
                                             <b>ARGENTINA</b>
                                                 <br/>
                                                 <del>ARS {toARS(product.investment.argentina.price)}</del>
@@ -246,7 +246,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             </div>
                                             {
                                                 product.investment.exterior && (
-                                                    <div className='col-4 mbr-regular'>
+                                                    <div className='col-4 mbr-regular  fw-normal text-black'>
                                                         <b>EXTERIOR</b>
                                                             <br/>
                                                             <del>USD {toUSD(product.investment.exterior.price)}</del>
