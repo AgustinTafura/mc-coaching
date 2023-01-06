@@ -38,6 +38,13 @@ const Navbar = () => {
               </div>
               <div className="offcanvas-body justify-content-lg-end">
                 <ul className="navbar-nav nav-dropdown justify-content-end">
+
+                <li className="nav-item text-uppercase fw-normal">
+                  <Link href='/'>
+                    <a className="nav-link link mbr-black text-black display-44" aria-current="page">HOME</a>
+                  </Link>
+                </li>
+
                   {
                     sections.map(section=>{
                       if (section.list.length) {
