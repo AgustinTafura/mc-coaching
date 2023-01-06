@@ -11,6 +11,9 @@ const CoachingVocacional = (props) => {
 
     return (
         <LayoutServices >
+
+            <CarouselProducts products={props.services}/>
+
             <section className="features3 cid-rSVQ0cgT0R pt-5" id="features3-25">
                 <div className="row gx-0 justify-content-center pt-5">
                     <div className="item card1 p-3 col-12 col-md-7 col-lg-4">
@@ -128,8 +131,6 @@ const CoachingVocacional = (props) => {
                         </div>
                     </div>
                 </div>
-
-                <CarouselProducts products={props.services}/>
 
                 <div className="mbr-section-btn d-flex justify-content-center">
                     <Link href="#saberMasVocacional">

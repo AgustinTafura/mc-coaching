@@ -11,6 +11,9 @@ const CoachingEducativo = ({...props}) => {
 
     return (
         <LayoutServices >
+
+            <CarouselProducts products={props.services}/>
+            
             <div className="features2 cid-rT0geqYDWl cid-rT0fsFPh8T">
                 <div className="container images-container pb-5">
                     <div className="row justify-content-center">
@@ -103,8 +106,6 @@ const CoachingEducativo = ({...props}) => {
 
                     </div>
                 </div>
-
-                <CarouselProducts products={props.services}/>
 
                 <div className="mbr-section-btn d-flex justify-content-center">
                     <Link href="#saberMasEducativo">

@@ -11,6 +11,9 @@ const CoachingPersonal = (props) => {
 
     return (
         <LayoutServices >
+
+            <CarouselProducts products={props.services}/>
+            
             <div className="features2 cid-rT0geqYDWl cid-rT0fsFPh8T">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -88,7 +91,7 @@ const CoachingPersonal = (props) => {
                 </div>
             </div>
 
-            <CarouselProducts products={props.services}/>
+
         </LayoutServices>
     )
 }

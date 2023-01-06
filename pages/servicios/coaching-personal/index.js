@@ -11,6 +11,10 @@ const CoachingPersonal = (props) => {
 
     return (
         <LayoutServices >
+
+            <CarouselProducts products={props.services}/>
+
+
             <div className="features2 cid-rT0geqYDWl cid-rT0fsFPh8T">
                 <div className="container images-container pb-5">
                     <div className="row justify-content-center">
@@ -35,7 +39,6 @@ const CoachingPersonal = (props) => {
                     </div>
                 </div>
 
-                <CarouselProducts products={props.services}/>
 
                 <div className="mbr-section-btn d-flex justify-content-center">
                     <Link href="#saberMasPersonal">
@@ -96,7 +99,7 @@ const CoachingPersonal = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="accordion1 cid-rT0gfc1y8M" id="content4-46" style={{background: "#9e9e9e0f"}}>
+                    {/* <div className="accordion1 cid-rT0gfc1y8M" id="content4-46" style={{background: "#9e9e9e0f"}}>
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="mbr-black col-lg-8 py-5" style={{alignSelf: 'center'}}>
@@ -123,8 +126,7 @@ const CoachingPersonal = (props) => {
                                                     </div>
                                                     <div id="collapse1_80" className="panel-collapse noScroll collapse container " role="tabpanel"
                                                         aria-labelledby="headingOne" data-parent="#service-accordion_">
-                                                        {/* <div className="panel-body"> */}
-                                                            {/* <p > */}
+
                                                                 <ul className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start">
                                                                     <li>Niños y adolescentes que requieran del desarrollo de habilidades intra e interpersonales, regular mejor sus emociones, desarrollar y potenciar sus funciones cognitivas ( funciones ejecutivas ).</li>
                                                                     <br/>
@@ -141,8 +143,7 @@ const CoachingPersonal = (props) => {
                                                                     <li>Personas que necesiten sostener determinadas actividades necesarias o saludables , como por ejemplo una dieta, el gimnasio, estudiar inglés .</li>
                                                                     <br/>
                                                                 </ul>
-                                                            {/* </p> */}
-                                                        {/* </div> */}
+
                                                     </div>
                                                 </div>
                                                 <div className="accordion-item card bg-transparent">
@@ -373,7 +374,7 @@ const CoachingPersonal = (props) => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="container">
                         <div className="row justify-content-center py-5">
                             <div className="col-lg-8 py-5 text-center">
