@@ -8,7 +8,7 @@ const Testimonials = () => {
     const settings = {
     dots: true,
     infinite: true,
-    // arrows: true,
+    arrows: false,
     // slidesToShow: slidesToShow,
     slidesToScroll: 1,
     autoplay: true,

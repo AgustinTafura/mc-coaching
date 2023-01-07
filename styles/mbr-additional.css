@@ -4249,11 +4249,12 @@ a {
   text-decoration: none !important;
 }
 .cid-rT0gfc1y8M .card .card-header a.panel-title h5 .sign {
-  transform: rotate(-0deg);
+  transform: translateX(0%) translateY(0%) rotate(-0deg);
   transition: transform .2s ease-in;
 }
-.cid-rT0gfc1y8M .card .card-header a.panel-title:not(.collapsed) h5 .sign {
-  transform: rotate(-180deg);
+.cid-rT0gfc1y8M .card .card-header a.panel-title:not(.collapsed) h5 .sign,
+a.panel-title:not(.collapsed) h5 .sign {
+  transform: translateX(50%) translateY(0%) rotate(-180deg);
   transition: transform .2s ease-in-out;
 }
 .cid-rT0gfc1y8M .card .panel-body {

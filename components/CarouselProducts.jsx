@@ -78,8 +78,8 @@ const CarouselProducts = ({}) => {
                                                         <h4 className="card-title align-left mbr-regular mbr-black mbr-fonts-style display-55 mb-3">
                                                             {product.title}
                                                         </h4>
-                                                        <h3 className="mbr-section-subtitle pb-2 mbr-regular mbr-fonts-style display-44">
-                                                            CURSO</h3>
+                                                        <h3 className="mbr-section-subtitle pb-2 mbr-regular mbr-fonts-style display-44 text-uppercase">
+                                                        {product.type}</h3>
                                                     </div>
                                                 </a>
                                             </Link>

@@ -52,7 +52,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                     <div className="row">
                         <div className="mbr-black col-md-12 pb-5">
                             <div className="content align-center mbr-white">
-                                <h3 className="mbr-section-subtitle mbr-regular mbr-fonts-style display-44">CURSO</h3>
+                                <h3 className="mbr-section-subtitle mbr-regular mbr-fonts-style display-44 text-uppercase">{product.type}</h3>
                                 <h2 className="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-22 text-uppercase">{product.title}</h2>
                                 <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
                                 {product.subtitle}

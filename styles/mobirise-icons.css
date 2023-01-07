@@ -54,6 +54,14 @@
   font-weight: bolder;
   color: var(--bs-secondary)
 }
+.custom:hover .mbri-arrow-down:before, 
+.custom:hover h5,
+.custom:not(.collapsed) .mbri-arrow-down:before,
+.custom:not(.collapsed) h5
+ {
+    color:var(--bs-primary) !important
+  
+}
 .mbri-arrow-next:before {
   content: "\e909";
 }

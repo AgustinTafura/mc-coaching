@@ -108,7 +108,7 @@ const CoachingEducativo = ({...props}) => {
                     </div>
                 </div>
 
-                <div id='buttonMostrarMas' className="mbr-section-btn d-flex justify-content-center" style={{paddingTop: '100px'}}>
+                <div id='buttonMostrarMas' className=" d-flex justify-content-center" style={{paddingTop: '100px'}}>
                     <Link href="#saberMasEducativo">
                         <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="saberMasEducativo"
                         className="btn btn-md btn-primary display-44" onClick={()=>setCollapsed(!collapsed)}>{collapsed?'QUIERO SABER MÁS': 'OCULTAR'} </a>
