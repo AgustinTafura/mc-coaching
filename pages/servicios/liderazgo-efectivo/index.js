@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faBuildingColumns, faPeopleGroup, faSitemap} from '@fortawesome/free-solid-svg-icons'
 import LayoutServices from "../../../components/LayoutServices";
 import Link from "next/link";
+import BubbleScrollTo from "../../../components/BubbleScrollTo";
 
 const CoachingEducativo = (props) => {
     const [collapsed, setCollapsed] = useState(true)
@@ -12,7 +13,7 @@ const CoachingEducativo = (props) => {
         <LayoutServices >
             <div className="features2 cid-rT0geqYDWl cid-rT0fsFPh8T">
                 <div className="container">
-                    <div className="row justify-content-center pb-5">
+                    <div className="row justify-content-center ">
                         <div className="col-lg-8 text-center">
                             <div className="pb-5">
                                 <h4 className="mbr-section-subtitle mbr-regular mbr-fonts-style display-44" style={{color: 'var(--bs-secondary)'}}>
@@ -92,12 +93,16 @@ const CoachingEducativo = (props) => {
 
                     </div>
                 </div>
-                <div className="mbr-section-btn d-flex justify-content-center">
+                <div  id='buttonMostrarMas' className="mbr-section-btn d-flex justify-content-center" >
                     <Link href="#saberMasLiderazgoEfectivo">
                         <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="saberMasLiderazgoEfectivo"
                         className="btn btn-md btn-primary display-44" onClick={()=>setCollapsed(!collapsed)}>{collapsed?'QUIERO SABER MÁS': 'OCULTAR'} </a>
                     </Link>
                 </div>
+
+                {
+                    !collapsed && <BubbleScrollTo itemId={'buttonMostrarMas'}/>
+                }
             </div>
             <div id='saberMasLiderazgoEfectivo' className="features2 cid-rT0fsFPh8T collapse pb-0">
                 <section className="cid-rSVRmJSAl2" id="progress1-2i">

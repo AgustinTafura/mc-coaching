@@ -5,6 +5,7 @@ import {  faUser, faUserGraduate, faUserTie, faRocket, faLightbulb} from '@forta
 import LayoutServices from "../../../components/LayoutServices.jsx";
 import CarouselProducts from "../../../components/CarouselProducts.jsx";
 import Link from "next/link";
+import BubbleScrollTo from "../../../components/BubbleScrollTo.js";
 
 const CoachingEducativo = ({...props}) => {
     const [collapsed, setCollapsed] = useState(true)
@@ -107,12 +108,17 @@ const CoachingEducativo = ({...props}) => {
                     </div>
                 </div>
 
-                <div className="mbr-section-btn d-flex justify-content-center">
+                <div id='buttonMostrarMas' className="mbr-section-btn d-flex justify-content-center" style={{paddingTop: '100px'}}>
                     <Link href="#saberMasEducativo">
                         <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="saberMasEducativo"
                         className="btn btn-md btn-primary display-44" onClick={()=>setCollapsed(!collapsed)}>{collapsed?'QUIERO SABER MÁS': 'OCULTAR'} </a>
                     </Link>
                 </div>
+
+                {
+                    !collapsed && <BubbleScrollTo itemId={'buttonMostrarMas'}/>
+                }
+                
             </div>
 
             <div id='saberMasEducativo' className="features2 cid-rT0fsFPh8T collapse">
