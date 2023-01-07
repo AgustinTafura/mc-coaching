@@ -13,7 +13,7 @@ const CoachingEducativo = (props) => {
         <LayoutServices >
             <div className="features2 cid-rT0geqYDWl cid-rT0fsFPh8T">
                 <div className="container">
-                    <div className="row justify-content-center ">
+                    <div className="row justify-content-center">
                         <div className="col-lg-8 text-center">
                             <div className="pb-5">
                                 <h4 className="mbr-section-subtitle mbr-regular mbr-fonts-style display-44" style={{color: 'var(--bs-secondary)'}}>
