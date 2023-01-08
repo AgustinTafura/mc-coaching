@@ -9,6 +9,7 @@ import { sections, generalFAQ } from '../data'
 import SectionInfo from './SectionInfo'
 import Link from 'next/link'
 import { faDesktop, faDollarSign, faTimeline } from '@fortawesome/free-solid-svg-icons'
+import ImgModal from './ImgModal'
 
 
 
@@ -47,6 +48,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
         </Head>
         <Layout>
             <SectionInfo/>
+            <ImgModal/>
             <section className="form cid-rT0gOkWcki" id="form4-50">
                 <div className="container mb-5">
                     <div className="row">
@@ -168,7 +170,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                                 return (
                                                                     <li key={key} className="display-77 mbr-black mbr-fonts-style mbr-regular mbr-text"
                                                                         style={{padding: '0.2rem 0',marginBottom: '0.5rem'}}>
-                                                                        {item}
+                                                                        <span dangerouslySetInnerHTML={{__html: item}}/>
                                                                     </li>
                                                                 )
                                                             })}
@@ -308,7 +310,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                                 {
                                                                     data[1].map((el,index)=>
                                                                         data[1].length > 1 ?
-                                                                            <li key={index} className='mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start'>{el}</li>
+                                                                            <li key={index} className='mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start' dangerouslySetInnerHTML={{__html: el}}/>
                                                                         : <p key={index} className='mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start'><span dangerouslySetInnerHTML={{__html: el}}/></p>
                                                                     
                                                                     )

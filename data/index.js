@@ -48,7 +48,7 @@ module.exports = {
   generalFAQ: [
     ['Las actividades para resolver fuera del horario de los encuentros, ¿Son obligatorias?', ['Lo son siempre que quieras obtener tu certificado de FINALIZACIÓN del Curso. Dentro de las actividades, está incluida una evaluación final  ( Ir a la pregunta : “¿Cómo apruebo el curso?”). De lo contrario, puedes tomar el curso sin la realizar las actividades y recibirás un certificado de PARTICIPACIÓN.']],
     ['¿Qué necesito para acceder al curso?', ['Necesitas tener una buena conexión a internet y, una computadora, tablet, Netbook o smartphone para poder conectarte a la plataforma de videollamadas Zoom.']],
-    ['¿Quien  va a dictar este curso?', ['El curso será dictado por <a style="color:var(--bs-primary)" href="/conoceme">Marcela Caputo.</a>']],
+    ['¿Quien  va a dictar este curso?', ['El curso será dictado por <a style="color:var(--bs-primary)" href="/conoceme">Marcela Caputo</a>.']],
     [
       '¿Dónde y cuándo son los encuentros?', 
       [
@@ -195,15 +195,15 @@ module.exports = {
               ],
               faq: [
                 ['¿Necesito poseer conocimientos previos?',['No necesitas conocimientos previos. Este curso tiene un nivel inicial para que puedas ir internalizando a tu propio ritmo, los nuevos conceptos que te llevarán por el camino de la transformación personal.']],
-                ['¿Qué me voy a llevar?  P R E M I U M', [
-                  '10 horas de encuentros vivenciales con Marcela Caputo, quien compartirá su experiencia no sólo en el ámbito del Coaching y la meditación Mindfulness, sino también su experiencia como docente en las aulas por más de 25 años y como Líder del Equipo Directivo en Gestión Educativa por 15 años.',
+                ['¿Qué me voy a llevar?  PREMIUM', [
+                  '10 horas de encuentros vivenciales con <a style="color:var(--bs-primary)" href="/conoceme">Marcela Caputo</a>, quien compartirá su experiencia no sólo en el ámbito del Coaching y la meditación Mindfulness, sino también su experiencia como docente en las aulas por más de 25 años y como Líder del Equipo Directivo en Gestión Educativa por 15 años.',
                   'La grabación de las clases durante un mes para que puedas repasar todo lo aprendido, o ver las clases si por algún motivo te perdiste alguna.',
                   'Todo el material  trabajado en clase en formato PDF con actividades prácticas para ejercitar en tu tiempo libre cuando quieras !',
                   'Feedback sobre cada una de las actividades planteadas para que realices en tiempo extra a los encuentros.',
                   'Acompañamiento  a través de Whatsapp donde podrás consultar todas tus dudas  durante el tiempo que dure el curso y hasta un mes después, que es el tiempo que quedan las clases grabadas.',
                   'Admisión a nuestro grupo comunidad de Whatsapp “Intencional Mente“ donde podrás interactuar con tus compañer@s de cursada y otros estudiantes de otras ediciones, compartir material, experiencias, intercambiar ideas y contarnos cómo vas poniendo en práctica  todas las herramientas que te llevas del curso.',
                   'Un descuento especial  para los próximos cursos que tomes con nosotros.',
-                  'Tu certificado de participación.',
+                  'Tu <span type="button" style="color:var(--bs-primary)" data-bs-toggle="modal" data-bs-target="#exampleModal">certificado de participación</span>',
                 ]],
               ]
             },
@@ -492,14 +492,14 @@ module.exports = {
                 ['¿Necesito poseer conocimientos previos?', [
                   'No necesitas conocimientos previos.',
                 ]],
-                ['¿Qué me voy a llevar de este entrenamiento  P R E M I U M?', [
+                ['¿Qué me voy a llevar de este entrenamiento  PREMIUM?', [
                   '15 horas de experiencia online en vivo y aprendizaje integral para toda la vida, con la posibilidad de interactuar con la profesora, hacer consultas en tiempo real y abordar las herramientas del coaching Vocacional para redefinir  o ratificar tu carrera.',
                   'La grabación de las clases durante un mes para que puedas repasar todo lo aprendido, o ver las clases si por algún motivo te perdiste alguna.',
                   'Todo el material  trabajado en clase en formato PDF con actividades prácticas para ejercitar en tu tiempo libre cuando quieras !',
                   'Acompañamiento  a través de Whatsapp donde podrás consultar todas tus dudas  durante el tiempo que dure el curso.',
                   'Admisión a nuestro grupo comunidad de Whatsapp “VOCACIONAL  Mente Universitarios“ donde podrás interactuar con tus compañer@s de cursada y otros estudiantes universitarios que hicieron este curso donde podrás compartir material, experiencias, intercambiar ideas y contarnos cómo vas poniendo en práctica  todo las herramientas que te llevas del curso. ',
                   'Un descuento especial  para los próximos cursos que tomes con nosotros.',
-                  'Tu certificado de participación.',
+                  'Tu <span type="button" style="color:var(--bs-primary)" data-bs-toggle="modal" data-bs-target="#exampleModal">certificado de participación</span>.',
                   ]
               ],
               ]
@@ -627,7 +627,7 @@ module.exports = {
                 [
                   '¿Con quién voy a tomar las sesiones personalizadas?',
                   [
-                    'Todas las sesiones de Coaching 1 a 1 en consultorio online están a cargo de <a href="/conoceme" style="color:var(--bs-primary)">Marcela.'
+                    'Todas las sesiones de Coaching 1 a 1 en consultorio online están a cargo de <a href="/conoceme" style="color:var(--bs-primary)">Marcela</a>.'
                   ]
                 ],
                 [
@@ -703,7 +703,7 @@ module.exports = {
                 [
                   '¿Con quién voy a tomar las sesiones personalizadas?',
                   [
-                    'Todas las sesiones de Coaching 1 a 1 en consultorio online están a cargo de <a href="/conoceme" style="color:var(--bs-primary)">Marcela.'
+                    'Todas las sesiones de Coaching 1 a 1 en consultorio online están a cargo de <a style="color:var(--bs-primary)" href="/conoceme">Marcela Caputo</a>.'
                   ]
                 ],
                 [
@@ -744,8 +744,9 @@ module.exports = {
               title:"Docentes - Inteligencia Emocional y Liderazgo para el Aula",
               link:'inteligencia-emocional-y-liderazgo',
               type: 'curso',
+              waLink: 'https://wa.me/p/5696193080468191/5492244408516',
               paymentLink: 'https://mpago.la/21nEZK7',
-              img: '/img/services/coaching-educativo/3.jpg',
+              img: '/img/services/coaching-educativo/4.png',
               subtitle:"Curso práctico para docentes, profesores, directivos, estudiantes de profesorados, bibliotecarios, preceptores, equipos de orientación escolar, ETR, encargados de áreas técnico-pedagógicas, formadores, capacitadores, facilitadores.",
               numberOfSesions:"5",
               numberOfHours:"10",
@@ -753,8 +754,8 @@ module.exports = {
                 ['Jueves','19 a 21 hs'],
               ],
               mode:'Online - Vivo - Plataforma Meet',
-              dateStart: 'Jueves 2 de Marzo 2023',
-              dateEnd: 'Jueves 30 de Marzo 2023',
+              dateStart: 'Jueves 9 de Marzo 2023',
+              dateEnd: 'Jueves 6 de Abril 2023',
               investment: {
                 argentina:{
                   price: 14900,
@@ -832,18 +833,18 @@ module.exports = {
                 ['¿Necesito poseer conocimientos previos?', [
                   'No necesitas conocimientos previos. Este curso tiene un nivel inicial para que puedas ir internalizando a tu propio ritmo, los nuevos conceptos que te llevarán por el camino de la transformación personal.',
                 ]],
-                ['¿Qué me voy a llevar de este entrenamiento?  P R E M I U M?', [
-                  '10 horas de encuentros teórico- práctico vivenciales con Marcela Caputo.',
+                ['¿Qué me voy a llevar de este entrenamiento?  PREMIUM?', [
+                  '10 horas de encuentros teórico- práctico vivenciales con <a style="color:var(--bs-primary)" href="/conoceme">Marcela Caputo</a>.',
                   'La grabación de las clases durante un mes para que puedas repasar todo lo aprendido, o ver las clases si por algún motivo te perdiste alguna.',
                   'Todo el material  trabajado en clase en formato PDF con actividades prácticas para ejercitar en tu tiempo libre cuando quieras !',
                   'Feedback sobre cada una de las actividades planteadas para que realices en tiempo extra a los encuentros. ',
                   'Acompañamiento  a través de Whatsapp donde podrás consultar todas tus dudas  durante el tiempo que dure el curso.',
                   'Admisión a nuestro grupo comunidad de Whatsapp “ INTELIGENCIA EMOCIONAL Y LIDERAZGO EFECTIVO EN EL AULA “donde podrás interactuar con tus compañer@s de cursada y otros estudiantes de las ediciones siguientes, compartir material, experiencias, intercambiar ideas y contarnos cómo vas poniendo en práctica  todo las herramientas que te llevas del curso. ',
                   'Un descuento especial  para los próximos cursos que tomes con nosotros.',
-                  'Tu certificado de participación.',
+                  'Tu <span type="button" style="color:var(--bs-primary)" data-bs-toggle="modal" data-bs-target="#exampleModal">certificado de participación</span>.',
                 ]],
                 ['¿Otorga puntaje docente?', [
-                  'Este curso no otorga puntaje docente. Sin embargo, te extenderemos un certificado de participación.'
+                  'Este curso no otorga puntaje docente. Sin embargo, te extenderemos un <span type="button" style="color:var(--bs-primary)" data-bs-toggle="modal" data-bs-target="#exampleModal">certificado de participación</span>.'
                 ]]
               ]
             }
@@ -886,7 +887,7 @@ module.exports = {
               link:'coaching-y-marketing-digital-1',
               type: 'curso',
               paymentLink: 'https://mpago.la/1UP4wfm',
-              img: '/img/services/coaching-emprendedores/4.png',
+              img: '/img/services/coaching-emprendedores/4.jpeg',
               subtitle:"Curso teórico-práctico para Emprendedores.",
               numberOfSesions:"4",
               numberOfHours:"8",
@@ -971,14 +972,14 @@ module.exports = {
                 'Acompañamiento a través de Whatsapp donde podrás consultar todas tus dudas durante el tiempo que dure el curso y hasta un mes después, que es el tiempo que quedan las clases grabadas.',
                 'Admisión a nuestro grupo comunidad de Whatsapp “HOMBRES Y MUJERES EMPRENDIENDO MEJOR “ donde podrás interactuar con tus compañeros de cursada y otros estudiantes de las otras ediciones, compartir material, experiencias, intercambiar ideas y contarnos cómo vas poniendo en práctica  toaso las herramientas que te llevas del curso.',
                 'Un descuento especial  para los próximos cursos que tomes con nosotros.',
-                'Tu certificado de participación.',
+                'Tu <span type="button" style="color:var(--bs-primary)" data-bs-toggle="modal" data-bs-target="#exampleModal">certificado de participación</span>.',
                 ]
               ],
               faq: [
                 ['¿Cuánto dura este curso?',[
                   'Este curso está dividido en 3 niveles, y cada nivel tiene una duración de 1 mes (4 encuentros).<br/> Es decir, que si deseas completar los tres ( 3) niveles, la formación completa abarcará un total de 3 meses aproximadamente ( 12 encuentros).<br/> El propósito es que puedas ir incorporando los conocimientos de a poco y a tu ritmo. <br/><br/> Los  <b>NIVELES  II y III</b>, se dictarán al finalizar la cursada del <b>NIVEL I</b>. Al iniciar la cursada, publicaremos la fecha de inicio de los siguientes niveles.'
                 ]],
-                ['¿Es obligatorio completar los 3 niveles?', ['Por supuesto que no. Sólo te recomiendo hacerlos si tu intención es aprender a generar un buen plan de marketing para vender más. <br/>Depende de vos, de cuánto quieras hacer crecer tu emprendimiento. <br/> Si por algún motivo, no te es posible realizar los siguientes niveles a continuación del primer nivel, y deseas hacerlo, podrás inscribirte en las siguientes cohortes ( o promociones), ya que este es un curso que se publicará durante todo el año. <br/>Te llevarás un certificado de participación por cada Nivel que cumplimentes.']],
+                ['¿Es obligatorio completar los 3 niveles?', ['Por supuesto que no. Sólo te recomiendo hacerlos si tu intención es aprender a generar un buen plan de marketing para vender más. <br/>Depende de vos, de cuánto quieras hacer crecer tu emprendimiento. <br/> Si por algún motivo, no te es posible realizar los siguientes niveles a continuación del primer nivel, y deseas hacerlo, podrás inscribirte en las siguientes cohortes ( o promociones), ya que este es un curso que se publicará durante todo el año. <br/>Te llevarás un <span type="button" style="color:var(--bs-primary)" data-bs-toggle="modal" data-bs-target="#exampleModal">certificado de participación</span> por cada Nivel que cumplimentes.']],
                 ['¿Necesito poseer conocimientos previos?', [
                   'No necesitas conocimientos previos. Por eso hemos pensado este curso completo con un nivel inicial para que puedas ir internalizando a tu propio ritmo, los nuevos conceptos que te llevarán a aumentar tus ventas hasta en un 100%, cuando culmines el nivel III.',
                 ]],

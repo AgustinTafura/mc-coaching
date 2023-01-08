@@ -13,7 +13,7 @@ const CoachingEducativo = ({...props}) => {
     return (
         <LayoutServices >
 
-            <CarouselProducts products={props.services}/>
+            <CarouselProducts title={'Cursos'} products={props.services}/>
             
             <div className="features2 cid-rT0geqYDWl cid-rT0fsFPh8T">
                 <div className="container images-container pb-5">

@@ -1,9 +1,6 @@
 
 import { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faUser, faUserGraduate, faUserTie, faRocket, faLightbulb} from '@fortawesome/free-solid-svg-icons'
 import LayoutServices from "../../../components/LayoutServices";
-import Link from "next/link";
 import CarouselProducts from "../../../components/CarouselProducts";
 
 const CoachingPersonal = (props) => {
@@ -13,7 +10,6 @@ const CoachingPersonal = (props) => {
         <LayoutServices >
 
             <CarouselProducts products={props.services}/>
-            
             <div className="features2 cid-rT0geqYDWl cid-rT0fsFPh8T">
                 <div className="container">
                     <div className="row justify-content-center">

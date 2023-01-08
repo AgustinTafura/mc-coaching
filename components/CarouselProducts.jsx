@@ -4,9 +4,9 @@ import { sections } from '../data'
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-const CarouselProducts = ({}) => {
+const CarouselProducts = ({...pageProps}) => {
 
-
+    const {title} = pageProps
     const router = useRouter()
     const {asPath} = router
     const urlTitle = asPath.split('/')[2].replace("-", " ")
@@ -48,7 +48,7 @@ const CarouselProducts = ({}) => {
         <section className="team2 cid-rT0gx1qoSL" id="team2-4m">
             <div className="container">
                 <h3 className="mbr-section-title mbr-bold mbr-white pb-2 mbr-fonts-style display-22 text-center" style={{color: "var(--bs-secondary)"}}>
-                    Cursos y Sesiones
+                    {title ? title : 'Cursos y Sesiones'}
                 </h3>
                 <div className="row justify-content-center text-center">
                     <Slider {...settings}>
