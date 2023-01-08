@@ -165,3 +165,38 @@ a:hover {
   font-size: 12px;
   opacity: 1;
 }
+
+
+#pills-tab {
+  li.nav-item h4.active,
+  li.nav-item h4:hover {
+    color: var(--bs-primary);
+  }
+  li.nav-item h4.active {
+    font-weight: bold;
+  }
+}
+
+
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: var(--bs-secondary); 
+  }
+  
+  #pills-tabContent::-webkit-scrollbar-thumb {
+    background: var(--bs-primary); 
+  }
+
+  // /* Handle on hover */
+  // ::-webkit-scrollbar-thumb:hover {
+	//   background: #555; 
+  // }

@@ -152,6 +152,157 @@ const Me = () => {
                     </div>
                 </div>
             </section>
+
+            <section className="cid-rSVRmJSAl2" id="progress1-2i">
+                <div className="container-fluid">
+                    <div className="row">
+
+                        <div className="progress_elements col-lg-6">
+                        <h2 className="mbr-section-title pb-3 align-left mbr-bold mbr-fonts-style mbr-white display-22 text-start">
+                                Curriculum Vitae
+                        </h2>    
+                        <ul className="nav nav-pills mb-3 justify-content-between d-block d-md-flex" id="pills-tab" role="tablist">
+                            <li className="nav-item" role="presentation">
+                                <h4 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style display-44 me-2 py-2 text-start active" id="pills-home-tab" data-bs-toggle="pill" 
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" style={{letterSpacing:'2px'}}>
+                                    Datos personales
+                                </h4>
+                            </li>
+                            <li className="nav-item" role="presentation">
+                                <h4 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style display-44 me-2 py-2 text-start " id="pills-profile-tab" data-bs-toggle="pill" 
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" style={{letterSpacing:'2px'}}>
+                                    Educación y Entrenamiento
+                                </h4>
+                            </li>
+                            <li className="nav-item" role="presentation">
+                                <h4 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style display-44 me-2 py-2 text-start " id="pills-contact-tab" data-bs-toggle="pill" 
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" style={{letterSpacing:'2px'}}>
+                                    Otros Cursos
+                                </h4>
+                            </li>
+                        </ul>
+                        <div className="tab-content" id="pills-tabContent" style={{minHeight: '380px', maxHeight: '380px', overflowY: 'auto'}}>
+                            <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                <p className="mbr-section-text mbr-fonts-style align-left display-77 text-start mb-5">
+                                    Marcela Caputo
+                                    <br/>
+                                    <i className='mbr-section-text pb-4 mbr-fonts-style align-left display-77 opacity-75 fs-6'>
+                                        Coaching y Educación Integral para el desarrollo personal y profesional
+                                    </i>
+                                </p>
+                                
+                                <p className="mbr-section-text mbr-fonts-style align-left display-77 text-start">
+                                    Redes Sociales
+                                </p>
+                                <div className="card-wrapper justify-content-start mbr-section-text pb-4 mbr-fonts-style align-left display-77 opacity-75 text-start">
+                                    <div className="card-box align-left">
+                                        <Link href="https://www.facebook.com/neuroeducacionycoaching">
+                                            <a className='mbr-text  mbr-fonts-style display-77 pb-3' style={{color: '#ffffff'}}>
+                                                <span className="socicon-facebook socicon me-2 "/>
+                                                Facebook
+                                            </a>
+                                        </Link><br/>
+                                        <Link href="https://www.instagram.com/neuroeducacion_y_coaching/">
+                                            <a className='mbr-text  mbr-fonts-style display-77 pb-3' style={{color: '#ffffff'}}>
+                                                <span className="socicon-instagram socicon me-2"/>
+                                                Instagram
+                                            </a>
+                                        </Link><br/>
+                                        <Link href="https://www.youtube.com/channel/UC_KxRomgrGaNlccWnPnPS1w">
+                                            <a className='mbr-text  mbr-fonts-style display-77 pb-3' style={{color: '#ffffff'}}>
+                                                <span className="socicon-youtube socicon me-2"/>
+                                                Youtube
+                                            </a>
+                                        </Link><br/>
+                                        <Link href="https://www.linkedin.com/in/marcela-caputo-03aa40122/">
+                                            <a className='mbr-text  mbr-fonts-style display-77 pb-3' style={{color: '#ffffff'}}>
+                                                <span className="socicon-linkedin socicon me-2"/>
+                                                Linkedin
+                                            </a>
+                                        </Link><br/>
+                                        <Link href="https://api.whatsapp.com/send?phone=5492244408516&text=Hola+Marcela%21%0A%0AMe+gustar%C3%ADa+recibir+informaci%C3%B3n+sobre+...+&type=phone_number&app_absent=0">
+                                            <a className='mbr-text  mbr-fonts-style display-77 pb-3' style={{color: '#ffffff'}}>
+                                                <span className="socicon-whatsapp socicon me-2"/>
+                                                WhatsApp
+                                            </a>
+                                        </Link><br/>
+                                        <Link href="mailto:%20info@marcelacaputo.com.ar">
+                                            <a className='mbr-text  mbr-fonts-style display-77 pb-3' style={{color: '#ffffff'}}>
+                                                <span className="socicon-mail socicon me-2"/>
+                                                info@marcelacaputo.com.ar
+                                            </a>
+                                        </Link><br/>
+                                        
+                                    </div>
+                                </div>
+                                <p className="mbr-section-text mbr-fonts-style align-left display-77 text-start mt-4">
+                                    Ubicacion
+                                </p>
+                                <Link href="https://goo.gl/maps/ouJX5yLhjjdeEpfr7">
+                                    <a className='mbr-text  mbr-fonts-style display-77'>
+                                        <span className="socicon-googlemaps socicon me-2"/>
+                                        Las Flores, Buenos Aires. Argentina
+                                    </a>
+                                </Link><br/>
+
+
+                            </div>
+                            <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <ul className="mbr-section-text pb-4 mbr-fonts-style align-left display-77 opacity-75 text-start">
+                                    <li className='mb-2'>- PROFESORA PARA LA ENSEÑANZA PRIMARIA. </li>
+                                    <li className='mb-2'>- PROFESORA EN IDIOMA  INGLÉS.</li>
+                                    <li className='mb-2'>- LIFE COACHING. ORIENTACIÓN TRANSPERSONAL.</li>
+                                    <li className='mb-2'>- COACHING VOCACIONAL. </li>
+                                    <li className='mb-2'>- NEUROSICOEDUCADORA.</li>
+                                    <li className='mb-2'>- ESPECIALISTA UNIVERSITARIA EN LIDERAZGO Y COACHING. ( Tesina en proceso )</li>
+
+                                </ul>
+                            </div>
+                            <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                <ul className="mbr-section-text pb-4 mbr-fonts-style align-left display-77 opacity-75 text-start">
+                                    <li className='mb-3'>- New Oxford Institute- II and III Adults. 1992.</li>
+                                    <li className='mb-3'>- Practical Hints for Polimodal.- Richmond Publishing-1999.</li>
+                                    <li className='mb-3'>- Metodología de la Enseñanza del Idioma Inglés.-1992.</li>
+                                    <li className='mb-3'>- La escuela pública como espacio de distribución democrática del conocimiento. Resol. DGC y E 998/01. 2002.</li>
+                                    <li className='mb-3'>- Educar para la prevención. Miguel Mancuso. 180 horas cat. Resol 2373/01. 2002.</li>
+                                    <li className='mb-3'>- 1°  Jornada Prov. de Intercambio de Experiencias Didácticas En Inglés. 2004.</li>
+                                    <li className='mb-3'>- Capacitación para Secundaria Básica Inglés – Modalidad semipresencial. Resolución 3904/06- D.G. C. y E. Dirección de Currículo y Capacitación Educativa.2004.</li>
+                                    <li className='mb-3'>- Escuela y familia. Los vínculos en el proceso de enseñanza y aprendizaje. 120 hs. Cat. (Resol 1347/2003) - Tandil. 2004.</li>
+                                    <li className='mb-3'>- Dinámica de grupos. Resol 1347. 120 hs. Tandil.2004.</li>
+                                    <li className='mb-3'>- La educación de adultos y adolescentes. Técnicas y estrategias. Resol 1350/03. 120 hs.  Cat. 2004.</li>
+                                    <li className='mb-3'>- Educación y situaciones de riesgo. Resol 1347. 160 hs. Cat. Tandil. 2004.</li>
+                                    <li className='mb-3'>- Evaluación de los aprendizajes. Un compromiso compartido. Alicia Cosentino. 180 hs.  Cat. Resol.  2492/03. Diciembre 2004.</li>
+                                    <li className='mb-3'>- Planeamiento estratégico del Proyecto Institucional. Resol. 1120/04.  180 hs.  Cat. Noviembre  2004.</li>
+                                    <li className='mb-3'>- Capacitación en Violencia y escuela. Resol 1115/04.  180 hs.  Cat. 2005.</li>
+                                    <li className='mb-3'>- El adulto y el adolescente como sujeto de aprendizaje. Resol 3288/04. 140 hs.  Cat. Febrero 2005.</li>
+                                    <li className='mb-3'>- Repensando la escuela. Resol.3288/04. 180 hs cat. Febrero 2005</li>
+                                    <li className='mb-3'>- INTERNATIONAL CONGRESS OF PROFESSIONAL DEVELOPMENT FOR TEACHERS OF ENGLISH. ABS Internacional. Febrero 2007.</li>
+                                    <li className='mb-3'>- JORNADA INTERDISTRITAL DE EDUCACIÓN INTERCULTURAL Educación Intercultural:  Adolescentes y nuevas juventudes.- Noviembre de 2007- D. G. C. y E.- Dirección de Modalidad Educación Intercultural</li>
+                                    <li className='mb-3'>- Prácticas de los equipos de Conducción Escolar. 108 hs. Cat. REsol 2951/08. Marzo 2009</li>
+                                    <li className='mb-3'>- Bullying y Acoso Escolar: Intervenciones eficaces y herramientas para su detección y prevención. Buenos Aires, 2013.</li>
+                                    <li className='mb-3'>- La enseñanza y el aprendizaje de la ESI ( Educación Sexual Integral ) en el nivel Secundario. Resol 1748/14. Enero 2015.</li>
+                                    <li className='mb-3'>- Conferencia Magistral “La gestión pública como disciplina profesional “. Ph D. Michael Barzelay. Julio 2019. Universidad Nacional de La Plata. </li>
+                                    <li className='mb-3'>- Programa de posgrado “MARKETING ESTRATÉGICO DIGITAL “ . Resol 736/19. Carga horaria: 78 hs. Diciembre 2019.</li>
+                                    <li className='mb-3'>- Curso Universitario Neurosicoeducador . 384 hs. Teórico. Fac. Ciencias Médicas. Universidad de Buenos Aires. Resol 1978/18 y Asociación Educar. Agosto 2021.</li>
+                                    <li className='mb-3'>- ICF Continue Education. Coaching Vocacional. Noviembre 2020.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        </div>
+                        <div className="mbr-white col-md-12 video-col col-12 col-lg-4">
+                            <div className="box">
+                                {/* <div className="mbr-media show-modal align-center py-2" data-modal=".modalWindow">
+                                    <div className="icon-wrap">
+                                        <span className="mbr-iconfont mobi-mbri-play mobi-mbri"></span>
+                                    </div>
+                                </div> */}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
         </>
     )
 }

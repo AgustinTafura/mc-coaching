@@ -56,25 +56,25 @@ const contacto = () => {
                                         <Link href="https://www.facebook.com/neuroeducacionycoaching">
                                             <a className='mbr-text  mbr-fonts-style display-77'>
                                                 <span className="socicon-facebook socicon me-2"/>
-                                                facebook
+                                                Facebook
                                             </a>
                                         </Link><br/>
                                         <Link href="https://www.instagram.com/neuroeducacion_y_coaching/">
                                             <a className='mbr-text  mbr-fonts-style display-77'>
                                                 <span className="socicon-instagram socicon me-2"/>
-                                                instagram
+                                                Instagram
                                             </a>
                                         </Link><br/>
                                         <Link href="https://www.youtube.com/channel/UC_KxRomgrGaNlccWnPnPS1w">
                                             <a className='mbr-text  mbr-fonts-style display-77'>
                                                 <span className="socicon-youtube socicon me-2"/>
-                                                youtube
+                                                Youtube
                                             </a>
                                         </Link><br/>
                                         <Link href="https://www.linkedin.com/in/marcela-caputo-03aa40122/">
                                             <a className='mbr-text  mbr-fonts-style display-77'>
                                                 <span className="socicon-linkedin socicon me-2"/>
-                                                linkedin
+                                                Linkedin
                                             </a>
                                         </Link>
                                     </div>
