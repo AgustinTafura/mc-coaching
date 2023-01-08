@@ -886,6 +886,7 @@ module.exports = {
               title:"Cómo desarrollar tu emprendimiento online con herramientas de COACHING y MARKETING DIGITAL - Nivel I",
               link:'coaching-y-marketing-digital-1',
               type: 'curso',
+              waLink: 'https://wa.me/p/5720321641336506/5492244408516',
               paymentLink: 'https://mpago.la/1UP4wfm',
               img: '/img/services/coaching-emprendedores/4.jpeg',
               subtitle:"Curso teórico-práctico para Emprendedores.",
