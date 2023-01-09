@@ -652,7 +652,7 @@ module.exports = {
               type: 'sesión',
               waLink: 'https://wa.me/p/5673558679390447/5492244408516',
               // paymentLink: 'https://mpago.la/15NvbFU',
-              img: '/img/services/coaching-vocacional/coaching-adultos/1.jpg',
+              img: '/img/services/coaching-vocacional/coaching-adultos/1.JPG',
               subtitle:"Consultas individuales Coaching Vocacional",
               mode:'Online - Videollamadas',
               dateStart: 'Disponible durante todo el año',

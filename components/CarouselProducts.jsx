@@ -31,7 +31,7 @@ const CarouselProducts = ({...pageProps}) => {
     // slidesToScroll: 1,
     // centerMode: true,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 2000,
     // pauseOnHover: true,
     // centerPadding: "60px",
       };
@@ -50,7 +50,7 @@ const CarouselProducts = ({...pageProps}) => {
                 <h3 className="mbr-section-title mbr-bold mbr-white pb-2 mbr-fonts-style display-22 text-center" style={{color: "var(--bs-secondary)"}}>
                     {title ? title : 'Cursos y Sesiones'}
                 </h3>
-                <div className="row justify-content-center text-center">
+                <div className="justify-content-center text-center">
                     <Slider {...settings}>
                         {
                             service.products.map((product, key)=>{

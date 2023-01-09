@@ -2,17 +2,41 @@ import Slider from "react-slick";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 import { testimonials } from "../data";
+import { useEffect, useState } from "react";
 
 const Testimonials = () => {
+
+    const [windowSize, setWindowSize] = useState({
+        width: undefined,
+        height: undefined,
+    })
+
+    useEffect(()=> {
+        function handleResize() {
+            // Set window width/height to state
+            setWindowSize({
+                width: window.innerWidth,
+                height: window.innerHeight,
+            });
+            console.log(window.innerWidth)
+        }
+
+
+        handleResize()
+
+        window.addEventListener('resize', handleResize)
+
+        return () => window.removeEventListener("resize", handleResize);
+    }, [])
 
     const settings = {
     dots: true,
     infinite: true,
-    arrows: false,
+    arrows: windowSize?.width < 768 ? false : true,
     // slidesToShow: slidesToShow,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     pauseOnHover: true,
       };
 

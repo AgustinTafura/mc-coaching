@@ -200,3 +200,30 @@ a:hover {
   // ::-webkit-scrollbar-thumb:hover {
 	//   background: #555; 
   // }
+
+  .slick-prev:before, .slick-next:before {
+    color: var(--bs-secondary);
+    font-size: 40px;
+  }
+
+  @media (max-width: 768px) {
+  .slick-prev {
+    position: absolute;
+    left: 40px;
+    z-index: 1000;
+    color: white;
+  }
+  
+  .slick-next {
+      position: absolute;
+      right: 55px;
+      z-index: 1000;
+      color: white;
+
+    }
+
+    .slick-prev:before, .slick-next:before {
+      color: white;
+
+    }
+  }
