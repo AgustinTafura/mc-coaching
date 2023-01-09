@@ -9,7 +9,7 @@ const CoachingPersonal = (props) => {
     return (
         <LayoutServices >
 
-            <CarouselProducts products={props.services}/>
+            <CarouselProducts title={'Cursos'} products={props.services}/>
             <div className="features2 cid-rT0geqYDWl cid-rT0fsFPh8T">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -37,7 +37,7 @@ const CoachingPersonal = (props) => {
                     <div className="row">
                         <div className="mbr-black col-md-12 col-lg-4" style={{position:"relative"}}>
                             <picture>
-                                <img src="/img/services/coaching-emprendedores/1.png" alt="coaching emprendedores" />
+                                <img src="/img/services/coaching-emprendedores/1.jpg" alt="coaching emprendedores" />
                             </picture>
                         </div>
                         <div className="mbr-white  col-md-12 col-lg-4">
@@ -53,7 +53,7 @@ const CoachingPersonal = (props) => {
                         </div>
                         <div className="col-lg-4">
                             <picture>
-                                <img src="http://localhost:3000/img/services/coaching-emprendedores/0.png" alt="coaching emprendedores"/>
+                                <img src="http://localhost:3000/img/services/coaching-emprendedores/0.jpg" alt="coaching emprendedores"/>
                             </picture>
                         </div>
                     </div>

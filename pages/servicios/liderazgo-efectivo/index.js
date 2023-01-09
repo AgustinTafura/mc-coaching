@@ -109,7 +109,7 @@ const CoachingEducativo = (props) => {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="mbr-white col-md-12 video-col col-12 col-lg-6">
-                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/2.png)'}}>
+                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/2.jpg)'}}>
                                 </div>
                             </div>
 
@@ -141,7 +141,7 @@ const CoachingEducativo = (props) => {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="mbr-white col-md-12 video-col col-12 col-lg-6 order-lg-2">
-                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/3.png)'}}>
+                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/3.jpg)'}}>
                                 </div>
                             </div>
                             <div className="progress_elements col-lg-6">
@@ -159,7 +159,7 @@ const CoachingEducativo = (props) => {
                         </div>
                         <div className="row">
                             <div className="mbr-white col-md-12 video-col col-12 col-lg-6">
-                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/4.png)'}}>
+                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/4.jpg)'}}>
                                 </div>
                             </div>
                             <div className="progress_elements col-lg-6">
@@ -173,7 +173,7 @@ const CoachingEducativo = (props) => {
                         </div>
                         <div className="row">
                             <div className="mbr-white col-md-12 video-col col-12 col-lg-6 order-lg-2">
-                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/5.png)'}}>
+                                <div className="box liderazgo" style={{backgroundImage: 'url(/img/services/liderazgo-efectivo/5.jpg)'}}>
                                 </div>
                             </div>
                             <div className="progress_elements col-lg-6">

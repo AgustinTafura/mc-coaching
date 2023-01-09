@@ -148,8 +148,8 @@ const LayoutSesions = ({ children, ...pageProps }) => {
                                                 <br/>
                                                 {product.mode}
                                             </div>
-                                            <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href={product.waLink}>
-                                                <a>
+                                            <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href={product.waLink} target="_blank">
+                                                <a target="_blank">
                                                     <button type="button" className="btn btn-primary display-44">CONSULTAR</button>
                                                 </a>
                                             </Link>

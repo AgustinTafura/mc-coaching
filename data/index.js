@@ -210,7 +210,7 @@ module.exports = {
             {
               title:"Coaching Grupal",
               link:"coaching-grupal",
-              type: 'sesión',
+              type: 'sesiones',
               waLink: 'https://wa.me/p/8274349425973754/5492244408516',
               // paymentLink: 'https://mpago.la/15NvbFU',
               img: '/img/services/coaching-personal/coaching-grupal/1.png',
@@ -273,7 +273,7 @@ module.exports = {
             {
               title:"Coaching Personalizado",
               link:"coaching-personalizado",
-              type: 'sesión',
+              type: 'sesiones',
               waLink: 'https://wa.me/p/5645377298886700/5492244408516',
               // paymentLink: 'https://mpago.la/15NvbFU',
               img: '/img/services/coaching-personal/coaching-personalizado/1.jpg',
@@ -507,7 +507,7 @@ module.exports = {
             {
               title:"Coaching Adolescentes",
               link:"coaching-adolescentes",
-              type: 'sesión',
+              type: 'sesiones',
               waLink: 'https://wa.me/p/6025088370919450/5492244408516',
               // paymentLink: 'https://mpago.la/15NvbFU',
               img: '/img/services/coaching-vocacional/coaching-adolescentes/1.jpg',
@@ -590,7 +590,7 @@ module.exports = {
             {
               title:"Coaching Universitarios",
               link:"coaching-universitarios",
-              type: 'sesión',
+              type: 'sesiones',
               waLink: 'https://wa.me/p/5692052260879868/5492244408516',
               // paymentLink: 'https://mpago.la/15NvbFU',
               img: '/img/services/coaching-vocacional/coaching-universitarios/1.JPG',
@@ -649,7 +649,7 @@ module.exports = {
             {
               title:"Coaching Adultos",
               link:"coaching-adultos",
-              type: 'sesión',
+              type: 'sesiones',
               waLink: 'https://wa.me/p/5673558679390447/5492244408516',
               // paymentLink: 'https://mpago.la/15NvbFU',
               img: '/img/services/coaching-vocacional/coaching-adultos/1.JPG',
@@ -853,7 +853,7 @@ module.exports = {
         {
           name:'liderazgo efectivo',
           link: 'liderazgo-efectivo',
-          img:'/img/services/liderazgo-efectivo/1.png',
+          img:'/img/services/liderazgo-efectivo/1.jpg',
           description: 'Las empresas buscan perfiles integrales que posean competencias técnicas vinculadas a su área de especialización (habilidades duras), y por otro lado, habilidades blandas que les permitan adaptarse de la mejor manera a un entorno cambiante y vincularse mejor con sus superiores,  pares,  y/o equipos a cargo.',
           phrases:[
             {
@@ -869,7 +869,7 @@ module.exports = {
         {
           name:'coaching emprendedores',
           link: 'coaching-emprendedores',
-          img:'/img/services/coaching-emprendedores/3.png',
+          img:'/img/services/coaching-emprendedores/3.jpg',
           description: 'El Coaching para hombres y mujeres emprendedoras facilita tu camino al éxito en las ventas a través de herramientas concretas y un proyecto estratégico que te permitirá alcanzar los objetivos, y te ayudará a vender más y mejor.',
           phrases:[
             {
@@ -888,7 +888,7 @@ module.exports = {
               type: 'curso',
               waLink: 'https://wa.me/p/5720321641336506/5492244408516',
               paymentLink: 'https://mpago.la/1UP4wfm',
-              img: '/img/services/coaching-emprendedores/4.jpeg',
+              img: '/img/services/coaching-emprendedores/4.jpg',
               subtitle:"Curso teórico-práctico para Emprendedores.",
               numberOfSesions:"4",
               numberOfHours:"8",

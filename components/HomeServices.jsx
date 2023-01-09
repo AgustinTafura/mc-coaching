@@ -196,7 +196,7 @@ const HomeServices = () => {
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
                                                     <picture>
-                                                        <img src="/img/services/liderazgo-efectivo/0.png" alt="Marcela Caputo - Coaching liderazgo efectivo"/>
+                                                        <img src="/img/services/liderazgo-efectivo/0.jpg" alt="Marcela Caputo - Coaching liderazgo efectivo"/>
                                                     </picture>
                                                     <div className="text-wrap">
                                                         <h4
@@ -245,7 +245,7 @@ const HomeServices = () => {
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
                                                     <picture>
-                                                        <img src="/img/services/coaching-vocacional/0.png" alt="Marcela Caputo - Coaching coaching vocacional"/>
+                                                        <img src="/img/services/coaching-vocacional/0.jpg" alt="Marcela Caputo - Coaching coaching vocacional"/>
                                                     </picture>
                                                     <div className="text-wrap">
                                                         <h4
@@ -270,7 +270,7 @@ const HomeServices = () => {
                                             <div className="card-wrapper">
                                                 <div className="img-wrapper">
                                                     <picture>
-                                                        <img src="/img/services/coaching-emprendedores/3.png" alt="Marcela Caputo - Coaching Emprendedores"/>
+                                                        <img src="/img/services/coaching-emprendedores/3.jpg" alt="Marcela Caputo - Coaching Emprendedores"/>
                                                     </picture>
                                                     <div className="text-wrap">
                                                         <h4

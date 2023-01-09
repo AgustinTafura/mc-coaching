@@ -107,7 +107,7 @@ const CoachingVocacional = (props) => {
                     <div className="row">
                         <div className="mbr-black col-md-12 col-lg-4" style={{position:"relative"}}>
                             <picture>
-                                <img src="/img/services/coaching-vocacional/2.png" alt="coaching vocacional" />
+                                <img src="/img/services/coaching-vocacional/2.jpg" alt="coaching vocacional" />
                             </picture>
                         </div>
                         <div className="mbr-white  col-md-12 col-lg-4">
@@ -127,7 +127,7 @@ const CoachingVocacional = (props) => {
                         </div>
                         <div className="col-lg-4">
                             <picture>
-                                <img src="http://localhost:3000/img/services/coaching-vocacional/0.png" alt="coaching vocacional"/>
+                                <img src="http://localhost:3000/img/services/coaching-vocacional/0.jpg" alt="coaching vocacional"/>
                             </picture>
                         </div>
                     </div>

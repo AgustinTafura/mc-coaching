@@ -260,8 +260,8 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             {
                                                 product.investment.discountDate && <div className='my-3 text-center' style={{fontSize:'12px'}}>* Precio PROMOCIONAL hasta el {product.investment.discountDate} o <b>3 cuotas Sin Interes</b> sobre el precio de&nbsp;lista. <b>CUPOS&nbsp;LIMITADOS</b></div>
                                             }
-                                            <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href={product.waLink}>
-                                                <a>
+                                            <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href={product.waLink} target="_blank">
+                                                <a target="_blank">
                                                     <button type="button" className="btn btn-primary display-44">COMPRAR</button>
                                                 </a>
                                             </Link>
