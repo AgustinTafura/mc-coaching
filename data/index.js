@@ -213,7 +213,7 @@ module.exports = {
               type: 'sesión',
               waLink: 'https://wa.me/p/8274349425973754/5492244408516',
               // paymentLink: 'https://mpago.la/15NvbFU',
-              img: '/img/services/coaching-personal/coaching-grupal/1.jpg',
+              img: '/img/services/coaching-personal/coaching-grupal/1.png',
               subtitle:"Consultorio online o presencial",
               mode:'Online - Videollamadas',
               dateStart: 'Disponible durante todo el año',
