@@ -8,6 +8,7 @@ import { sections, generalFAQ } from '../data'
 import SectionInfo from './SectionInfo'
 import Link from 'next/link'
 import { faDesktop, faDollarSign, faTimeline } from '@fortawesome/free-solid-svg-icons'
+import ShareSocialMedia from './ShareSocialMedia'
 
 
 
@@ -40,8 +41,8 @@ const LayoutSesions = ({ children, ...pageProps }) => {
     return (
     <>
         <Head>  
-            {/* <title>{service.meta.title}</title>
-            <meta  name="description" content={service.meta.description} /> */}
+            <title>Marcela Caputo - Sesiones - {service.title}</title>
+            <meta  name="description" content={service.subtitle} />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <Layout>
@@ -119,11 +120,11 @@ const LayoutSesions = ({ children, ...pageProps }) => {
                                         </h6>
                                     </div>
 
-                                    <div className='row justify-content-center'>
+                                    <div className='row justify-content-center g-0'>
                                         <div className='row d-flex col-sm-10 col-md-6 col-lg-12 g-0'>
 
                                             <div className='col-3 text-center mb-4 align-self-center'>
-                                                <FontAwesomeIcon icon={faCalendar} size="3x" color='var(--bs-secondary)'/>
+                                                <FontAwesomeIcon icon={faCalendar} size="3x" color='#8e678c'/>
                                             </div>
                                             <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                                 <b>INICIO:</b> 
@@ -132,7 +133,7 @@ const LayoutSesions = ({ children, ...pageProps }) => {
                                             </div>
 
                                             <div className='col-3 text-center mb-4 align-self-center'>
-                                                <FontAwesomeIcon icon={faClock} size="3x" color='var(--bs-secondary)'/>
+                                                <FontAwesomeIcon icon={faClock} size="3x" color='#8e678c'/>
                                             </div>
                                             <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                                 <b>DIAS Y HORARIO</b>
@@ -141,7 +142,7 @@ const LayoutSesions = ({ children, ...pageProps }) => {
                                             </div>
 
                                             <div className='col-3 text-center mb-4 align-self-center'>
-                                                <FontAwesomeIcon icon={faDesktop} size="3x" color='var(--bs-secondary)'/>
+                                                <FontAwesomeIcon icon={faDesktop} size="3x" color='#8e678c'/>
                                                 </div>
                                             <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                             <b>MODALIDAD</b>
@@ -153,6 +154,7 @@ const LayoutSesions = ({ children, ...pageProps }) => {
                                                     <button type="button" className="btn btn-primary display-44">CONSULTAR</button>
                                                 </a>
                                             </Link>
+                                            <ShareSocialMedia/>
                                         </div>
                                     </div>
                                 </div>

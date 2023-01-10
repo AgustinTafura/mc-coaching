@@ -10,6 +10,7 @@ import SectionInfo from './SectionInfo'
 import Link from 'next/link'
 import { faDesktop, faDollarSign, faTimeline } from '@fortawesome/free-solid-svg-icons'
 import ImgModal from './ImgModal'
+import ShareSocialMedia from './ShareSocialMedia'
 
 
 
@@ -42,8 +43,8 @@ const LayoutProducts = ({ children, ...pageProps }) => {
     return (
     <>
         <Head>  
-            {/* <title>{service.meta.title}</title>
-            <meta  name="description" content={service.meta.description} /> */}
+            <title>Marcela Caputo - Curso - {product.title}</title>
+            <meta  name="description" content={product.subtitle} />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <Layout>
@@ -198,7 +199,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                         <div className='row d-flex col-sm-10 col-md-6 col-lg-12 g-0'>
 
                                             <div className='col-3 text-center mb-4 align-self-center'>
-                                                <FontAwesomeIcon icon={faCalendar} size="3x" color='var(--bs-secondary)'/>
+                                                <FontAwesomeIcon icon={faCalendar} size="3x" color='#8e678c'/>
                                             </div>
                                             <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                                 <b>INICIO:</b> {product.dateStart}
@@ -207,7 +208,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             </div>
 
                                             <div className='col-3 text-center mb-4 align-self-center'>
-                                                <FontAwesomeIcon icon={faClock} size="3x" color='var(--bs-secondary)'/>
+                                                <FontAwesomeIcon icon={faClock} size="3x" color='#8e678c'/>
                                             </div>
                                             <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                                 <b>DIAS Y HORARIO</b>
@@ -220,7 +221,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             </div>
 
                                             <div className='col-3 text-center mb-4 align-self-center'>
-                                                <FontAwesomeIcon icon={faTimeline} size="3x" color='var(--bs-secondary)'/>
+                                                <FontAwesomeIcon icon={faTimeline} size="3x" color='#8e678c'/>
                                             </div>
                                             <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                             <b>CANTIDAD DE ENCUENTROS:</b> {product.numberOfSesions}
@@ -229,7 +230,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             </div>
 
                                             <div className='col-3 text-center mb-4 align-self-center'>
-                                                <FontAwesomeIcon icon={faDesktop} size="3x" color='var(--bs-secondary)'/>
+                                                <FontAwesomeIcon icon={faDesktop} size="3x" color='#8e678c'/>
                                                 </div>
                                             <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                             <b>MODALIDAD</b>
@@ -237,7 +238,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                 {product.mode}
                                             </div>
                                             <div className='col-3 text-center align-self-center'>
-                                                <FontAwesomeIcon icon={faDollarSign} size="3x" color='var(--bs-secondary)'/>
+                                                <FontAwesomeIcon icon={faDollarSign} size="3x" color='#8e678c'/>
                                                 </div>
                                             <div className='col-4 mbr-regular  fw-normal text-white'>
                                             <b>ARGENTINA</b>
@@ -265,6 +266,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                     <button type="button" className="btn btn-primary display-44">COMPRAR</button>
                                                 </a>
                                             </Link>
+                                            <ShareSocialMedia/>
                                         </div>
                                     </div>
                                 </div>

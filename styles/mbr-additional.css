@@ -9980,6 +9980,12 @@ a.panel-title:not(.collapsed) h5 .sign {
   background: #9e9e9e0f;
   padding: 4rem 3rem;
 }
+.cid-rT0gOkWcki .form-col.sticky-item {
+  /* background: #f6f3ee;
+  background: #eceae4; */
+  background: #9e9e9e0f;
+  padding: 2rem 3rem;
+}
 @media (max-width: 992px) {
   .cid-rT0gOkWcki .form-col {
     padding: 2rem 2rem;
