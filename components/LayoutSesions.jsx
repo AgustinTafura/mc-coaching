@@ -112,9 +112,9 @@ const LayoutSesions = ({ children, ...pageProps }) => {
 
                         <div className="col-lg-4 mx-auto mbr-form position-relative py-5 pt-lg-0 g-0" data-form-type="formoid">
                             <div className='sticky-sidebar'>
-                                <div className="form-col sticky-item px-lg-4" data-form-type="formoid">
+                                <div className="form-col sticky-item px-lg-4" data-form-type="formoid" style={{background: 'rgb(166 167 104 / 0.7)'}}>
                                     <div className="col-lg-12 col-md-12 col-sm-12 mb-4" >
-                                        <h6 className="mbr-section-subtitle mbr-fonts-style display-44" style={{color:'var(--bs-secondary)'}}>
+                                        <h6 className="mbr-section-subtitle mbr-fonts-style display-44 text-white fw-bold">
                                             SESIONES  
                                         </h6>
                                     </div>
@@ -125,7 +125,7 @@ const LayoutSesions = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faCalendar} size="3x" color='var(--bs-secondary)'/>
                                             </div>
-                                            <div className='col-9 mbr-regular mb-4 fw-normal text-black'>
+                                            <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                                 <b>INICIO:</b> 
                                                 <br/>
                                                 {product.dateStart}
@@ -134,7 +134,7 @@ const LayoutSesions = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faClock} size="3x" color='var(--bs-secondary)'/>
                                             </div>
-                                            <div className='col-9 mbr-regular mb-4 fw-normal text-black'>
+                                            <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                                 <b>DIAS Y HORARIO</b>
                                                 <br/>
                                                 A coordinar según disponibilidad
@@ -143,7 +143,7 @@ const LayoutSesions = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faDesktop} size="3x" color='var(--bs-secondary)'/>
                                                 </div>
-                                            <div className='col-9 mbr-regular mb-4 fw-normal text-black'>
+                                            <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                             <b>MODALIDAD</b>
                                                 <br/>
                                                 {product.mode}

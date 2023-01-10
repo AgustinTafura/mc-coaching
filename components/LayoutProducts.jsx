@@ -187,9 +187,9 @@ const LayoutProducts = ({ children, ...pageProps }) => {
 
                         <div className="col-lg-4 mx-auto mbr-form position-relative py-5 pt-lg-0 g-0" data-form-type="formoid">
                             <div className='sticky-sidebar'>
-                                <div className="form-col sticky-item px-lg-4" data-form-type="formoid">
+                                <div className="form-col sticky-item px-lg-4" data-form-type="formoid" style={{background: 'rgb(166 167 104 / 0.7)'}}>
                                     <div className="col-lg-12 col-md-12 col-sm-12 mb-4" >
-                                        <h6 className="mbr-section-subtitle mbr-fonts-style display-44" style={{color:'var(--bs-secondary)'}}>
+                                        <h6 className="mbr-section-subtitle mbr-fonts-style display-44 text-white fw-bold" >
                                             PRÓXIMO CURSO  
                                         </h6>
                                     </div>
@@ -200,7 +200,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faCalendar} size="3x" color='var(--bs-secondary)'/>
                                             </div>
-                                            <div className='col-9 mbr-regular mb-4 fw-normal text-black'>
+                                            <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                                 <b>INICIO:</b> {product.dateStart}
                                                 <br/>
                                                 <b>FIN:</b> {product.dateEnd}
@@ -209,7 +209,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faClock} size="3x" color='var(--bs-secondary)'/>
                                             </div>
-                                            <div className='col-9 mbr-regular mb-4 fw-normal text-black'>
+                                            <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                                 <b>DIAS Y HORARIO</b>
                                                 <br/>
                                                 {
@@ -222,7 +222,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faTimeline} size="3x" color='var(--bs-secondary)'/>
                                             </div>
-                                            <div className='col-9 mbr-regular mb-4 fw-normal text-black'>
+                                            <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                             <b>CANTIDAD DE ENCUENTROS:</b> {product.numberOfSesions}
                                                 <br/>
                                                 <b>TIEMPO TOTAL:</b> {product.numberOfHours} horas
@@ -231,7 +231,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faDesktop} size="3x" color='var(--bs-secondary)'/>
                                                 </div>
-                                            <div className='col-9 mbr-regular mb-4 fw-normal text-black'>
+                                            <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                             <b>MODALIDAD</b>
                                                 <br/>
                                                 {product.mode}
@@ -239,7 +239,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center align-self-center'>
                                                 <FontAwesomeIcon icon={faDollarSign} size="3x" color='var(--bs-secondary)'/>
                                                 </div>
-                                            <div className='col-4 mbr-regular  fw-normal text-black'>
+                                            <div className='col-4 mbr-regular  fw-normal text-white'>
                                             <b>ARGENTINA</b>
                                                 <br/>
                                                 <del>ARS {toARS(product.investment.argentina.price)}</del>
@@ -248,7 +248,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             </div>
                                             {
                                                 product.investment.exterior && (
-                                                    <div className='col-4 mbr-regular  fw-normal text-black'>
+                                                    <div className='col-4 mbr-regular  fw-normal text-white'>
                                                         <b>EXTERIOR</b>
                                                             <br/>
                                                             <del>USD {toUSD(product.investment.exterior.price)}</del>
@@ -258,7 +258,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                 )
                                             }
                                             {
-                                                product.investment.discountDate && <div className='my-3 text-center' style={{fontSize:'12px'}}>* Precio PROMOCIONAL hasta el {product.investment.discountDate} o <b>3 cuotas Sin Interes</b> sobre el precio de&nbsp;lista. <b>CUPOS&nbsp;LIMITADOS</b></div>
+                                                product.investment.discountDate && <div className='my-3 text-center text-white' style={{fontSize:'12px'}}>* Precio PROMOCIONAL hasta el {product.investment.discountDate} o <b>3 cuotas Sin Interes</b> sobre el precio de&nbsp;lista. <b>CUPOS&nbsp;LIMITADOS</b></div>
                                             }
                                             <Link className="col-lg-12 col-md-12 col-sm-12 align-center" href={product.waLink} target="_blank">
                                                 <a target="_blank">
