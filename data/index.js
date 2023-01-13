@@ -510,7 +510,7 @@ module.exports = {
               type: 'sesiones',
               waLink: 'https://wa.me/p/6025088370919450/5492244408516',
               // paymentLink: 'https://mpago.la/15NvbFU',
-              img: '/img/services/coaching-vocacional/coaching-adolescentes/1.jpg',
+              img: '/img/services/coaching-vocacional/coaching-adolescentes/2.jpg',
               subtitle:"Consultas individuales Coaching Vocacional",
               mode:'Online - Videollamadas',
               dateStart: 'Disponible durante todo el año',

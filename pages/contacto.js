@@ -59,7 +59,7 @@ const contacto = () => {
                                                 Facebook
                                             </a>
                                         </Link><br/>
-                                        <Link href="https://www.instagram.com/neuroeducacion_y_coaching/">
+                                        <Link href="https://www.instagram.com/marcelacaputo_lidercoach/">
                                             <a className='mbr-text  mbr-fonts-style display-77'>
                                                 <span className="socicon-instagram socicon me-2"/>
                                                 Instagram

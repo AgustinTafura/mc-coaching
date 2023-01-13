@@ -203,7 +203,7 @@ const Me = () => {
                                                 Facebook
                                             </a>
                                         </Link><br/>
-                                        <Link href="https://www.instagram.com/neuroeducacion_y_coaching/">
+                                        <Link href="https://www.instagram.com/marcelacaputo_lidercoach/">
                                             <a className='mbr-text  mbr-fonts-style display-77 pb-3' style={{color: '#ffffff'}}>
                                                 <span className="socicon-instagram socicon me-2"/>
                                                 Instagram

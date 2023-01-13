@@ -98,7 +98,7 @@ const Footer = () => {
             <Link href="https://www.facebook.com/neuroeducacionycoaching">
               <a><span className="mbr-iconfont socicon-facebook socicon"></span></a>
             </Link>
-            <Link href="https://www.instagram.com/neuroeducacion_y_coaching/">
+            <Link href="https://www.instagram.com/marcelacaputo_lidercoach/">
               <a><span className="mbr-iconfont socicon-instagram socicon"></span></a>
             </Link>
             <Link href="https://www.youtube.com/channel/UC_KxRomgrGaNlccWnPnPS1w">
