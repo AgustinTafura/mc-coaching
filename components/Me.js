@@ -240,7 +240,7 @@ const Me = () => {
                                     Ubicacion
                                 </p>
                                 <Link href="https://goo.gl/maps/ouJX5yLhjjdeEpfr7">
-                                    <a className='mbr-text  mbr-fonts-style display-77'>
+                                    <a className='mbr-text  mbr-fonts-style display-77' style={{color:'var(--bs-primary)'}}>
                                         <span className="socicon-googlemaps socicon me-2"/>
                                         Las Flores, Buenos Aires. Argentina
                                     </a>
