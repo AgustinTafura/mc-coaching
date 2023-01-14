@@ -1,7 +1,17 @@
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
+import { sections } from '../data'
 
-const ContactForm = () => {
+const ContactForm = ({...props}) => {
+  const optionsSelector = []
+
+  const servicesList = sections.find(element => element.name === 'servicios')['list']
+  
+  servicesList.forEach(service=>{
+    service.products ?
+    service.products.map((product)=>optionsSelector.push(`${product.title} - ${service.name}` ))
+    : optionsSelector.push(service.name)
+  })
 
   const [emailSent, setEmailSent] = useState(false);
   const [emailError, setEmailError] = useState(false);
@@ -9,14 +19,13 @@ const ContactForm = () => {
   const submitForm = (e) => {
     e.preventDefault()
     const formData = {}
-    console.log(e.target)
     const inputs = e.target
-    console.log(e)
+
     for (let index = 0; index < inputs.length-1; index++) {
       const element = inputs[index];
       formData[element.name] = element.value
     }
-    console.log(formData)
+    
     if (!emailSent) {
         emailjs.send(
             process.env.NEXT_APP_EMAILJS_YOUR_SERVICE_ID,
@@ -86,9 +95,10 @@ const ContactForm = () => {
                   <div data-for="select" className="col-lg-6 col-md-12 col-sm-12 form-group mb-3">
                     <select required name="select" data-form-field="select"
                       className="form-control display-77 rounded-0" id="select-form1-4x">
-                      <option value="">Selecciona un servicio</option>
-                      <option value="Group">Group</option>
-                      <option value="Individual">Individual</option>
+                      <option value="">Selecciona un SERVICIO</option>
+                      {
+                        optionsSelector?.map((option,key)=><option key={key} value={option} className="text-uppercase">{option}</option>)
+                      }
                     </select>
                   </div>
                   <div className="col-lg-12 col-md-12 col-sm-12 form-group mb-3" data-for="textarea">
