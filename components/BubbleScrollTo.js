@@ -29,7 +29,10 @@ const BubbleScrollTo = ({...pageProps}) => {
 
           <FontAwesomeIcon icon={faCircleChevronUp} size="3x" color='rgb(166 167 104 / 0.7)' 
             style={{cursor: 'pointer',position: "fixed",bottom: "5rem",float:'right', right: "1.3rem", transition: "opacity 0.8s", opacity, zIndex:'100'}} id="bubbleScrollTo" className=''
-            onClick={()=>document.querySelector(`#${itemId}`).scrollIntoView(true)}
+            onClick={()=>
+              // document.querySelector(`#${itemId}`).scrollIntoView(true)
+              document.querySelector('html').scrollTo(0,0)
+            }
             onMouseOver={()=> setOpacity(1) }
             onMouseOut={()=> setOpacity(0.8) }
           />
