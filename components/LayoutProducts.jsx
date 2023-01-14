@@ -11,6 +11,7 @@ import Link from 'next/link'
 import { faDesktop, faDollarSign, faTimeline } from '@fortawesome/free-solid-svg-icons'
 import ImgModal from './ImgModal'
 import ShareSocialMedia from './ShareSocialMedia'
+import ContactForm from './ContactForm'
 
 
 
@@ -368,6 +369,7 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                 </div>
             </section>
             {children}
+            <ContactForm/>
         </Layout>           
   </>
   )

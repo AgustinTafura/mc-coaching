@@ -9,6 +9,7 @@ import SectionInfo from './SectionInfo'
 import Link from 'next/link'
 import { faDesktop, faDollarSign, faTimeline } from '@fortawesome/free-solid-svg-icons'
 import ShareSocialMedia from './ShareSocialMedia'
+import ContactForm from './ContactForm'
 
 
 
@@ -169,6 +170,7 @@ const LayoutSesions = ({ children, ...pageProps }) => {
 
             </section>
             {children}
+            <ContactForm/>
         </Layout>           
   </>
   )

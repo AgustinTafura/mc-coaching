@@ -25,7 +25,7 @@ const ContactForm = ({...props}) => {
       const element = inputs[index];
       formData[element.name] = element.value
     }
-    
+
     if (!emailSent) {
         emailjs.send(
             process.env.NEXT_APP_EMAILJS_YOUR_SERVICE_ID,
@@ -88,7 +88,7 @@ const ContactForm = ({...props}) => {
                       className="form-control display-77" id="email-form1-4x" ></input>
                   </div>
                   <div data-for="phone" className="col-lg-6 col-md-12 col-sm-12 form-group mb-3">
-                    <input required type="number" name="phone" placeholder="Telefono" data-form-field="url"
+                    <input required type="number" name="phone" placeholder="Teléfono" data-form-field="url"
                       className="form-control display-77" id="phone-form1-4x" ></input>
                   </div>
 
@@ -102,7 +102,7 @@ const ContactForm = ({...props}) => {
                     </select>
                   </div>
                   <div className="col-lg-12 col-md-12 col-sm-12 form-group mb-3" data-for="textarea">
-                    <textarea name="textarea" placeholder="Message" data-form-field="textarea"
+                    <textarea name="textarea" placeholder="Dejame tu mensaje aquí" data-form-field="textarea"
                       className="form-control display-77" id="textarea-form1-4x"></textarea>
                   </div>
                   <div className="col-lg-12 col-md-12 col-sm-12 align-center">
