@@ -5,6 +5,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 import { useRouter } from "next/router"
 import { sections } from '../data'
 import Testimonials from '../components/Testimonials'
+import ContactForm from './ContactForm';
 
 const LayoutServices = ({ children, ...pageProps }) => {
     const {customColor} = pageProps
@@ -55,6 +56,7 @@ const LayoutServices = ({ children, ...pageProps }) => {
             </ParallaxBanner>
             {children}
             <Testimonials/>
+            <ContactForm/>
         </Layout>           
   </>
   )

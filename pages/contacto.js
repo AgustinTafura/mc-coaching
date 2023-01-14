@@ -20,7 +20,7 @@ const contacto = () => {
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="card p-3 col-12 col-md-6 col-lg-4">
-                                <div className="card-wrapper justify-content-start">
+                                <div className="justify-content-start">
                                     <div className="card-box align-left">
                                         <h3 className="mbr-section-subtitle align-left mbr-regular mbr-black mbr-fonts-style display-44">
                                             CONTACTO
@@ -46,7 +46,7 @@ const contacto = () => {
                                 </div>
                             </div>
                             <div className="card p-3 col-12 col-md-6 col-lg-4">
-                                <div className="card-wrapper justify-content-start">
+                                <div className="justify-content-start">
                                     <div className="card-box align-left">
                                         <h3 className="mbr-section-subtitle align-left mbr-regular mbr-black mbr-fonts-style display-44">
                                             ENCONTRANOS</h3>
@@ -81,7 +81,7 @@ const contacto = () => {
                                 </div>
                             </div>
                             <div className="card p-3 col-12 col-md-6 col-lg-4">
-                                <div className="card-wrapper justify-content-start">
+                                <div className="justify-content-start">
                                     <div className="card-box align-left">
                                         <h3 className="mbr-section-subtitle align-left mbr-regular mbr-black mbr-fonts-style display-44">
                                             AGENDA    
