@@ -202,7 +202,14 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                             <div className='col-3 text-center mb-4 align-self-center'>
                                                 <FontAwesomeIcon icon={faCalendar} size="3x" color='#8e678c'/>
                                             </div>
-                                            <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
+                                            {
+                                                product.dateStart === "Próximamente" ?
+                                                <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
+                                                    <b>INICIO:</b> {product.dateStart}
+                                                </div>
+                                                :
+                                                <>
+                                                                                            <div className='col-9 mbr-regular mb-4 fw-normal text-white'>
                                                 <b>INICIO:</b> {product.dateStart}
                                                 <br/>
                                                 <b>FIN:</b> {product.dateEnd}
@@ -267,6 +274,10 @@ const LayoutProducts = ({ children, ...pageProps }) => {
                                                     <button type="button" className="btn btn-primary display-44">COMPRAR</button>
                                                 </a>
                                             </Link>
+                                                </>
+                                            }
+
+
                                             <ShareSocialMedia/>
                                         </div>
                                     </div>

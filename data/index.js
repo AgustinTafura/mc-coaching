@@ -387,7 +387,7 @@ module.exports = {
                 ['Martes','19 a 21.30 hs'],
               ],
               mode:'Online - Vivo - Plataforma Meet',
-              dateStart: 'Martes 14 de Marzo 2023',
+              dateStart: 'Próximamente',
               dateEnd: 'Martes 18 de Abril 2023',
               investment: {
                 argentina:{
@@ -754,13 +754,13 @@ module.exports = {
                 ['Jueves','19 a 21 hs'],
               ],
               mode:'Online - Vivo - Plataforma Meet',
-              dateStart: 'Jueves 9 de Marzo 2023',
-              dateEnd: 'Jueves 6 de Abril 2023',
+              dateStart: 'Jueves 23 de Marzo 2023',
+              dateEnd: 'Jueves 20 de Abril 2023',
               investment: {
                 argentina:{
                   price: 14900,
                   discount: 15,
-                  discountDate: '15 de Febrero de 2023',
+                  discountDate: '10 de Marzo de 2023',
                 },
                 // exterior: {
                 //   price: 60,
@@ -896,7 +896,7 @@ module.exports = {
                 ['Lunes','14 a 16 hs'],
               ],
               mode:'Online - Vivo - Plataforma Meet',
-              dateStart: 'Lunes 20 de Marzo 2023',
+              dateStart: 'Próximamente',
               dateEnd: 'Lunes 10 de Abril 2023',
               investment: {
                 argentina:{
