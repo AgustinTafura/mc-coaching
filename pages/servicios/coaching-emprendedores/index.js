@@ -53,7 +53,7 @@ const CoachingPersonal = (props) => {
                         </div>
                         <div className="col-lg-4">
                             <picture>
-                                <img src="http://localhost:3000/img/services/coaching-emprendedores/0.jpg" alt="coaching emprendedores"/>
+                                <img src="/img/services/coaching-emprendedores/0.jpg" alt="coaching emprendedores"/>
                             </picture>
                         </div>
                     </div>
