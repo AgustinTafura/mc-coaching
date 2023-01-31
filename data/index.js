@@ -767,7 +767,7 @@ module.exports = {
                 //   discount:20,
                 //   discountDate: '15 de Febrero de 2023',
                 // },
-                discountDate:'15 de Febrero de 2023',
+                discountDate:'10 de Marzo de 2023',
                 msg:'Además, congelas el valor del NIVEL II al mismo precio que el nivel I.'
               },
               target: ['Esta propuesta está pensada para docentes, profesores, directivos, estudiantes de profesorados, bibliotecarios, preceptores, equipos de orientación escolar, ETR, encargados de áreas técnico-pedagógicas, formadores, capacitadores y facilitadores que deseen <i>obtener herramientas de Inteligencia Emocional, Liderazgo efectivo y los últimos avances de las neurociencias aplicados a la educación y al liderazgo en el aula</i>,  para poder desempeñarse como un líder efectivo, y generar un clima emocional positivo que mejore los procesos de  enseñanza y aprendizaje en cualquier ámbito educativo, dentro y fuera de las aulas.'],
