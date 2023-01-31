@@ -26,7 +26,7 @@ const CoachingPersonal = (props) => {
                         </div>
                         <div className="mbr-black col-lg-6">
                             <div className="content align-left mbr-white">
-                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-center text-lg-start" >
+                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-center text-lg-start text-justify" >
                                     El Coaching es una disciplina innovadora que surge como una necesidad para facilitar procesos de aprendizaje y el desarrollo del ser humano, impulsando la creatividad y teniendo en cuenta las emociones, el cuerpo y el lenguaje como dominios habitados por el SER, que nos permiten transformarnos y crearnos nuevas oportunidades para vivir&nbsp;mejor.
                                     <br/><br/>
                                     Así, el <b>Coaching Personal</b> es un proceso personalizado y confidencial, orientado en ayudar al Coachee o cliente a alcanzar resultados mejores a los que está obteniendo en diferentes áreas de su vida personal o&nbsp;profesional.
@@ -65,7 +65,7 @@ const CoachingPersonal = (props) => {
                                             <div className="card-box">
                                                 <h5 className="card-title mbr-regular pb-1 mbr-black mbr-fonts-style display-5">
                                                     Misión</h5>
-                                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-7">Que cada persona pueda desarrollar la mejor versión de sí&nbsp;misma.</p>
+                                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-7 ">Que cada persona pueda desarrollar la mejor versión de sí&nbsp;misma.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -85,7 +85,7 @@ const CoachingPersonal = (props) => {
                             </div>
 
                             <div className="col-lg-8 py-5">
-                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                 Como especialista en Liderazgo y Coaching y mi formación en Neurosicoeducación, mis propuestas incluyen como eje transversal el desarrollo de la Educación Emocional de cada una de las personas que se acercan a la&nbsp;consulta.
                                 <br/><br/>
                                 Los seres humanos poseemos toda la capacidad para convertir nuestras relaciones personales en una gran oportunidad para crecer y desarrollarnos en&nbsp;sociedad.
@@ -390,7 +390,7 @@ const CoachingPersonal = (props) => {
                                     <h3 className="mbr-section-title mbr-bold mbr-white pb-2 mbr-fonts-style display-22" style={{color: 'var(--bs-secondary)'}}>
                                         Educación Emocional
                                     </h3>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                         Los desafíos del mundo actual pospandemia y la experiencia que atravesamos todos los seres humanos del mundo durante el año 2020 y parte del 2021 requiere de nuevas preguntas para abordar nuestra vida cotidiana. Quiénes sómos, qué cosas priorizamos , qué nos apasiona hacer, cuánto demuestro el afecto que siento por mis seres queridos, cuánto tiempo de calidad le dedico a mis hijos, cómo aprender cosas nuevas, cómo desaprender para volver a aprender .
                                         <br/><br/>
                                         La ciencia demuestra que el aprendizaje es la clave del progreso humano. Sin embargo, la mayoría de nosotros hemos recibido en la escuela, contenidos sobre distintas materias, pero poco sabemos acerca de cómo funciona nuestro cerebro y la estrecha conexión que tiene con nuestro cuerpo, mucho menos sabemos por qué nos emocionamos, de dónde provienen nuestros sentimientos, y cómo podemos mejorar nuestros comportamientos para lograr una convivencia armónica en los ámbitos en que nos desempeñamos.
@@ -410,7 +410,7 @@ const CoachingPersonal = (props) => {
                                     <h3 className="mbr-fonts-style display-55 text-center mb-3" style={{color: '#6c5b67'}}>
                                         ¿Qué es la Neurosicoeducación?
                                     </h3>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                         La Neurosicoeducación es un sistema abierto de educación, que promueve el enriquecimiento de la comprensión sobre la naturaleza humana, respetando siempre como base, la información que se sustenta en trabajos de investigación científicos.
                                         <br/><br/>
                                         En palabras del Doctor Carlos A. Logatt Grabner,
@@ -428,7 +428,7 @@ const CoachingPersonal = (props) => {
                                     <h3 className="mbr-fonts-style display-55 text-center mb-3" style={{color: '#6c5b67'}}>
                                         ¿Por qué es importante la educación emocional?
                                     </h3>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                         Comprender nuestras emociones y poder regularlas, nos conducen a alcanzar nuestros objetivos y estas competencias nos permiten comprender las emociones de los demás ( la empatía ), influenciando de manera positiva el núcleo familiar donde vivimos, el ámbito laboral donde nos desempeñamos y la sociedad donde interactuamos.
                                         <br/><br/>
                                         Diversos estudios científicos demuestran que el cerebro necesita emocionarse para aprender. Las emociones son el motor que nos guía hacia el bienestar o hacia el caos.
@@ -438,7 +438,7 @@ const CoachingPersonal = (props) => {
                                     <h3 className="mbr-fonts-style display-55 text-center mb-3" style={{color: '#6c5b67'}}>
                                         MI PROPUESTA
                                     </h3>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                         Asumir el compromiso de difundir y aplicar en mis cursos, webinarios y talleres, los conceptos de la educación emocional, los trabajos que surgen de las investigaciones científicas con responsabilidad y de manera didáctica, de tal modo que sea accesible para todas aquéllas personas, sin importar su edad, que deseen transitar un camino de transformación que les permita vivir su vida con mayor bienestar, alcanzando una sociedad más justa , más tolerante, más igualitaria y más respetuosa .
                                         <br/><br/>
                                         Si eres una <b>mamá o papá o adulto a cargo</b> de un niño o de un adolescente, y sentís que necesitás mejores herramientas para dialogar con ellos , poner límites, ser más amorosos, comprenderlos mejor, ser capaces de ponerse en sus lugares para acompañarlos en esas etapas tan importantes de la vida de una persona.

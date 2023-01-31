@@ -114,7 +114,7 @@ const LayoutSesions = ({ children, ...pageProps }) => {
 
                         <div className="col-lg-4 mx-auto mbr-form position-relative py-5 pt-lg-0 g-0" data-form-type="formoid">
                             <div className='sticky-sidebar'>
-                                <div className="form-col sticky-item px-lg-4" data-form-type="formoid" style={{background: 'rgb(166 167 104 / 0.7)'}}>
+                                <div className="form-col sticky-item px-lg-4" data-form-type="formoid" style={{background: 'var(--bs-secondary)'/*'rgb(166 167 104 / 0.7)'*/}}>
                                     <div className="col-lg-12 col-md-12 col-sm-12 mb-4" >
                                         <h6 className="mbr-section-subtitle mbr-fonts-style display-44 text-white fw-bold">
                                             SESIONES  

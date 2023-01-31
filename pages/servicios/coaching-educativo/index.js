@@ -20,7 +20,7 @@ const CoachingEducativo = ({...props}) => {
                     <div className="row justify-content-center">
                         <div className="mbr-black col-lg-5">
                             <div className="content align-left mbr-white">
-                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-center text-lg-start" >
+                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-center text-lg-start text-justify" >
                                     El <b>Coaching Educativo</b> es una propuesta transversal en el proceso de enseñanza y aprendizaje que abarca todo el desarrollo integral como ser humano, y crea espacios donde escuchamos de manera activa y acompañamos el proceso de autodescubrimiento, sin imponer nuestras opiniones y puntos de&nbsp;vista.
                                     <br/>
                                     <br/>
@@ -45,7 +45,7 @@ const CoachingEducativo = ({...props}) => {
                                 <h3 className="mbr-section-title mbr-bold mbr-white pb-2 mbr-fonts-style display-22" style={{color: 'var(--bs-secondary)'}}>
                                     Nuestra propuesta
                                 </h3>
-                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                     A través del Coaching Educativo, buscamos: 
                                     <br/><br/>
                                     Brindar herramientas a los docentes para que acompañen a sus alumnos a desarrollar sus fortalezas, el autoconcepto, la autoestima, la confianza y la seguridad en sí mismo, para que sean capaces de centrar la atención en el proceso de aprendizaje y  afrontar a largo plazo los nuevos formatos de trabajo&nbsp;futuro.
@@ -58,10 +58,10 @@ const CoachingEducativo = ({...props}) => {
                                 <h3 className="mbr-fonts-style display-55 text-center mb-3" style={{color: '#6c5b67'}}>
                                     ¿A qué personas está destinada esta propuesta?
                                 </h3>
-                                <div className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-start text-sm-center">
+                                <div className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-start text-sm-center text-justify">
                                     El Coaching Educativo como disciplina innovadora está destinada a
                                     <br/><br/>
-                                    <div className="row">
+                                    <div className="row text-start">
                                         <div className="col-lg-6">
                                         -Educadores de todos los niveles de la educación formal y no&nbsp;formal.
                                         <br/>
@@ -149,7 +149,7 @@ const CoachingEducativo = ({...props}) => {
                                                 </div>
                                                 <div id="collapse1_80" className="panel-collapse noScroll collapse container " role="tabpanel"
                                                     aria-labelledby="headingOne" data-parent="#service-accordion_">
-                                                    <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start">
+                                                    <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start text-justify">
                                                     Por medio del <b>Coaching Educativo</b>, los estudiantes aprenden a auto-observarse y autoconocerse para poder hacerse responsables de sí mismos, de sus actos y el diseño de su propia&nbsp;vida.
                                                     <br/><br/>
                                                     Las bases del <b>Coaching Educativo</b>, así como el Coaching Personal, se sustentan en la Psicología positiva, la Neuroeducación y la Inteligencia&nbsp;Emocional.
@@ -180,7 +180,7 @@ const CoachingEducativo = ({...props}) => {
                                                 <div id="collapse2_80" className="panel-collapse noScroll collapse container" role="tabpanel"
                                                     aria-labelledby="headingTwo" data-parent="#service-accordion_">
                                                     <div className="panel-body">
-                                                        <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start">
+                                                        <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start text-justify">
                                                         La diferencia radica en que este último busca desafiar los modelos tradicionales y acompañar en el desarrollo de habilidades específicas y por sobre todo las habilidades blandas, que escasamente se enseñan en la&nbsp;escuela.
                                                         <br/><br/>
                                                         Entre las <b>habilidades blandas</b> más buscadas en las instituciones, organizaciones, comercios y empleadores en general se&nbsp;destacan:
@@ -212,7 +212,7 @@ const CoachingEducativo = ({...props}) => {
                                                 <div id="collapse3_80" className="panel-collapse noScroll collapse container" role="tabpanel"
                                                     aria-labelledby="headingThree" data-parent="#service-accordion_">
                                                     <div className="panel-body">
-                                                        <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start">
+                                                        <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-start text-justify">
                                                             Ayuda a las <b>personas</b> a descubrir las estrategias efectivas de&nbsp;aprendizaje.
                                                             <br/><br/>
                                                             En el caso de los <b>niños y adolescentes</b>, ayuda a promover el pensamiento independiente y creativo, la sensibilización emocional, la capacidad de reflexión y el reconocimiento y regulación de sus emociones para el desarrollo de  su potencial en la vida&nbsp;adulta.
@@ -247,7 +247,7 @@ const CoachingEducativo = ({...props}) => {
                                 <h3 className="mbr-section-title mbr-bold mbr-white pb-2 mbr-fonts-style display-22" style={{color: 'var(--bs-secondary)'}}>
                                     El Coaching Educativo en los Equipos&nbsp;Directivos
                                 </h3>
-                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                     Los Equipos directivos lideran propuestas de cambio. 
                                     <br/>
                                     Y un verdadero líder es aquél que está convencido de que el cambio es&nbsp;posible. 
@@ -261,7 +261,7 @@ const CoachingEducativo = ({...props}) => {
                                 <h3 className="mbr-fonts-style display-55 text-center mb-3" style={{color: '#6c5b67'}}>
                                     Despertar la motivación
                                 </h3>
-                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                     Despertar la motivación y  acompañar a adolescentes, jóvenes , adultos y adultos mayores a entrenarse en el autoconocimiento, es el eje central para identificar sus posibilidades y barreras personales y del entorno, para poder plantearse qué cambios desean realizar y a dónde quieren llegar, trabajando en un plan de acción concreto para desarrollar al máximo sus fortalezas y todo su potencial en relación a sus&nbsp;estudios.
                                 </p>
                             </div>
@@ -269,7 +269,7 @@ const CoachingEducativo = ({...props}) => {
                                 <h3 className="mbr-fonts-style display-55 text-center mb-3" style={{color: '#6c5b67'}}>
                                     Algo más sobre <br/> la dinámica del Coaching Educativo
                                 </h3>
-                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                     La educación es siempre una posibilidad que puede darle un giro a la historia del mundo. En la actualidad nos enfrentamos a desafíos nuevos donde el cambio se da de manera vertiginosa. Aquéllo para lo que enseñamos hoy, seguramente no les sirva para desempeñarse en el futuro. Por eso es que es tan relevante acompañar a desarrollar una mentalidad de crecimiento, y empezar a mirar al mundo con otros&nbsp;ojos.
                                     <br/><br/>
                                     La pandemia marcó un antes y un después en ese sentido, y aceleró el cambio de paradigma que ya había comenzado a transitar a nivel&nbsp;global. 

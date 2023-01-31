@@ -1,5 +1,5 @@
 
-import { FacebookIcon, FacebookShareButton, TwitterIcon, WhatsappIcon, WhatsappShareButton, TwitterShareButton } from 'react-share';
+import { FacebookIcon, FacebookShareButton, TwitterIcon, WhatsappIcon, WhatsappShareButton, TwitterShareButton, LinkedinIcon, LinkedinShareButton } from 'react-share';
 import { useRouter } from "next/router"
 import { useEffect, useState } from 'react';
 
@@ -25,7 +25,10 @@ const [url, setUrl] = useState('https://www.marcelacaputo.com.ar')
         </WhatsappShareButton>   
         <TwitterShareButton url={url} className='pe-1'>
           <TwitterIcon size={32} round={true}/>
-        </TwitterShareButton>          
+        </TwitterShareButton>
+        <LinkedinShareButton url={url} className='pe-1'>
+          <LinkedinIcon size={32} round={true}/>
+        </LinkedinShareButton>            
       </span>
   )
 }

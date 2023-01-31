@@ -22,7 +22,7 @@ const CoachingEducativo = (props) => {
                                 <h3 className="mbr-section-title mbr-bold mbr-white pb-2 mbr-fonts-style display-22" style={{color: 'var(--bs-secondary)'}}>
                                     Liderazgo y el&nbsp;Coaching
                                 </h3>
-                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                     El <b>liderazgo</b> y el <b>Coaching</b> están íntimamente&nbsp;relacionados.
                                     <br/><br/>
                                     El <b>Coaching</b> es una disciplina que se enfoca en acompañar a las personas en sus procesos de desaprender, aprender, desafiar creencias y alcanzar&nbsp;metas.
@@ -55,7 +55,7 @@ const CoachingEducativo = (props) => {
                                             <div className="card-box">
                                                 <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55" style={{color: '#8e678c'}}>Organizaciones</h4>
                                                 <ul>
-                                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
+                                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-justify">
                                                         Nos especializamos en Instituciones educativas y pequeñas organizaciones, impulsando la mejora de las relaciones humanas y ayudamos a trabajar los desafíos colectivos, los procesos de transformación cultural, la definición de la misión, visión y valores y el desarrollo de una planificación&nbsp;estratégica.
                                                     </p>
                                                 </ul>
@@ -69,7 +69,7 @@ const CoachingEducativo = (props) => {
                                             </span>
                                             <div className="card-box">
                                                 <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55" style={{color: '#8e678c'}}>Líderes</h4>
-                                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
+                                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-justify">
                                                         Acompañamos a líderes de instituciones y organizaciones públicas y privadas a realizar procesos de transformación hacia un liderazgo efectivo, potenciando sus talentos para el logro de objetivos personales y&nbsp;organizacionales.
                                                     </p>
                                             </div>
@@ -82,7 +82,7 @@ const CoachingEducativo = (props) => {
                                             </span>
                                             <div className="card-box">
                                                 <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55" style={{color: '#8e678c'}}>Equipos</h4>
-                                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
+                                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-justify">
                                                         Guiamos procesos de consolidación y fortalecimiento de equipos de trabajo para mejorar el clima laboral y enfrentar los desafíos que se&nbsp;presentan.
                                                     </p>
                                             </div>
@@ -119,7 +119,7 @@ const CoachingEducativo = (props) => {
 
                                 <h2 className="mbr-section-title pb-3 align-left mbr-bold mbr-fonts-style mbr-white display-22">
                                 Autoliderazgo</h2>
-                                <p className="mbr-section-text pb-4 mbr-fonts-style align-left display-77 opacity-75 pb-md-4 ">
+                                <p className="mbr-section-text pb-4 mbr-fonts-style align-left display-77 opacity-75 pb-md-4 text-justify">
                                     Para ser un buen líder es imprescindible trabajar el autoliderazgo. De qué manera? Desarrollando nuestra inteligencia&nbsp;emocional.
                                     <br/><br/>
                                     David McClelland, sostiene que es necesario posibilitar un cambio de conductas y creencias tan enraizadas, pues dominan inconscientemente nuestras respuestas automáticas&nbsp;cotidianas. 
@@ -148,7 +148,7 @@ const CoachingEducativo = (props) => {
                                 <h4 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style display-44" style={{color: 'rgb(108, 91, 103)'}}>EMPRESARIAL</h4>
                                 <h2 className="mbr-section-title pb-3 align-left mbr-bold mbr-fonts-style display-22" style={{color: 'rgb(108, 91, 103)'}}>
                                 Coaching Ejecutivo</h2>
-                                <p className="card-text display-77 mbr-regular text-center text-lg-start">
+                                <p className="card-text display-77 mbr-regular text-center text-lg-start text-justify">
                                 Consiste en un proceso donde el Líder-Coach  mantiene sesiones o encuentros individuales con su&nbsp;cliente. 
                                 <br/><br/>
                                 En el contexto planteado, el Coach ayuda a su cliente a desarrollar sus fortalezas como líder de un equipo de trabajo, identificando también aquéllas áreas que necesita&nbsp;mejorar.
@@ -166,7 +166,7 @@ const CoachingEducativo = (props) => {
                                 <h4 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style display-44" style={{color: 'rgb(108, 91, 103)'}}>EMPRESARIAL</h4>
                                 <h2 className="mbr-section-title pb-3 align-left mbr-bold mbr-fonts-style display-22" style={{color: 'rgb(108, 91, 103)'}}>
                                 Coaching de Equipos</h2>
-                                <p className="card-text display-77 mbr-regular text-center text-lg-start">
+                                <p className="card-text display-77 mbr-regular text-center text-lg-start text-justify">
                                     Las sesiones de Coaching de Equipos son sesiones grupales, en las que el Coach se enfoca en consolidar y fortalecer a un equipo de trabajo para mejorar el clima laboral,  el desempeño y enfrentar los desafíos que se presentan en una&nbsp;organización.
                                 </p> 
                             </div>
@@ -180,7 +180,7 @@ const CoachingEducativo = (props) => {
                                 <h4 className="mbr-section-subtitle align-left mbr-regular mbr-fonts-style display-44" style={{color: 'rgb(108, 91, 103)'}}>EMPRESARIAL</h4>
                                 <h2 className="mbr-section-title pb-3 align-left mbr-bold mbr-fonts-style display-22" style={{color: 'rgb(108, 91, 103)'}}>
                                 Coaching Organizacional</h2>
-                                <p className="card-text display-77 mbr-regular text-center text-lg-start">
+                                <p className="card-text display-77 mbr-regular text-center text-lg-start text-justify">
                                     Aquí, el Líder Coach trabaja con la organización como un cliente en sí mismo. Una organización es un sistema compuesto por partes que interactúan para alcanzar objetivos&nbsp;determinados.
                                     <br/><br/>
                                     Mejorar las relaciones entre los componentes del sistema organizacional y trabajar los desafíos colectivos, acompañar en la definición de la misión, visión y valores de la organización,  guiar procesos de transformación cultural y acompañar los procesos de planificación estratégica, es parte de la tarea de un Líder&nbsp;Coach.

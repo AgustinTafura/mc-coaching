@@ -25,7 +25,7 @@ const CoachingVocacional = (props) => {
                             <div className="card-box">
                                 <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55" style={{color: '#8e678c'}}>Adolescentes</h4>
                                 <ul>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
+                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-justify">
                                     Los acompañamos a elegir una carrera profesional o un oficio, enfocándose en sus intereses, y desarrollando su motivación, sus fortalezas y sus competencias
                                     </p>
                                 </ul>
@@ -39,7 +39,7 @@ const CoachingVocacional = (props) => {
                             </span>
                             <div className="card-box">
                                 <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55" style={{color: '#8e678c'}}>Jóvenes Universitarios</h4>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
+                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-justify">
                                         Los ayudamos cuando por algún bloqueo en particular, no están pudiendo rendir  sus exámenes y alcanzar su título.
                                         <br/>
                                         A insertarse en el mundo laboral y profesional brindándoles las herramientas para el desarrollo de sus habilidades blandas, tan requeridas por las empresas en la actualidad.
@@ -54,7 +54,7 @@ const CoachingVocacional = (props) => {
                             </span>
                             <div className="card-box">
                                 <h4 className="card-title mbr-semibold pb-3 mbr-black mbr-fonts-style display-55" style={{color: '#8e678c'}}>Adultos</h4>
-                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77">
+                                    <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-justify">
                                     Los acompoañamos a reinventarse laboralmente, redefinir su actividad profesional, y enfocarse según sus nuevos intereses.
                                     </p>
                             </div>
@@ -75,24 +75,24 @@ const CoachingVocacional = (props) => {
                         </div>
                         <div className="mbr-black col-md-12 col-lg-4">
                             <div className="content align-left mbr-white">
-                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
+                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-justify">
                                 Por eso, más allá de ayudarte a encontrar la propuesta académica que mejor encaje con tus gustos, ponemos el foco en ayudarte a autoconocerte, pues la vocación es un largo camino que vas a transitar durante toda tu vida, no termina con la elección de una carrera ni con tu título universitario.
                                 </p>
                             </div>
                         </div>
                         <div className="mbr-black col-md-12 col-lg-4">
                             <div className="content align-left mbr-white">
-                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
+                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-justify">
                                 Nuestro objetivo es darte las herramientas para descubrir tus talentos naturales y tus gustos, qué te motiva, para comenzar con tu proceso de búsqueda.
                                 </p>
-                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
+                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-justify">
                                 La metodología del  Coaching Vocacional  ofrece herramientas prácticas para la acción , pues la vocación no se adquiere pensando mucho o confeccionando tests vocacionales. 
                                 </p>
                             </div>
                         </div>
                         <div className="mbr-black col-md-12 col-lg-4">
                             <div className="content align-left mbr-white">
-                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77">
+                                <p className="mbr-text pb-3 mbr-regular mbr-fonts-style display-77 text-justify">
                                 Creemos que la clave es en primer lugar, el autoconocimiento y desde ese lugar, descubrir tus gustos, tus talentos naturales y conectar con ellos a través del compromiso y la dedicación.
                                 </p>
                             </div>
@@ -177,7 +177,7 @@ const CoachingVocacional = (props) => {
                             </div>
 
                             <div className="col-lg-8 py-5">
-                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                 Hoy sabemos que el desarrollo de la inteligencia analítico- racional que se adquiere en la escuela, no es suficiente para una transición exitosa de la secundaria a la universidad.
                                 <br/><br/>
                                 Por otro lado, la vocación es un proceso, y se va construyendo a lo largo de la vida de las personas desde dentro hacia afuera. Por eso es tan importante alcanzar el autoconocimiento.
@@ -196,7 +196,7 @@ const CoachingVocacional = (props) => {
                                         <div className="col-md-12 col-lg-8">
                                             <h4 style={{color: 'var(--bs-secondary)'}} className="mbr-section-subtitle mbr-regular align-center mbr-fonts-style display-44">¿QUÉ SON?</h4>
                                             <h3 className="pt-3 br-title align-left align-center mbr-semibold pb-3 mbr-fonts-style display-22" style={{color: 'var(--bs-secondary)'}}>HABILIDADES BLANDAS</h3>
-                                            <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                            <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                                 Comprenden las habilidades socioemocionales, de comunicación, lenguaje y hábitos que moldean y favorecen los vínculos que establecemos con otras personas. En el ámbito laboral , se refieren a la capacidad para interactuar de manera eficaz y efectiva con jefes, colegas , pares y clientes.
                                                 <br/><br/>
                                                 Entre las habilidades blandas más buscadas por los empleadores, se destacan:

@@ -21,7 +21,7 @@ const CoachingPersonal = (props) => {
                                 <h3 className="mbr-section-title mbr-bold mbr-white pb-2 mbr-fonts-style display-22" style={{color: 'var(--bs-secondary)'}}>
                                     Autoliderarse para emprender
                                 </h3>
-                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                 Si ya eres un emprendedor o emprendedora o si te encuentras dando los primeros pasos en un emprendimiento personal,
                                 es necesario que tengas en cuenta que la capacidad de autoliderarse es una competencia fundamental para la buena comunicación con los clientes  y proveedores que influirán en las ventas de los productos o servicios que&nbsp;ofreces.
                                 <br/><br/> 
@@ -70,7 +70,7 @@ const CoachingPersonal = (props) => {
                                 <h3 className="mbr-section-title mbr-bold mbr-white pb-2 mbr-fonts-style display-22" style={{color: 'var(--bs-secondary)'}}>
                                     EMPRENDER
                                 </h3>
-                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center">
+                                <p className="card-text mbr-regular mbr-black mbr-fonts-style display-77 text-center text-justify">
                                 En la actualidad, las ventas de productos y servicios online, ponen la mirada en un público objetivo global. Vender ya no alcanza con la aplicación de una técnica, sino que es necesario conocer los procesos de decisión de compra de los&nbsp;clientes. 
                                 <br/><br/>
                                 El Coaching para hombres y mujeres emprendedoras facilita tu camino al éxito en las ventas a través de herramientas concretas y un proyecto estratégico que te permitirá alcanzar los objetivos, y te ayudará a vender más y&nbsp;mejor.
