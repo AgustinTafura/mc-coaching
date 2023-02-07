@@ -60,7 +60,7 @@ const LayoutSesions = ({ children, ...pageProps }) => {
                                 </p>
                             </div>
                         </div>
-                        <div className="mbr-black col-lg-7">
+                        <div className="mbr-black col-lg-7 order-3 order-lg-1">
                             <div className="content align-left mbr-white">
                                 <div className="col-12 cid-rT0gfc1y8M pt-2 pt-lg-0">
                                     <div id="service-accordion_" className="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
@@ -110,9 +110,9 @@ const LayoutSesions = ({ children, ...pageProps }) => {
                             </div>
                         </div>
 
-                        <div className='col-lg-1'></div>
+                        <div className='col-lg-1 order-2 order-lg-2'></div>
 
-                        <div className="col-lg-4 mx-auto mbr-form position-relative py-5 pt-lg-0 g-0" data-form-type="formoid">
+                        <div className="col-lg-4 mx-auto mbr-form position-relative py-5 pt-lg-0 g-0 order-1 order-lg-3" data-form-type="formoid">
                             <div className='sticky-sidebar'>
                                 <div className="form-col sticky-item px-lg-4" data-form-type="formoid" style={{background: 'var(--bs-secondary)'/*'rgb(166 167 104 / 0.7)'*/}}>
                                     <div className="col-lg-12 col-md-12 col-sm-12 mb-4" >
