@@ -11,7 +11,7 @@ const Navbar = () => {
 
             <Link href="/">
             <a className="navbar-brand ">
-              <Image src="/logoB.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={261} height={59} />
+              <Image src="/logoC.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={261} height={59} />
             </a>
           </Link>
           <button className="navbar-toggler " type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@ const Navbar = () => {
             <div className="offcanvas offcanvas-end" tab-index="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
               <div className="offcanvas-header">
                 <div className="navbar-brand">
-                  <Image src="/logo.png" alt="logo Marcela Caputo" width={231} height={69} />
+                  <Image src="/logoC.png" alt="logo Marcela Caputo" width={278} height={69} />
                 </div>
                 <button className="navbar-toggler " type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
                   <div className="hamburger">

@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import logo from '../public/logoB.png'
+import logo from '../public/logoC.png'
 
 export const Spinner = () => {
 

@@ -20,8 +20,9 @@ const Footer = () => {
                 <a className="navbar-brand ">
                 </a>
               </Link> */}
-                  <Image src="/logo_w.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={65} height={50} />
-              <Image src="/firma_w.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={196} height={52} />
+                  {/* <Image src="/logo_w.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={65} height={50} />
+                  <Image src="/firma_w.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={196} height={52} /> */}
+                  <Image src="/logoC_w.png" alt="logo - Marcela Caputo - Coaching y Educación neuroemocional" width={218} height={52} />
               
               </h3>
             <p className="mbr-text align-left  mbr-white mbr-regular mbr-fonts-style display-44">

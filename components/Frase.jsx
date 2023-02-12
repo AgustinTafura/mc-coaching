@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import SignaturePic from '../public/firma.png'
+import SignaturePic from '../public/firmaC.png'
 
 
 const Frase = () => {
