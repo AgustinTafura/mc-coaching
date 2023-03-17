@@ -129,7 +129,7 @@ module.exports = {
                 ['Sábados','10 a 12 hs'],
               ],
               mode:'Online - Vivo - Plataforma Meet',
-              dateStart: 'Sábado 11 de Marzo 2023',
+              dateStart: 'Próximamente',
               dateEnd: 'Sábado 8 de Abril 2023',
               investment: {
                 argentina:{
@@ -754,7 +754,8 @@ module.exports = {
                 ['Jueves','19 a 21 hs'],
               ],
               mode:'Online - Vivo - Plataforma Meet',
-              dateStart: 'Jueves 23 de Marzo 2023',
+              dateStart: 'Próximamente',
+              // dateStart: 'Jueves 23 de Marzo 2023',
               dateEnd: 'Jueves 20 de Abril 2023',
               investment: {
                 argentina:{
