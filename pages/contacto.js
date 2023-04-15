@@ -33,9 +33,9 @@ const contacto = () => {
                                                     info@marcelacaputo.com.ar<br/>
                                                 </a>
                                             </Link>
-                                            <Link href = "tel:+542244408516">
+                                            <Link href = "tel:+5492244408516">
                                                 <a className='mbr-text  mbr-fonts-style display-77'>
-                                                    +(54) 2244 408516
+                                                    +(549) 2244 408516
                                                 </a>
                                             </Link>
                                         {/* </p> */}
