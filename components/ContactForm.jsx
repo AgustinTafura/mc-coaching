@@ -1,6 +1,7 @@
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
 import { sections } from '../data'
+import axios from 'axios';
 
 const ContactForm = ({...props}) => {
   const optionsSelector = []
@@ -21,25 +22,52 @@ const ContactForm = ({...props}) => {
     const formData = {}
     const inputs = e.target
 
-    for (let index = 0; index < inputs.length-1; index++) {
-      const element = inputs[index];
-      formData[element.name] = element.value
-    }
+    // for (let index = 0; index < inputs.length-1; index++) {
+    //   const element = inputs[index];
+    //   formData[element.name] = element.value
+    // }
 
-    if (!emailSent) {
-        emailjs.send(
-            process.env.NEXT_APP_EMAILJS_YOUR_SERVICE_ID,
-            process.env.NEXT_APP_EMAILJS_YOUR_TEMPLATE_ID_THANKSFORYOURPURCHASE,
-            formData,
-            process.env.NEXT_APP_EMAILJS_YOUR_USER_ID,
-        ).then(() => {
-            setEmailSent(true)
-        }).catch((err)=>{
-            setEmailError(true)
-        });            
-    }
-
-  }
+    // if (!emailSent) {
+    //     emailjs.send(
+    //         process.env.NEXT_APP_EMAILJS_YOUR_SERVICE_ID,
+    //         process.env.NEXT_APP_EMAILJS_YOUR_TEMPLATE_ID_THANKSFORYOURPURCHASE,
+    //         formData,
+    //         process.env.NEXT_APP_EMAILJS_YOUR_USER_ID,
+    //     ).then(() => {
+    //         setEmailSent(true)
+    //     }).catch((err)=>{
+    //         setEmailError(true)
+    //     });            
+    // }
+        // Agrega aquí cualquier otro campo que necesites para tu lista de Mailchimp
+      // }
+        const data = {
+          "email_address": "agustin@test.com",
+          "status": "subscribed",
+          "merge_fields": {
+            "FNAME": "test nombre",
+            "LNAME": "test apellido"
+          }   
+      }
+      
+        axios.post(`https://us2.api.mailchimp.com/3.0/lists/6493dd146b/members`, data, {
+          headers: {
+            'Authorization': `Bearer 2da119ab5fb6fa49a2bcb326ece6d84f`,
+            'Content-Type': 'application/json'
+          }
+        })
+        .then(response => {
+          console.log(11,response);
+          // Aquí puedes mostrar un mensaje de confirmación al usuario o redirigirlo a una página de agradecimiento
+        })
+        .catch(error => {
+          console.log(22,error);
+          // Aquí puedes mostrar un mensaje de error al usuario o hacer algo para manejar el error
+        });
+    
+      }
+    // };
+  
 
   return (
   <section className="form cid-rT0gNghYIy mt-5 border-bottom" id="form1-4x">

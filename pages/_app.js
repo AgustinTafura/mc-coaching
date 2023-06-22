@@ -63,7 +63,7 @@ function MyApp({ Component, pageProps }) {
         `,
       }}
       />
-      
+      <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css"></link>
       <ParallaxProvider>
         <Component {...pageProps} firstEnter={firstEnter} setFirstEnter={setFirstEnter} />
       </ParallaxProvider>
