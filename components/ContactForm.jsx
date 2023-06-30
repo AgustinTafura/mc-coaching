@@ -34,10 +34,13 @@ const ContactForm = ({...props}) => {
       setEmailSent(true)
     } catch (error) {
       const errorMessage = 'looks fake or invalid, please enter a real email address';
-      console.log(error.response?.data?.response)
+      // console.log(error.response?.data?.response)
       error.response?.data?.response?.detail?.includes(errorMessage) || error.response?.data?.response?.title === "Member Exists" ?
         setEmailError('email') 
       : setEmailError(true)
+
+      const section = document.querySelector( '#contact-form' );
+      section.scrollIntoView( { behavior: 'smooth', block: 'start' } )
     }
     // if (!emailSent) {
     //     emailjs.send(
@@ -55,7 +58,7 @@ const ContactForm = ({...props}) => {
   
 
   return (
-  <section className="form cid-rT0gNghYIy mt-5 border-bottom" id="form1-4x">
+  <section className="form cid-rT0gNghYIy mt-5 border-bottom" id="contact-form">
     <div className="container">
       <div className="row">
         <div className="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
@@ -103,26 +106,26 @@ const ContactForm = ({...props}) => {
                 <>
                   <div data-for="FNAME" className="col-lg-3 col-md-12 col-sm-12 form-group mb-3">
                     <input required type="text" name="FNAME" placeholder="Nombre" data-form-field="fname"
-                      className="form-control display-77" id="fname-form1-4x"></input>
+                      className="form-control display-77" id="fname-contact-form"></input>
                   </div>
                   <div data-for="LNAME" className="col-lg-3 col-md-12 col-sm-12 form-group mb-3">
                     <input required type="text" name="LNAME" placeholder="Apellido" data-form-field="lname"
-                      className="form-control display-77" id="lname-form1-4x"></input>
+                      className="form-control display-77" id="lname-contact-form"></input>
                   </div>
                   <div data-for="EMAIL" className="col-lg-6 col-md-12 col-sm-12 form-group mb-3">
                     <input required type="email" name="EMAIL" placeholder="E-mail" data-form-field="email"
-                      className="form-control display-77" id="email-form1-4x" ></input>
+                      className="form-control display-77" id="email-contact-form" ></input>
                       
                       {emailError === 'email' && <small style={{color:"#ffcce5"}}>prueba con otro email</small>}
                   </div>
                   <div data-for="MOBILE" className="col-lg-6 col-md-12 col-sm-12 form-group mb-3">
                     <input required type="number" name="MOBILE" placeholder="Teléfono" data-form-field="url"
-                      className="form-control display-77" id="phone-form1-4x" ></input>
+                      className="form-control display-77" id="phone-contact-form" ></input>
                   </div>
 
                   <div data-for="select" className="col-lg-6 col-md-12 col-sm-12 form-group mb-3">
                     <select required name="SERVICE" data-form-field="select"
-                      className="form-control display-77 rounded-0" id="select-form1-4x">
+                      className="form-control display-77 rounded-0" id="select-contact-form">
                       <option value="">Selecciona un SERVICIO</option>
                       {
                         optionsSelector?.map((option,key)=><option key={key} value={option} className="text-uppercase">{option}</option>)
@@ -131,7 +134,7 @@ const ContactForm = ({...props}) => {
                   </div>
                   <div className="col-lg-12 col-md-12 col-sm-12 form-group mb-3" data-for="MESSAGGE">
                     <textarea name="MESSAGGE" placeholder="Dejame tu mensaje aquí" data-form-field="textarea"
-                      className="form-control display-77" id="textarea-form1-4x"></textarea>
+                      className="form-control display-77" id="textarea-contact-form"></textarea>
                   </div>
                   <div className="col-lg-12 col-md-12 col-sm-12 align-center">
                     <button type="submit" className="btn btn-primary display-44 py-3 px-5">ENVIAR</button>

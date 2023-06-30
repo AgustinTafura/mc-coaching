@@ -8,7 +8,7 @@ export default function handler(req, res) {
       console.log(555, req.body)
     const { FNAME, LNAME, EMAIL, MOBILE, SERVICE, MESSAGGE } = req.body;
     client.setConfig({
-        apiKey: "2b757230f1e86c679ce2730d0ded27fd-us2",
+        apiKey: "ba570c224956acf9521ad84b56e65cd0-us2",
         server: "us2",
     });
 
@@ -26,7 +26,7 @@ export default function handler(req, res) {
                 status: "subscribed",
                 merge_fields,
                 message: MESSAGGE,
-                tag: [SERVICE],
+                tags: [SERVICE],
                 skip_merge_validation: true
             }
             const response = await client.lists.addListMember("6493dd146b", data);
