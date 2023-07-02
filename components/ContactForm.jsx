@@ -48,6 +48,8 @@ const ContactForm = ({...props}) => {
       //send error tu admin
       const apiError = error.response?.data?.response?.detail?.includes("API")
       if (apiError) {
+        const mailchimpResponse = error.response?.data?.response
+        formData.ERROR = mailchimpResponse
           emailjs.send(
               process.env.NEXT_APP_EMAILJS_YOUR_SERVICE_ID,
               process.env.NEXT_APP_EMAILJS_YOUR_TEMPLATE_ID_THANKSFORYOURPURCHASE,
