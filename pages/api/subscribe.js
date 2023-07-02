@@ -5,10 +5,9 @@ export default function handler(req, res) {
     if (req.method !== 'POST') {
         return res.status(405).json({ message: 'Method Not Allowed' });
       }
-      console.log(555, req.body)
     const { FNAME, LNAME, EMAIL, MOBILE, SERVICE, MESSAGGE } = req.body;
     client.setConfig({
-        apiKey: "ba570c224956acf9521ad84b56e65cd0-us2",
+        apiKey: process.env.API_KEY_MAILCHIMP,
         server: "us2",
     });
 
@@ -27,7 +26,7 @@ export default function handler(req, res) {
                 merge_fields,
                 message: MESSAGGE,
                 tags: [SERVICE],
-                skip_merge_validation: true
+                // skip_merge_validation: true
             }
             const response = await client.lists.addListMember("6493dd146b", data);
             res.status(200).json(response)

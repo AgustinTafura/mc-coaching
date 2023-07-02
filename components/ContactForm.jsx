@@ -17,6 +17,15 @@ const ContactForm = ({...props}) => {
   const [emailSent, setEmailSent] = useState(false);
   const [emailError, setEmailError] = useState(false);
 
+  const validateKeyPress = (event) => {
+    var keyCode = event.keyCode || event.which;
+    var keyValue = String.fromCharCode(keyCode);
+    // Allow only numbers (keycodes 48-57)
+    if (keyCode < 48 || keyCode > 57) {
+      event.preventDefault();
+    }
+  }
+
   const submitForm = async (e) => {
     e.preventDefault()
     setEmailError(false)
@@ -27,33 +36,29 @@ const ContactForm = ({...props}) => {
       const element = inputs[index];
       formData[element.name] = element.value
     }
-    console.log(formData)
-
     try {
       await axios.post('/api/subscribe', formData);
       setEmailSent(true)
     } catch (error) {
       const errorMessage = 'looks fake or invalid, please enter a real email address';
-      // console.log(error.response?.data?.response)
       error.response?.data?.response?.detail?.includes(errorMessage) || error.response?.data?.response?.title === "Member Exists" ?
         setEmailError('email') 
       : setEmailError(true)
 
+      //send error tu admin
+      const apiError = error.response?.data?.response?.detail?.includes("API")
+      if (apiError) {
+          emailjs.send(
+              process.env.NEXT_APP_EMAILJS_YOUR_SERVICE_ID,
+              process.env.NEXT_APP_EMAILJS_YOUR_TEMPLATE_ID_THANKSFORYOURPURCHASE,
+              formData,
+              process.env.NEXT_APP_EMAILJS_YOUR_USER_ID,
+          )
+      }
+
       const section = document.querySelector( '#contact-form' );
       section.scrollIntoView( { behavior: 'smooth', block: 'start' } )
-    }
-    // if (!emailSent) {
-    //     emailjs.send(
-    //         process.env.NEXT_APP_EMAILJS_YOUR_SERVICE_ID,
-    //         process.env.NEXT_APP_EMAILJS_YOUR_TEMPLATE_ID_THANKSFORYOURPURCHASE,
-    //         formData,
-    //         process.env.NEXT_APP_EMAILJS_YOUR_USER_ID,
-    //     ).then(() => {
-    //         setEmailSent(true)
-    //     }).catch((err)=>{
-    //         setEmailError(true)
-    //     });            
-    // }
+      }
     };
   
 
@@ -116,11 +121,11 @@ const ContactForm = ({...props}) => {
                     <input required type="email" name="EMAIL" placeholder="E-mail" data-form-field="email"
                       className="form-control display-77" id="email-contact-form" ></input>
                       
-                      {emailError === 'email' && <small style={{color:"#ffcce5"}}>prueba con otro email</small>}
+                      {emailError === 'email' && <small style={{color:"#ffcce5"}}>Intenta con otro email <a href="/contactame" style={{ color: 'inherit',textDecoration: 'underline' }}><b>contáctame</b></a> por otro medio</small>}
                   </div>
                   <div data-for="MOBILE" className="col-lg-6 col-md-12 col-sm-12 form-group mb-3">
-                    <input required type="number" name="MOBILE" placeholder="Teléfono" data-form-field="url"
-                      className="form-control display-77" id="phone-contact-form" ></input>
+                    <input required type="text" name="MOBILE" placeholder="Teléfono" data-form-field="mobile"
+                      className="form-control display-77" id="phone-contact-form"  pattern="[0-9]{6,}" minLength="6" title="Ingrese al menos 6 números"  onKeyPress={validateKeyPress}></input>
                   </div>
 
                   <div data-for="select" className="col-lg-6 col-md-12 col-sm-12 form-group mb-3">
