@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Booking from '../components/Booking'
 import SectionInfo from '../components/SectionInfo'
 import Link from 'next/link'
+import ContactForm from '../components/ContactForm'
 
 const contacto = () => {
     return (
@@ -104,49 +105,7 @@ const contacto = () => {
                         </div>
                     </div>
                 </section>
-                <div id="mc_embed_signup">
-                    <form action="https://marcelacaputo.us2.list-manage.com/subscribe/post?u=e189a517f55a714f9692514ed&amp;id=6493dd146b&amp;f_id=00da6de0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
-                        <div id="mc_embed_signup_scroll">
-                        <h2>Subscribe</h2>
-                        <div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
-                <div className="mc-field-group">
-                    <label htmlFor="mce-EMAIL">Email  <span className="asterisk">*</span>
-                </label>
-                    <input type="email" value="" name="EMAIL" className="required email" id="mce-EMAIL" required/>
-                    <span id="mce-EMAIL-HELPERTEXT" className="helper_text">tudireccion@gmail.com</span>
-                </div>
-                <div className="mc-field-group">
-                    <label htmlFor="mce-FNAME">Nombre </label>
-                    <input type="text" value="" name="FNAME" className="" id="mce-FNAME"/>
-                    <span id="mce-FNAME-HELPERTEXT" className="helper_text"></span>
-                </div>
-                <div className="mc-field-group">
-                    <label htmlFor="mce-LNAME">Apellido </label>
-                    <input type="text" value="" name="LNAME" className="" id="mce-LNAME"/>
-                    <span id="mce-LNAME-HELPERTEXT" className="helper_text"></span>
-                </div>
-                <div className="mc-field-group size1of2">
-                    <label htmlFor="mce-MOBILE">Teléfono Móvil </label>
-                    <input type="text" name="MOBILE" className="" value="" id="mce-MOBILE"/>
-                    <span id="mce-MOBILE-HELPERTEXT" className="helper_text"></span>
-                    
-                </div>
-                    <div id="mce-responses" className="clear foot">
-                        <div className="response" id="mce-error-response" style={{display:"none"}}></div>
-                        <div className="response" id="mce-success-response" style={{display:"none"}}></div>
-                    </div>
-                        {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
-                    <div style={{position: "absolute", left: "-5000px"}} aria-hidden="true"><input type="text" name="b_e189a517f55a714f9692514ed_6493dd146b" tabIndex="-1" value=""/></div>
-                        <div className="optionalParent">
-                            <div className="clear foot">
-                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"/>
-                                <p className="brandingLogo"><a href="http://eepurl.com/io-lx6" title="Mailchimp - email marketing made easy and fun"><picture><img alt="Marcela Caputo - Coaching life coaching" src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"/></picture></a></p>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                </div>
-
+                <ContactForm/>
             </Layout>
         </>
     )
